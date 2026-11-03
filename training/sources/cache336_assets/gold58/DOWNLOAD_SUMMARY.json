@@ -1,0 +1,24 @@
+{
+  "dataset_kind": "authoritative_gold58_mri",
+  "competition": "rsna-knee-abnormality-detection",
+  "gold_studies": 58,
+  "series": 336,
+  "dicom_files": 10528,
+  "raw_bytes": 7013061052,
+  "competition_zip_compressed_bytes": 3412367078,
+  "competition_zip_physical_bytes": 3415114886,
+  "full_competition_archive_bytes": 265018885676,
+  "remote_central_directory_bytes": 233481233,
+  "remote_archive_entries_parsed": 819640,
+  "remote_archive_etag": "\"3d99a46825629f617aec1e9900ba7afc\"",
+  "compression_methods": {
+    "8": 10528
+  },
+  "status": "downloaded_verified_compressed_archives",
+  "note": "Compressed-size total excludes small local tar/gzip headers and may differ slightly from the final per-study archives.",
+  "archives": 58,
+  "archive_bytes": 3384525628,
+  "verified_dicom_files": 10528,
+  "verified_raw_bytes": 7013061052,
+  "network_range_bytes_this_run": 0
+}

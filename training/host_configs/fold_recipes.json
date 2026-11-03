@@ -1,0 +1,52 @@
+{
+ "0": {
+  "final_batch": 2,
+  "fit": 3482,
+  "fit_sample_ids_sha256": "99bf2f5f4496a3230cdb48dbbe6b51a1a83bade7b13d6c212be8f084f3bd810d",
+  "pos_weight_sha256": "a38e55d6c4dc4aab4630bd1cca6bbe9e471985f27f739a6f27375d40154ae1ab",
+  "steps": 436,
+  "stop_updates": 8720,
+  "val": 870,
+  "val_parents": 869,
+  "val_report_groups": 842,
+  "validation_sample_ids_sha256": "df7a4af48e1f956cf14cab4b7adb0f0e6e63727af6615ab017ecbf8cecd0cf6a"
+ },
+ "1": {
+  "final_batch": 5,
+  "fit": 3485,
+  "fit_sample_ids_sha256": "ea4ee5e63aa1b168915027bfe2de5cc94c44dfd9a24504f33a9969a083fb8415",
+  "pos_weight_sha256": "d7d888faa80bf929af5932e41308033fdbf7e76e01d3c976d9681ff28b6a4b0d",
+  "steps": 436,
+  "stop_updates": 8720,
+  "val": 867,
+  "val_parents": 866,
+  "val_report_groups": 842,
+  "validation_sample_ids_sha256": "80247c012d60d80e5c2e4d1d240ffe8c6a3fbf74081d100c37304db24c6ced88"
+ },
+ "2": {
+  "actual_final_batch": 2,
+  "final_batch": 2,
+  "fit": 3482,
+  "fit_sample_ids_sha256": "e53970143fc4803dae1bc49cc7f56872d44bd2ee822434d5fefd60398d9a8425",
+  "pos_weight_sha256": "e0650cf209be834afdf7650270e91ec2936a399916a2e60fa2707b473df2f763",
+  "steps": 436,
+  "stop_updates": 8720,
+  "val": 870,
+  "val_parents": 869,
+  "val_report_groups": 841,
+  "validation_sample_ids_sha256": "49114020e7c47bd67a6f70f519c0c198f38fb2a56fc57850fff9211782b6fad6"
+ },
+ "4": {
+  "actual_final_batch": 8,
+  "final_batch": 0,
+  "fit": 3480,
+  "fit_sample_ids_sha256": "ccb0501ce68c69ff489d3061ad6d4084ee207810fbcb7926b532c81bb68df586",
+  "pos_weight_sha256": "c440e0b6e428aad1a50ba1c97059a0d1c937a780467c81c5071e97516ca5417c",
+  "steps": 435,
+  "stop_updates": 8700,
+  "val": 872,
+  "val_parents": 871,
+  "val_report_groups": 833,
+  "validation_sample_ids_sha256": "bb2dfae25d4de206f421290b769e73cf11f93186ca5e597b8307d0da85fb6704"
+ }
+}

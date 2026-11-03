@@ -1,0 +1,25 @@
+{
+  "name": "FINAL ens (submission 57532611)",
+  "rank": "per-column percentile rank over the whole scored cohort: pandas.DataFrame.rank(axis=0, method='average', pct=True)",
+  "members": {
+    "S6": "Sixway: equal mean of 6 CoAtNet components (sixway_core.csv)",
+    "C6": "H6 ConvNeXt-S, Core6-label arm, SWA of EMA epochs 14-16 (h6_core6_raw.csv)",
+    "VM": "H6 ConvNeXt-S, VM-label arm, SWA of EMA epochs 14-16 (h6_vm_raw.csv)"
+  },
+  "fallback": "a study that H6 could not score (NaN row) takes the Sixway rank in the C6/VM slot",
+  "s6_only_columns": "columns whose weights are {S6: 1.0} keep the raw Sixway probability (no ranking)",
+  "weights": {
+    "ACL": {"S6": 0.75, "C6": 0.25},
+    "MCL": {"S6": 0.75, "C6": 0.25},
+    "Medial Meniscus": {"S6": 0.75, "C6": 0.25},
+    "Lateral Meniscus": {"S6": 0.75, "C6": 0.25},
+    "Medial OA": {"S6": 0.5, "C6": 0.25, "VM": 0.25},
+    "Lateral OA": {"S6": 0.5, "C6": 0.25, "VM": 0.25},
+    "PF OA": {"S6": 0.5, "C6": 0.25, "VM": 0.25},
+    "Effusion": {"S6": 1.0},
+    "Synovitis": {"S6": 1.0},
+    "Baker's": {"S6": 0.5, "C6": 0.25, "VM": 0.25},
+    "Contusion": {"S6": 0.5, "C6": 0.25, "VM": 0.25},
+    "Fracture": {"S6": 1.0}
+  }
+}

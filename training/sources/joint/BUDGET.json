@@ -1,0 +1,13 @@
+{
+  "instance_id": 56225391,
+  "rent_epoch_unix": 1792141257.5593789,
+  "hourly_usd": 1.042,
+  "internal_cap_usd": 20,
+  "transfer_reserve_usd": 1.0,
+  "stop_no_later_unix": 1792203445.6591868,
+  "binding": {
+    "hostname": "60ab3073c90f",
+    "boot_id": "3697a561-fd70-48c1-813c-46a01b60e189",
+    "gpu_uuid": "GPU-4f1c6870-972d-352d-911a-9f983c2556ee"
+  }
+}

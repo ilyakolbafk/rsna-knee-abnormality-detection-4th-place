@@ -1,0 +1,6 @@
+{
+  "schema": "h6_actual_output_acceptance_policy_v1",
+  "dossier_sha256": "faae6fa5da69e1e8ff4c14a6912d2eb7c9cd0ed57382d85ea89cfd6a1a022d30",
+  "expectedRSNAregistrySHA": "af9822069d21faedcce73c930c1760fbf456bcd0243fec565685dad22e913dc0",
+  "no_110_fallback": true
+}

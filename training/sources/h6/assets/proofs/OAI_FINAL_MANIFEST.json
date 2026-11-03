@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE_ADAPTED_PUBLIC_V4",
+  "expected": 3254,
+  "received": 3254,
+  "built": 3254,
+  "verified": 3254,
+  "rejected": 0,
+  "cache_bytes": 228251085480,
+  "private_hrepro_parity": false,
+  "format": "oai-v4-collection-v1",
+  "orientation_state": "canonical_L_v8_3",
+  "raw_processing_location": "Mac",
+  "raw_bytes_on_target": false,
+  "collection_semantic_sha256": "b06bc37793b188a877ca889aa53486c6774f194f87209197949bb62cb176adee",
+  "recipe_counts": {
+    "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465": 3228,
+    "48f9dafbf102e2c9b6a33a3a24fb932ff7332a091a614de70f9c607780021dc7": 11,
+    "0d495a0d763366ebe2c5d69ec70a34cc5bb8878d45f3e1396cab416a44883266": 15
+  },
+  "recipes": {
+    "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465": {
+      "config": "BUILD_CONFIG.frozen.json",
+      "config_sha256": "472bdcbdb6da13220b4442c48ba4c8a00f2844b6a6a1ff787ba627f161ad0519"
+    },
+    "48f9dafbf102e2c9b6a33a3a24fb932ff7332a091a614de70f9c607780021dc7": {
+      "config": "geometry_v2/recipes/48f9dafbf102e2c9b6a33a3a24fb932ff7332a091a614de70f9c607780021dc7/CONFIG.frozen.json",
+      "config_sha256": "addbf399a85b958ba8af638270ffc991f464bbbf0b620da3ad800557164fea3b",
+      "previous_recipe_sha256": "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465"
+    },
+    "0d495a0d763366ebe2c5d69ec70a34cc5bb8878d45f3e1396cab416a44883266": {
+      "config": "geometry_v2/recipes/0d495a0d763366ebe2c5d69ec70a34cc5bb8878d45f3e1396cab416a44883266/CONFIG.frozen.json",
+      "config_sha256": "e53c63e7478e4fffdb8271fe0563a3d16ca217595335bbbbf189e23183cdda22",
+      "previous_recipe_sha256": "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465"
+    }
+  },
+  "unix": 1792561363.3156307
+}

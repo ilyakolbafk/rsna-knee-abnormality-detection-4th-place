@@ -1,0 +1,247 @@
+{
+  "status": "LOCAL_DRAFT_NOT_SENT",
+  "source_template_sha256": "43bf9fcc7cf9ada92ea72e61ffad1ff0afc8cbbd74bba8650e60b19e67e4bf3a",
+  "reader": "chatgpt-web-v62mb-train4407",
+  "batches": [
+    {
+      "batch_id": "S01B01",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B01_01.zip",
+        "S01B01_02.zip",
+        "S01B01_03.zip",
+        "S01B01_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B01_PROMPT.md",
+      "sha256": "f17a88a7facd07dcd3584950e8bbe71de2a3f682e345c272ae31a565b0259cac"
+    },
+    {
+      "batch_id": "S01B02",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B02_01.zip",
+        "S01B02_02.zip",
+        "S01B02_03.zip",
+        "S01B02_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B02_PROMPT.md",
+      "sha256": "6c82293cfc0586970f4837a8be4c768e19ef608b23b8cf1d3adc3f179015e2d6"
+    },
+    {
+      "batch_id": "S01B03",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B03_01.zip",
+        "S01B03_02.zip",
+        "S01B03_03.zip",
+        "S01B03_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B03_PROMPT.md",
+      "sha256": "e43b1d607bdb4dcff0f6f9bc6ab597db5d32a46eb3cf1fd94057addd1dd9ab38"
+    },
+    {
+      "batch_id": "S01B04",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B04_01.zip",
+        "S01B04_02.zip",
+        "S01B04_03.zip",
+        "S01B04_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B04_PROMPT.md",
+      "sha256": "330eb7f06d2396320f96b942a605481c6190f6f1f36ad317650bb92d776a2474"
+    },
+    {
+      "batch_id": "S01B05",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B05_01.zip",
+        "S01B05_02.zip",
+        "S01B05_03.zip",
+        "S01B05_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B05_PROMPT.md",
+      "sha256": "79de3a43b0a7ecb99e4d6f1315d891709fe2ea908a4a0e8b35871c4e48d5e0b0"
+    },
+    {
+      "batch_id": "S01B06",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B06_01.zip",
+        "S01B06_02.zip",
+        "S01B06_03.zip",
+        "S01B06_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B06_PROMPT.md",
+      "sha256": "8da2f58caacf6b4a990fade2ce04d5f11bc821973fe254923618d65318436230"
+    },
+    {
+      "batch_id": "S01B07",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B07_01.zip",
+        "S01B07_02.zip",
+        "S01B07_03.zip",
+        "S01B07_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B07_PROMPT.md",
+      "sha256": "42cc4416161a476c6ff507dde7daf180fa82ec45a0c3d37569f8e2c06990522f"
+    },
+    {
+      "batch_id": "S01B08",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B08_01.zip",
+        "S01B08_02.zip",
+        "S01B08_03.zip",
+        "S01B08_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B08_PROMPT.md",
+      "sha256": "7be555fede8bb6831297c09405a8c6238cfd3b8afd2be6bf2f29d71f1bb3c1d2"
+    },
+    {
+      "batch_id": "S01B09",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B09_01.zip",
+        "S01B09_02.zip",
+        "S01B09_03.zip",
+        "S01B09_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B09_PROMPT.md",
+      "sha256": "fb2a8ac0c65facf837a5177957dcae6595f4adffe15983d0b56fdcca953d92c3"
+    },
+    {
+      "batch_id": "S01B10",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B10_01.zip",
+        "S01B10_02.zip",
+        "S01B10_03.zip",
+        "S01B10_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B10_PROMPT.md",
+      "sha256": "781ba6b6cd0cc148faf914e29f09bc4e1b0cc3b50dc147ef64035179f5678ff0"
+    },
+    {
+      "batch_id": "S01B11",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B11_01.zip",
+        "S01B11_02.zip",
+        "S01B11_03.zip",
+        "S01B11_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B11_PROMPT.md",
+      "sha256": "39861e74c5c1b00704fe31ce02551316c94f96ae3a9bdbb54fc74e85c318742a"
+    },
+    {
+      "batch_id": "S01B12",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B12_01.zip",
+        "S01B12_02.zip",
+        "S01B12_03.zip",
+        "S01B12_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B12_PROMPT.md",
+      "sha256": "bb10787e8370d73d5c5871d413f56394a03474515d8b1376dfd61721d4893600"
+    },
+    {
+      "batch_id": "S01B13",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B13_01.zip",
+        "S01B13_02.zip",
+        "S01B13_03.zip",
+        "S01B13_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B13_PROMPT.md",
+      "sha256": "a05ff4a0f226bcb521727a7e3e228dab9566d87893c6affb3a50aaaba8e82845"
+    },
+    {
+      "batch_id": "S01B14",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B14_01.zip",
+        "S01B14_02.zip",
+        "S01B14_03.zip",
+        "S01B14_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B14_PROMPT.md",
+      "sha256": "950023a91b983c26fcc59013cb399bb6fba5dc9a9b4a2a0f792d669573143462"
+    },
+    {
+      "batch_id": "S01B15",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B15_01.zip",
+        "S01B15_02.zip",
+        "S01B15_03.zip",
+        "S01B15_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B15_PROMPT.md",
+      "sha256": "2f6d4f64da6a01ae01d0d79e40370b556c54654762c2df6da380d2a41d772608"
+    },
+    {
+      "batch_id": "S01B16",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B16_01.zip",
+        "S01B16_02.zip",
+        "S01B16_03.zip",
+        "S01B16_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B16_PROMPT.md",
+      "sha256": "13f445d28e47c7e2837b0ce60f27371ed8bf5d9d29283fa8b6ee230c0edf9347"
+    },
+    {
+      "batch_id": "S01B17",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B17_01.zip",
+        "S01B17_02.zip",
+        "S01B17_03.zip",
+        "S01B17_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B17_PROMPT.md",
+      "sha256": "df1dcfc158255fe042b3263e40945b06a76867430ace85e089dee7d7543d139a"
+    },
+    {
+      "batch_id": "S01B18",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B18_01.zip",
+        "S01B18_02.zip",
+        "S01B18_03.zip",
+        "S01B18_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B18_PROMPT.md",
+      "sha256": "82684b24d9131875719bf811fac943d3bae4e77c3aca660b042449eca4dc41d7"
+    },
+    {
+      "batch_id": "S01B19",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B19_01.zip",
+        "S01B19_02.zip",
+        "S01B19_03.zip",
+        "S01B19_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B19_PROMPT.md",
+      "sha256": "134204e56cc85c4f065432c697168dc4e86facafff844742e70f46bda1c3ce50"
+    },
+    {
+      "batch_id": "S01B20",
+      "case_count": 30,
+      "bundle_names": [
+        "S01B20_01.zip",
+        "S01B20_02.zip",
+        "S01B20_03.zip",
+        "S01B20_04.zip"
+      ],
+      "path": ".codex/runs/web-mri-v62mb-train4407-cycle-20260926/prompts_shard01/S01B20_PROMPT.md",
+      "sha256": "d25d53ee374873f4a154bf0d25ed1a281d121796b09ef978f62529f034a1bfd8"
+    }
+  ]
+}

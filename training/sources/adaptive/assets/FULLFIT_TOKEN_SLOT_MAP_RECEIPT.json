@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FULLFIT_TOKEN_SLOT_MAP_CPU",
+  "samples": 4410,
+  "mapped": 4408,
+  "unmapped": 2,
+  "unmapped_reasons": {
+    "decode_errors": 2
+  },
+  "Gold58_mapped": 58,
+  "nongold_mapping_unchanged": true,
+  "rule": "Gold all-series DICOM count equals decodedsourceframes; selected5series lengths reproduce all58token counts with same longestseries SIDtie/trim/allocation; code audit confirmsGold ALLseries path distinct from nongold selected_rows. Actual NPZmask/slots required beforetrain."
+}

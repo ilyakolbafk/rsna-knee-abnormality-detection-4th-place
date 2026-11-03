@@ -1,0 +1,7 @@
+{
+  "status": "PASS_STRUCTURAL_COVERAGE_DECLARATIONS",
+  "actual_visual_protocol": "UNCERTAIN_NOT_INDEPENDENTLY_REPLAYED",
+  "reason": "Final ordered panel lists match input; one visible intermediate checkpoint PermissionError; full visual attention and preservation of intermediate decisions not certified",
+  "error_source": ".codex/runs/vm-public-test3-prompt-20261015/WEB_RESULT_ERROR_DETAIL_SNAPSHOT.txt",
+  "error_source_sha256": "0cd6860560eeb8675933090f2c771a0ae1b42c4ca72533ccf9218e69e57cfedd"
+}

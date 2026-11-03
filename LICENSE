@@ -1,0 +1,24 @@
+RSNA Knee Abnormality Detection 2026, FINAL ens solution
+Copyright (c) 2026 Ilya Kolb
+
+The code, documentation and model weights of this solution that we created are licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0), the winner licence of the
+competition: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Third-party components keep their own licences:
+
+- Public Kaggle code of heliosli (R7 training code and the v4 view producer it builds on; Kaggle notebooks,
+  Apache License 2.0): in training/sources/h6, data_prep/h6_v4/rsna/vendor/mainline, data_prep/h6_v4/rsna/reference
+  and the H6 inference runtime.
+- MONAI 0.6.0 (Apache License 2.0), vendored in data_prep/h6_v4/rsna/vendor/mainline/training/vendor_runtime/monai060
+  and in the H6 inference runtime.
+- timm (Apache License 2.0) and the other Python packages in requirements.txt and in the offline wheels: their own
+  licences.
+- Pretrained weights that are not redistributed here (README.md, Weights): CoAtNet-rmlp-2-384 from timm / Hugging Face,
+  ConvNeXt-S 22k→1k from Meta, the SKM-TEA V-Net checkpoint published by heliosli on Kaggle.
+- Public label tables of laymond and yunus (Kaggle datasets), used as two of the six report readers of Core6.
+- External data: OAI (NIMH Data Archive) and fastMRI / fastMRI+ (NYU, Microsoft) are used under their own terms; no
+  OAI or fastMRI images are included. No OAI-derived data are included either: the frozen H6 targets in
+  training/sources/h6/assets hold the RSNA rows only, and the OAI targets (MOAKS grades and our VM reads of OAI
+  knees), the OAI case roster and any NDA account details were removed (training/H6_RECIPE.md). The competition data
+  are used under the competition rules and the RSNA MIRA licence.

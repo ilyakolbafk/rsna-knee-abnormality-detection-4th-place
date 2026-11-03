@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "factual_cutoff": "2026-10-16T08:56:21.088203+00:00",
+  "timezone": "Europe/Moscow",
+  "previous_semantic_sha256": null,
+  "mode": "fullfit",
+  "fit_samples": 4413,
+  "parents": 4406,
+  "nongold": 4352,
+  "expert_gold_in_fit": 58,
+  "fullfit_only_test3": 3,
+  "targets": [
+    "ACL",
+    "MCL",
+    "Medial Meniscus",
+    "Lateral Meniscus",
+    "Medial OA",
+    "Lateral OA",
+    "PF OA",
+    "Effusion",
+    "Synovitis",
+    "Baker's",
+    "Contusion",
+    "Fracture"
+  ],
+  "grain": "SampleID; parent report_group; official parent UID ranked12",
+  "source_matrix": {
+    "ACL": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "MCL": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "Medial Meniscus": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "Lateral Meniscus": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "Lateral OA": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "Fracture": [
+      "VM",
+      "Evidence",
+      "Core6"
+    ],
+    "Medial OA": [
+      "VM",
+      "Evidence"
+    ],
+    "PF OA": [
+      "VM",
+      "Evidence"
+    ],
+    "Synovitis": [
+      "VM",
+      "Evidence"
+    ],
+    "Baker's": [
+      "VM",
+      "Evidence"
+    ],
+    "Contusion": [
+      "VM",
+      "Evidence"
+    ],
+    "Effusion": [
+      "VM"
+    ]
+  },
+  "historical_source_manifest_sha256": "ebd624786a01e7893b13c4e8246693725080aa2d1487931dca7ac34a473db0a4",
+  "source_size": 336,
+  "resize": 384,
+  "crop_mm": 140,
+  "train_windows": 24,
+  "eval_windows": 64,
+  "seed": 20260908,
+  "batch": 8,
+  "schedule_epochs": 24,
+  "stop_epochs": 20,
+  "swa": [
+    18,
+    19,
+    20
+  ],
+  "aux48_weight": 0.25,
+  "loss_source_weights": [
+    0.45,
+    0.45,
+    0.1
+  ],
+  "missing_source_policy": "renormalize historical source weights across row-active branches; no fabricated labels",
+  "Gold_labels": "expert labels supervise all allowed main heads; aux48 zero",
+  "bilateral_Core6": "14 samples remain masked, no side-specific Core6 source",
+  "test3": "VM12 exact source probabilities/mask1/confidence1; Evidence/Core6 and aux48 absent mask0; fold=-1 fit only; VM-only loss multiplier1",
+  "class_weights": "exact historical Joint36 POS_WEIGHT_f3 vector duplicated three times; no recomputation",
+  "ranked": "mean average-tie percentile ranks with equal allowed head weights, parentmax before rank, full label-free parent pool; no other fusion metrics",
+  "strength": "descriptive in-sample only; no heldout, OOF, calibration, tuning, independent validation or Kaggle submission",
+  "joins": "exact SampleID; preserve ParentStudyInstanceUID/report_group; unique samples; never infer laterality from labels",
+  "orientation_policy": "knee-laterality-v8.3",
+  "orientation_state": "canonical_L_v8_3",
+  "test3_source_sha256": "452962cd2ff5de179f985222be18e4825eb39f0bac21beee0bff08e8821e8587",
+  "sources": {
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/joint36-core6-f3-20261012/package/PACKAGE_MANIFEST.json": "ebd624786a01e7893b13c4e8246693725080aa2d1487931dca7ac34a473db0a4",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/joint36-core6-f3-20261012/package/train_joint36_core6.py": "58dab90c6452a50a092800adca8f902a988a7fdc4f5cca5aa3682420a2601191",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/joint36-core6-f3-20261012/package/assets/POS_WEIGHT_f3.json": "a169e4cb0ad3e7d465315dd61f9d40b823aef8d3ad52539d3a1bd6d8eec0bf1d"
+  },
+  "change_log": [
+    "new user-approved fullfit, source masks, K24 and equal-ranked formula; append expert58 and VM test3 under current policy; historical run immutable"
+  ],
+  "semantic_sha256": "06ecace8f085e6b6a73f959c36851a4c3dcf0d6c8ed2a9acf9ec47ce24356e4f"
+}

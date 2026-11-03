@@ -1,0 +1,19 @@
+{
+  "id": "ilyakolb/rsna-k24-allseries-ext-s11-20261015",
+  "title": "RSNA K24 Allseries Ext S11 20261015",
+  "code_file": "build.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "ilyakolb/rsna-v83-cache-assets-20260915"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": []
+}

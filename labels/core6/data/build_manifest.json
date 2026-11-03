@@ -1,0 +1,54 @@
+{
+  "inputs_sha256": {
+    "img": "dbecd74352d207c138f792623878db1ba268e6951ec70a3feb8fbc3039cafbaa",
+    "rep": "8c16206590fb0620bf3a5e11051a08dac9e10696e26d78b56a1970444efb3b46",
+    "sol": "3623d6dbcc774bd989c55c440abe9a4f0b8c0d267e477345cf8d93f7031a323b",
+    "third": "578917688544a30895c93e15108cacf1d4b9ff86ce7ecef990da6c1202a9a506",
+    "ultra": "a6beaf07a957bcaf192daafc984b15ffef2432bdc340f9864df3cbd196b9558a",
+    "gold": "3644ae2217484fcf2b08158005692521c6e3901e0f309873d7e8f0004f558885",
+    "panel": "176c192984c6f652f4109d5d99cab64b2e13796472375fc7b8476671def7f319",
+    "opus_all": "116f4823ff5f11326cf728a8e3861e6ded150c89fd6d12cbf320e7a7f92b82c0",
+    "sol_all": "6b41c53f6b70a79797e5e9cc3c970ba5c859f0d4ee10d5e4ed6381f062196bf3",
+    "core6_all": "f33bd074ede3b1319238efabf6881901ec6d56a76da2e6976da9b0f79a9ca51d",
+    "aux60_oof": "fa304b6b00edc485a2e887fdf89f4b7c03b401d75a71e823c63067d1cb2efa4a"
+  },
+  "outputs_sha256": {
+    "gold58_master.csv": "14a893a6d69595d4b127659dcd2ee4a73c3d7a5e165092d9e4e83ceb66dd9efd",
+    "train4407_core6_long.csv": "aa845b3592c055efc2bcf8cf5fe4049468592e5eda9b89fa2a22f6c04726d23e",
+    "aux60_oof_long.csv": "ebf17bb4f1d94bd0470e906c4c240a89cdd02773e7082f0b50d7fbda583ed4a0"
+  },
+  "core6_members": [
+    "laymond_qwen3",
+    "yunus_gemini",
+    "p3_xhigh",
+    "qwen_family",
+    "opus_v1",
+    "sol6_max_v1"
+  ],
+  "checks": {
+    "gold58_cells": 696,
+    "gold_matches_gold58_labels_csv": true,
+    "core6_equal_matches_codex_gold58": true,
+    "core6_equal_matches_codex_4407": true,
+    "reader_count_distribution": {
+      "6": 52860,
+      "5": 24
+    },
+    "positives_per_label_gold58": {
+      "ACL": 24,
+      "MCL": 9,
+      "Medial Meniscus": 26,
+      "Lateral Meniscus": 23,
+      "Medial OA": 15,
+      "Lateral OA": 11,
+      "PF OA": 21,
+      "Effusion": 35,
+      "Synovitis": 27,
+      "Baker's": 12,
+      "Contusion": 19,
+      "Fracture": 18
+    },
+    "dev40_studies": 40,
+    "hold18_studies": 18
+  }
+}

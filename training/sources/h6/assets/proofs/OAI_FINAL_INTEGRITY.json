@@ -1,0 +1,74 @@
+{
+  "status": "PASS_FINAL_EXACT3254_CASESETS_RECEIPT_FULLSHA_ARRAY_AUDIT_SOURCE_LINEAGE_FRESH_STAT_AND_ALL_QA",
+  "unix": 1792561554.5528405,
+  "case_set_counts": {
+    "cache_npz": 3254,
+    "cache_audit": 3254,
+    "cache_receipts": 3254,
+    "source_receipts": 3254
+  },
+  "verified": 3254,
+  "missing": [],
+  "rejected": [],
+  "stale": [],
+  "source_archive_objects": 16270,
+  "cache_npz_bytes": 228251085480,
+  "receipt_wire_bytes_or_original_bytes": 178205999069,
+  "delta_reconstructed_fullsha_cases": 2755,
+  "collection_semantic_sha256": "b06bc37793b188a877ca889aa53486c6774f194f87209197949bb62cb176adee",
+  "recipe_counts": {
+    "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465": 3228,
+    "48f9dafbf102e2c9b6a33a3a24fb932ff7332a091a614de70f9c607780021dc7": 11,
+    "0d495a0d763366ebe2c5d69ec70a34cc5bb8878d45f3e1396cab416a44883266": 15
+  },
+  "geometry_cases": 26,
+  "base_333_components": "PASS_FRESH_FULLSHA",
+  "active_frozen_adaptations": "PASS_FRESH_FULLSHA",
+  "mixed_two_worker_reader": "PASS",
+  "verification_basis": "receiver_fullSHA_and_array_receipts_with_fresh_nonce_inode_stat_and_audit_SHA;no_new_allNPZ_rescan",
+  "record_manifest_sha256": "0d6f5ea9073f225e18eeca4286da62a2ff503ea51a311014e7bf4e230163cb39",
+  "file_sha256": {
+    "FINAL_MANIFEST.json": "e9157af7ecd32e6a7593742c00e3c1d908613532e364f57d49b4d098bc7b0fee",
+    "EXPECTED_RECEIVED_BUILT_VERIFIED.json": "f483f71dd302b163ee78f26b6f8b58e8a66ec6ac04ee67a6d7b5be99f8c36bb2",
+    "MISSING_REJECTED.json": "695ee91f3d94e8d18e6dc7118e0595f3ac0f35359046aa33c765146a01bea0e2",
+    "STATE.json": "f39ff8897d9aa425d95befa67f5b8d7950c1e36a32cbb86447497bfdbe35d083",
+    "COMPONENT_RECEIVER_QA.json": "f04aa1e395cb2438db25ab9492cc07ec03965eeebf208a40c5c30ea805db9953",
+    "CANARY_QA.frozen.json": "ca7aa638c0445ca9f147650e0dc6b9de806db8ea1d268245bccc06721eb986d0",
+    "COLLECTION_READER_QA.json": "19352896eb0f02a27085bd792b6abf11e47e2121c2c263bc18c2b6f056682f6b",
+    "COLLECTION_ACTIVE.json": "d71f4e75fe058be75d5c5987fcdaf027423aa0e369d6095476440040c6343da5",
+    "collections/b06bc37793b188a877ca889aa53486c6774f194f87209197949bb62cb176adee.json": "3421c377878c7607f635d33a25365cd0b8bb4e8a6c41f6855a75ae8388816550"
+  },
+  "finalizer_sha256": "3d31101c000a7bbc53fadebcb231dc94eefdd3b47e1d1f220427d0182a816ad1",
+  "receiver_owner": {
+    "PID": 34721,
+    "active": false,
+    "allocated_cache_bytes": 232223371555,
+    "argv": [
+      "python3",
+      "/workspace/knee_v4_cache_20261021/oai_v4/code/receiver_service.py"
+    ],
+    "convert_workers": 0,
+    "cpu_threads": 0,
+    "ctime": "9334531",
+    "download_workers": 0,
+    "final_cache_reservation": "COMPLETE_ALLOCATED_ON_DISK",
+    "heartbeat_unix": 1792561467.225377,
+    "local_mac_convert_workers": 4,
+    "local_mac_download_workers": 6,
+    "local_mac_upload_workers": 16,
+    "observed_disk_free_bytes": 649875595264,
+    "phase": "COMPLETE_ADAPTED_PUBLIC_V4",
+    "raw_allocated_bytes": 0,
+    "reserved_disk_bytes": 0,
+    "reserved_ram_bytes": 0,
+    "retired_unix": 1792561495.2262602,
+    "run_id": "oai-v4-56967269-20261021",
+    "scratch_paths": [
+      "/workspace/knee_v4_cache_20261021/oai_v4/incoming"
+    ],
+    "upload_receivers": 0
+  },
+  "incoming_ready": 0,
+  "incoming_processing": 0,
+  "disk_free_bytes": 649843335168
+}

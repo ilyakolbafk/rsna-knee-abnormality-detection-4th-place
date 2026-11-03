@@ -1,0 +1,42 @@
+{
+  "train_core_v2_a.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core-v2-arm-a-20260918/claude_a/train_core_v2_a.py",
+    "sha256": "e96bf2ed7304133318abfae64f1e9c38a3218f8777315988f97b147789d50e69"
+  },
+  "core_v2_a_model.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core-v2-arm-a-20260918/claude_a/core_v2_a_model.py",
+    "sha256": "e879bc3e8b0a69cbb7e551957a633d961421019b46f21859c27d1208054d1dee"
+  },
+  "v83_aug_data.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core-v2-arm-a-20260918/claude_a/v83_aug_data.py",
+    "sha256": "b45ad77f0acd38e096dbec3b4a600e4a1cf5c2c55a2fb23b314dd02ea12bc46f"
+  },
+  "aug336.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core-v2-arm-a-20260918/claude_a/aug336.py",
+    "sha256": "107cfe95c347a0da3fe02dbdc8ec30b1f1d67e92d8371f67dab734af7aacdda3"
+  },
+  "token_slot_map.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core-v2-arm-a-20260918/claude_a/token_slot_map.py",
+    "sha256": "87f4197c20ba8b18b150048ccd17ea73c896759245e7c6012e29e89a15c47f5b"
+  },
+  "train_v83.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/gpu_package/train_v83.py",
+    "sha256": "0698a6ffbc538784dedf0ca5ac032f7eb06df2fd20658e75cf3e79ddf27bafda"
+  },
+  "v83_data.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/gpu_package/v83_data.py",
+    "sha256": "7804fd8fb02bbb4df109dda929e375a8ebfe9744f2f8448f9effd5360ee1066f"
+  },
+  "h1_base.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/gpu_package/h1_base.py",
+    "sha256": "8b3aa358835fe6728519131022b14f99b4c85e66c29c810bd80b5745ef954b65"
+  },
+  "models.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/gpu_package/models.py",
+    "sha256": "a9875e9dda73967eff34a63b73d21759a03a6046b8e80aaf0dcd21d27ca18b05"
+  },
+  "resnet_model.py": {
+    "source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/gpu_package/resnet_model.py",
+    "sha256": "2fafeb94c07a76c7137df88186698f9d5248bbde1f9590bf12782d3609e91074"
+  }
+}

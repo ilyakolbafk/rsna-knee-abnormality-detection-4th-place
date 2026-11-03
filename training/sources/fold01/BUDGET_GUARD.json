@@ -1,0 +1,27 @@
+{
+  "backup_reserve_seconds": 600,
+  "baseline_unix": 1792007802.578182,
+  "baseline_upper_usd": 2,
+  "binding": {
+    "boot_id": "89197286-226b-455b-a6bc-8eb882e148a2",
+    "gpu_uuid": "GPU-70c932b5-0369-e20d-d0fb-c9f8d4bad17c",
+    "hostname": "94eae11809a1"
+  },
+  "cap_usd": 40,
+  "control_manifest_sha256": "98e149c589607458931878076bb783db3ddea88e25493eaed053001512536d36",
+  "disk_reserve_bytes": 1610612736,
+  "fallback_stop_unix": 1792175139.261599,
+  "fallback_usd": 39,
+  "gpu_count": 1,
+  "gpu_name": "NVIDIA GeForce RTX 5090",
+  "hard_stop_unix": 1792170616.6485338,
+  "hourly_usd": 0.796,
+  "instance_id": 55983617,
+  "rent_epoch_unix": 1792007802.578182,
+  "rental_receipt_sha256": "d157fb4dd9403dba6488d6675c3e27f69637e23f8bd1aaaa97d730e355468a6b",
+  "status": "BOUND_SAME_INSTANCE_SEQUENTIAL_QUEUE",
+  "stop_usd": 38,
+  "terminal_idle_max_seconds": 600,
+  "transfer_allowance_usd": 2,
+  "version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "bilateral_samples": 14,
+  "format": "core-v2-a-token-slot-map-v1",
+  "mapped": 4350,
+  "samples": 4352,
+  "status": "PASS_TOKEN_SLOT_MAP",
+  "studies_with_all_five_slots": 3042,
+  "tokens_per_slot_mean": {
+    "axial_fluid": 13.478170955882353,
+    "coronal_fluid": 13.589384191176471,
+    "coronal_structural": 10.261259191176471,
+    "sagittal_fluid": 12.962086397058824,
+    "sagittal_structural": 13.701516544117647
+  },
+  "unmapped": 2,
+  "unmapped_fraction": 0.00045955882352941176,
+  "unmapped_reasons": {
+    "decode_errors": 2
+  }
+}

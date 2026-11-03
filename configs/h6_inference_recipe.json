@@ -1,0 +1,15 @@
+{
+  "workers": 3,
+  "precision": "fp16",
+  "env": {
+    "H6_RESOLVER_DEVICE": "cuda:0"
+  },
+  "args": [
+    "--prefetch-ahead",
+    "8",
+    "--prefetch-threads",
+    "16"
+  ],
+  "parity_tol": 0.005,
+  "source": "Gold58 on Kaggle T4x2 22.10 (cold DICOM): 6.1 s/study steady (FP32 exact 14.9), 0 failures; fp16 arms max|dp| 0.0024 mean 7e-5 vs accepted-cache FP32, Gold AUC unchanged (core6 0.9315, vm 0.937); resolver on cuda identical predictions; prefetch 16 threads x 8 studies"
+}

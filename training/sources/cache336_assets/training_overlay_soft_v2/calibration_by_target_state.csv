@@ -1,0 +1,49 @@
+target,state,support,q25,median,q75,mean,selected_value,selection_rule
+ACL,N,1945,0.013,0.013,0.013,0.0230015,,diagnostic_only
+ACL,P,700,0.771,0.881,0.971,0.854529,,diagnostic_only
+ACL,U,77,0.191,0.301,0.387,0.30439,0.301,target_dual_reader_median
+ACL,UNMENTIONED,326,0.085,0.085,0.085,0.0854233,0.085,target_dual_reader_median
+MCL,N,2072,0.013,0.013,0.061,0.0410357,,diagnostic_only
+MCL,P,325,0.704,0.765,0.851,0.775588,,diagnostic_only
+MCL,U,9,0.317,0.425,0.436,0.403222,0.36,pooled_dual_reader_U_median
+MCL,UNMENTIONED,383,0.085,0.085,0.115,0.10123,0.085,target_dual_reader_median
+Medial Meniscus,N,1286,0.013,0.013,0.033,0.0325894,,diagnostic_only
+Medial Meniscus,P,1731,0.881,0.924,0.954,0.889376,,diagnostic_only
+Medial Meniscus,U,54,0.31125,0.3875,0.44075,0.382889,0.387,target_dual_reader_median
+Medial Meniscus,UNMENTIONED,225,0.085,0.085,0.135,0.105311,0.085,target_dual_reader_median
+Lateral Meniscus,N,2191,0.013,0.013,0.091,0.0480324,,diagnostic_only
+Lateral Meniscus,P,699,0.791,0.921,0.951,0.83833,,diagnostic_only
+Lateral Meniscus,U,28,0.33775,0.4275,0.47425,0.404893,0.428,target_dual_reader_median
+Lateral Meniscus,UNMENTIONED,388,0.085,0.085,0.135,0.105825,0.085,target_dual_reader_median
+Medial OA,N,949,0.031,0.031,0.031,0.0347819,,diagnostic_only
+Medial OA,P,1356,0.72,0.836,0.936,0.816639,,diagnostic_only
+Medial OA,U,0,,,,,0.36,pooled_dual_reader_U_median
+Medial OA,UNMENTIONED,772,0.085,0.085,0.085,0.0906347,0.085,target_dual_reader_median
+Lateral OA,N,1089,0.031,0.031,0.031,0.0433958,,diagnostic_only
+Lateral OA,P,670,0.69725,0.8155,0.908,0.798812,,diagnostic_only
+Lateral OA,U,1,0.329,0.329,0.329,0.329,0.36,pooled_dual_reader_U_median
+Lateral OA,UNMENTIONED,998,0.085,0.085,0.109,0.0987625,0.085,target_dual_reader_median
+PF OA,N,800,0.031,0.031,0.031,0.03497,,diagnostic_only
+PF OA,P,1756,0.675,0.775,0.858,0.770062,,diagnostic_only
+PF OA,U,0,,,,,0.36,pooled_dual_reader_U_median
+PF OA,UNMENTIONED,723,0.085,0.085,0.085,0.0894343,0.085,target_dual_reader_median
+Effusion,N,1157,0.013,0.013,0.031,0.0264875,,diagnostic_only
+Effusion,P,2548,0.682,0.728,0.854,0.759538,,diagnostic_only
+Effusion,U,0,,,,,0.36,pooled_dual_reader_U_median
+Effusion,UNMENTIONED,360,0.085,0.085,0.135,0.10315,0.085,target_dual_reader_median
+Synovitis,N,49,0.013,0.013,0.049,0.0332857,,diagnostic_only
+Synovitis,P,514,0.73,0.828,0.881,0.803539,,diagnostic_only
+Synovitis,U,7,0.321,0.359,0.4645,0.398857,0.36,pooled_dual_reader_U_median
+Synovitis,UNMENTIONED,3239,0.085,0.135,0.135,0.122609,0.135,target_dual_reader_median
+Baker's,N,1021,0.011,0.013,0.013,0.0186239,,diagnostic_only
+Baker's,P,1047,0.704,0.854,0.928,0.815481,,diagnostic_only
+Baker's,U,1,0.175,0.175,0.175,0.175,0.36,pooled_dual_reader_U_median
+Baker's,UNMENTIONED,1833,0.059,0.085,0.085,0.0820949,0.085,target_dual_reader_median
+Contusion,N,590,0.013,0.031,0.033,0.0358305,,diagnostic_only
+Contusion,P,349,0.768,0.881,0.924,0.845181,,diagnostic_only
+Contusion,U,3,0.4,0.431,0.431,0.410333,0.36,pooled_dual_reader_U_median
+Contusion,UNMENTIONED,1505,0.043,0.085,0.109,0.0837953,0.085,target_dual_reader_median
+Fracture,N,1503,0.011,0.031,0.049,0.0351184,,diagnostic_only
+Fracture,P,139,0.858,0.941,0.955,0.901583,,diagnostic_only
+Fracture,U,8,0.41125,0.46,0.49025,0.439,0.36,pooled_dual_reader_U_median
+Fracture,UNMENTIONED,1118,0.059,0.085,0.087,0.0851377,0.085,target_dual_reader_median

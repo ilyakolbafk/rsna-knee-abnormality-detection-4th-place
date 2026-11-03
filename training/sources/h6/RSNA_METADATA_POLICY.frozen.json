@@ -1,0 +1,30 @@
+{
+  "schema": "h6_rsna_explicit_public_metadata_policy_v1",
+  "source_quarantine": [
+    {
+      "SOPInstanceUID": "1.2.826.0.1.3680043.8.498.41947538458330624797291612781685746320",
+      "original_position_mm": -112.40381964376175,
+      "original_source_index": 0,
+      "pixels_never_decoded": true,
+      "sample": "1.2.826.0.1.3680043.8.498.34685905030370793639196564723935583035",
+      "source_member_sha256": "68efac14c0550118b1eb2ce75601f3b5cdf13a824ca83628ef201e260a4b7a9a"
+    },
+    {
+      "SOPInstanceUID": "1.2.826.0.1.3680043.8.498.66460523372602171398246641420761543626",
+      "original_position_mm": -91.30898555034577,
+      "original_source_index": 0,
+      "pixels_never_decoded": true,
+      "sample": "1.2.826.0.1.3680043.8.498.37833587429731221455928642963031995680",
+      "source_member_sha256": "ab491d18a6b3fae57a014c27679f32afc526e4d336373e4354f81b8a4b7de2d4"
+    }
+  ],
+  "source_quarantine_historical_policy_sha256": "3a3be950a57a621f7e3b0c78c6d321b219c3080353c77c7506d08bac146eb26f",
+  "historical_policy_contains_member_SHA": false,
+  "current_source_member_SHA_scope": "C7frozen delivery/source audit, not historicalmemberhashparity",
+  "partition_values": [
+    "fit",
+    "Gold"
+  ],
+  "thin_slab_public_rule": "exact current render_store.py c78ba5022dc84b36b85c1fe04aab94b6d19c276edc4a18ba482733690af76055; validate fullnative groups plus exactsuffix-tail; no undocumented source omission",
+  "semantic_training_release": false
+}

@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "id": "knee-laterality-v8.3",
+  "status": "default_for_new_training_and_lb_inference",
+  "approved_at": "2026-09-14T16:31:39.515485+00:00",
+  "runtime_dir": "artifacts/production/laterality_v8_3/runtime",
+  "release_manifest": "artifacts/production/laterality_v8_3/MANIFEST.json",
+  "release_manifest_sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2",
+  "algorithm_sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9",
+  "training_overlay_manifest": "artifacts/production/laterality_v8_3/TRAINING_MANIFEST_SOFT_V2.json",
+  "training_overlay_manifest_sha256": "c1f7052f3b8e4aa7039e913acbc77fd7cc15eca3fae00b1724f2da04269fb05b",
+  "training_overlay_dir": "artifacts/production/laterality_v8_3/training_overlay_soft_v2",
+  "canonical_target": "L",
+  "training": {
+    "grain": "SampleID (parent study x knee)",
+    "fold_group_key": "ParentStudyInstanceUID; preserve report_group",
+    "apply_once_before_augmentation": true,
+    "cache_namespace": "native64_laterality_v8_3",
+    "cache_state_required": "canonical_L_v8_3",
+    "old_cache_reuse": "only pre-canonical source bank with geometry and explicit one-time adapter; never reinterpret old canonical tokens",
+    "labels": "4352-row soft-v2 overlay: 75 explicit bilateral P/N cells preserved, 69 U/unmentioned cells receive deterministic Core5-analogue soft labels at confidence 0.25, 24 S06 cells remain masked",
+    "bilateral_soft_label_policy": {
+      "id": "bilateral-main12-soft-v2",
+      "new_reader_run": false,
+      "gold_used_for_codebook": false,
+      "derived_confidence": 0.25,
+      "interpretation": "weak-label imputation; no clinical truth or AUC claim"
+    },
+    "gold_policy": "unchanged by orientation default; excluded unless explicitly authorized as training"
+  },
+  "inference": {
+    "source": "DICOM and images only; no training-case lookup or pathology scores",
+    "bilateral_aggregation": "per-target max of separate knees",
+    "output_grain": "one row per official StudyInstanceUID",
+    "orientation_model_precision": "same published runtime: FP16 on T4, BF16 only supported SM>=8",
+    "h1_defaults": {
+      "precision": "fp16",
+      "chunk": 16,
+      "devices": 2
+    }
+  },
+  "compatibility": "Frozen or already-running old experiments keep exact identity. New controlled legacy ablation needs an explicit legacy identity. New families retain their crop/size/training recipe and adapt only orientation using this standard.",
+  "evidence": {
+    "submission_id": 56233624,
+    "status": "COMPLETE",
+    "displayed_public_score": "0.943",
+    "unrounded_score": null,
+    "score_sort_order": "user reports v8 > unknown-side L/R mean > old; not independently quantifiable"
+  }
+}

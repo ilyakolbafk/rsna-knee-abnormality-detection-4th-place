@@ -1,0 +1,30 @@
+{
+  "version": "v7_candidate",
+  "status": "local_candidate_fixture_checked_not_kaggle_enabled",
+  "weights": {
+    "side.pt": {
+      "sha256": "06601edd36da332be55c723639549ea4525551ab38a053de20b5799c6ee81e5d",
+      "bytes": 97511347
+    },
+    "sagittal.pt": {
+      "sha256": "6c32fab5e9652798cedaa64e613c28dcb7b2714118b5ff14454fd6c980d26fbf",
+      "bytes": 3174396
+    },
+    "pose.pt": {
+      "sha256": "82c1ee56e5accaa3b284154e0ccbc346f8fff7f9ec87ed1752b55b324afa9ea0",
+      "bytes": 2126100
+    },
+    "depth.pt": {
+      "sha256": "ab3376ae3e49df38ed143a0f99cb6445b65eba88cd06b73f33ae1cce8a461712",
+      "bytes": 6347109
+    }
+  },
+  "code": {
+    "runtime.py": "43d60cf2830867ef220eee8b7a1cb9797184a63bf6571e1a07bfcce02fc9fd60",
+    "policy.py": "dd2bd3f3c7121c829af6295b5bdfda462e24e8e63956d7a65a4176194fb70038",
+    "canonical_inputs.py": "7ac7e10384adeb82b208d7d5f6188c9707776b12cd882cfce89c3ed1fbf4babe"
+  },
+  "input_contract": "130mm full-source uint8, exact .5/99.5 source normalization, DICOM patient geometry,7physicalpercentiles; runtime resizes336to224",
+  "fallback": "old_H1_input",
+  "unresolved_not_excluded": true
+}

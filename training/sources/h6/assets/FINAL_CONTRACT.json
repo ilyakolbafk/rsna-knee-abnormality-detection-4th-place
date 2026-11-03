@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "kind": "FULL_CACHE_H6_CORE6_AND_VM_SEPARATE_HEADS",
+  "target": {
+    "instance": 56967269,
+    "machine": 1569,
+    "datacenter": 18,
+    "hostname": "56dc3869206e"
+  },
+  "source_recipe_sha256": "6ae1f1d3e4cbdbbea6df988e462a2b0d3ab3a7e4fb9d0ece9b25878fe73b9028",
+  "previous_requirements_sha256": "853a06c93c32061b338ae1743018b8facf6a3f841402ebc0177da75e2ff854e1",
+  "arms": [
+    "core6",
+    "vm"
+  ],
+  "labels": {
+    "core6": "RSNA Core6 except mandatory test3VM36; OAI existingMOAKS3 in main12",
+    "vm": "sharedencoder; independent complete RSNA_VM12 and OAI_VM12 readouts; no MOAKS in RSNA head"
+  },
+  "config_sha256": "179c1b6d6e57735898ff565b4794a04d7f9ff70df72ac5ec0405192d38a4b5dc",
+  "data": {
+    "RSNA": 4355,
+    "OAI": 3254,
+    "FM_reviewed_roster": 1172,
+    "main_batch": 2,
+    "drop_last": true,
+    "updates_per_epoch": 3804,
+    "updates_per_model": 60864,
+    "full_cache_only": true,
+    "legacy110_fallback": false,
+    "orientation": "canonical_L_v8_3 once",
+    "test3_VM_cells": 36,
+    "Gold_fit": false
+  },
+  "schedule": {
+    "epochs": 16,
+    "seed_base": 1,
+    "EMA": "source warmstart cap.999",
+    "fixed_SWA": "EMA5..10 inclusive, no Gold selection"
+  },
+  "diagnostics": {
+    "each_arm": "16 EMA epoch diagnostics+1 fixed EMA SWA",
+    "Gold_records": 34,
+    "scope": "REUSED_DESCRIPTIVE_NO_SELECTION",
+    "FM_holdout": "all slices/views0,2,3; patient closure; not fit"
+  },
+  "retention": {
+    "each_arm": [
+      "epoch16_raw.pt",
+      "epoch16_ema.pt",
+      "swa_ema05_10.pt"
+    ],
+    "Mac_fullSHA_files": 6
+  },
+  "explicit_changes_from_MD": [
+    "user Core6 and VM labels/pool7609 instead of report reconstruction/privatepool",
+    "separate full OAI_VM disease readout in VM variant",
+    "mandatorytest3VM36 and v8.3 orientation",
+    "public source clarifies EMAwarmstart/drop_last and perstudy augmentation; MD arithmetic total is inconsistent",
+    "FM patientclosure may change nominal108; real semanticcacheproof required"
+  ],
+  "private_hrepro_pixel_parity": false,
+  "dispatch": "OUTPUT_ACCEPTANCE_READY_PENDING_CURRENT_TARGET_PRODUCTION_CPU_GPU_QA",
+  "automatic_gpu_dispatch_enabled": true,
+  "at_unix": 1792576617.581739,
+  "previous_contract_sha256": "5d628956ac7bc09a0e49d6668658863b375be8ab831548f0eb9a9e928449b736",
+  "actual_cache_acceptance": {
+    "dossier_sha256": "faae6fa5da69e1e8ff4c14a6912d2eb7c9cd0ed57382d85ea89cfd6a1a022d30",
+    "RSNA_basis": "canonical_L_v8_3_with_author_v4_basis_adapter",
+    "RSNA_manifest_sha256": "82b8b8909a8b8991e7e95d591b4fef29fe012066420a93bbe7b77cf7ef615668",
+    "OAI_manifest_sha256": "e9157af7ecd32e6a7593742c00e3c1d908613532e364f57d49b4d098bc7b0fee",
+    "FM_manifest_sha256": "9c3cf142176bedcfc68ec305c193047f15e1981d8ebde2a4989dd65dc38913c8",
+    "customproduceradapterbytes": "unavailable; dependencyclosedbyindependentoutputbasedsemantics, notclaimedcodereviewed",
+    "source_policies": "publicsuffix141tails/32exactaliases/14bilateralchildren/2frozenquarantines/702slabpriorfallbacks; unchangedsourcepixels/rosterlabels",
+    "OAI_parent": "frozen representative studyUID; noRSNAreport_group"
+  },
+  "operational_CPU": {
+    "PyTorch_parent_threads_each": 3,
+    "main_loader_workers_each": 2,
+    "FM_loader_workers_each": 2,
+    "pair_max_threads": 14,
+    "actual_shared_cap": 15,
+    "model_GPU_math_loss_data_augmentation_schedule_unchanged": true
+  },
+  "semantic_hash": "7916feb0b878bccc81a816cfe69bfcc4233c00d286d4f816c345d0cbe8bcf716"
+}

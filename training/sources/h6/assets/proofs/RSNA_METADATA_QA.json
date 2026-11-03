@@ -1,0 +1,42 @@
+{
+  "summaries": [
+    {
+      "samples": 2178,
+      "tail_frames": 87,
+      "aliases": 8,
+      "quarantines": 1,
+      "native_series": 12043,
+      "errors": [],
+      "error_count": 0,
+      "error_codes": {},
+      "bad_keys_by_code": {},
+      "diagnostic": false
+    },
+    {
+      "samples": 2177,
+      "tail_frames": 54,
+      "aliases": 24,
+      "quarantines": 1,
+      "native_series": 11979,
+      "errors": [],
+      "error_count": 0,
+      "error_codes": {},
+      "bad_keys_by_code": {},
+      "diagnostic": false
+    },
+    {
+      "samples": 58,
+      "tail_frames": 0,
+      "aliases": 0,
+      "quarantines": 0,
+      "native_series": 336,
+      "errors": [],
+      "error_count": 0,
+      "error_codes": {},
+      "bad_keys_by_code": {},
+      "diagnostic": true
+    }
+  ],
+  "at_unix": 1792574255.631856,
+  "source_NPZ_fullSHA_bytes": 0
+}

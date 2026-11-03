@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "policy_id": "public-test3-vm-fullfit-v1",
+  "approved_date": "2026-10-15",
+  "authorization": "Ilya: require every future full-fit to train on these three test studies using VM.",
+  "scope": "Every new fullfit of all families, including a newly launched historical/legacy recipe; not folds or already-started continuations. Existing historical artifacts remain immutable.",
+  "mandatory": true,
+  "standard": "docs/FULLFIT_PUBLIC_TEST3_VM_STANDARD.md",
+  "source_result": {
+    "path": "artifacts/production/public_test3_vm_v1/WEB_VM_TEST3.json",
+    "sha256": "452962cd2ff5de179f985222be18e4825eb39f0bac21beee0bff08e8821e8587"
+  },
+  "reader": "chatgpt-web-v62mb-public-test3-image-only-v1",
+  "cases": [
+    {
+      "case_id": "T001",
+      "study_uid": "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+      "sample_id": "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+      "panels_declared": 42
+    },
+    {
+      "case_id": "T002",
+      "study_uid": "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+      "sample_id": "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+      "panels_declared": 32
+    },
+    {
+      "case_id": "T003",
+      "study_uid": "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+      "sample_id": "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+      "panels_declared": 33
+    }
+  ],
+  "targets": [
+    "ACL",
+    "MCL",
+    "Medial Meniscus",
+    "Lateral Meniscus",
+    "Medial OA",
+    "Lateral OA",
+    "PF OA",
+    "Effusion",
+    "Synovitis",
+    "Baker's",
+    "Contusion",
+    "Fracture"
+  ],
+  "main_overlay": "artifacts/production/public_test3_vm_v1/PUBLIC_TEST3_VM_MAIN.csv",
+  "soft_target_field": "subjective_probability",
+  "observed_main_mask": 1,
+  "main_loss_multiplier": 1.0,
+  "main_loss_multiplier_semantics": "Supervision weight, not report/clinical confidence.",
+  "report_available": false,
+  "report_read": false,
+  "missing_aux_mask": 0,
+  "fold": -1,
+  "excluded_from": [
+    "fold_train",
+    "OOF",
+    "holdout",
+    "Gold58",
+    "calibration",
+    "checkpoint_selection"
+  ],
+  "orientation_policy": "configs/knee_orientation_policy.json",
+  "new_cache_required": true,
+  "historical_or_running_recipe_mutation": false,
+  "launch_or_budget_authorization": false,
+  "preflight": "python3 scripts/verify_fullfit_public_test3_vm.py --main-csv <new_FULLFIT_MAIN.csv>",
+  "additional_required_smoke": [
+    "actual_cache_tokens",
+    "loader_inclusion",
+    "sampler_inclusion",
+    "aux_masks_zero_for_missing",
+    "nonzero_main_loss_3_times_actual_supervised_main_targets"
+  ],
+  "provenance_limit": "Final response structurally valid; intermediate T002 temporary-file PermissionError; full visual protocol not independently replayed.",
+  "artifacts": [
+    {
+      "path": "artifacts/production/public_test3_vm_v1/COVERAGE_ACCEPTANCE.json",
+      "sha256": "d123964436356c95b8cca5cb62ad50161612f4ae68eb9ed27bb9c169c179f6c3"
+    },
+    {
+      "path": "artifacts/production/public_test3_vm_v1/INPUT_MANIFEST.json",
+      "sha256": "4fccb0c5ca012ec08676c104eb3ccd08d1217513a23d286f486c953417016bfe"
+    },
+    {
+      "path": "artifacts/production/public_test3_vm_v1/PUBLIC_TEST3_VM_MAIN.csv",
+      "sha256": "d3e9e8810d8d51049574093fd04d6503dbece8449786f78aa6ce1a2d5b7e6f79"
+    },
+    {
+      "path": "artifacts/production/public_test3_vm_v1/READER_PROMPT_PUBLIC_TEST3.md",
+      "sha256": "3014bbb53de7a1776dac7f0b996428f7f3c2f22922d7c7fd26177b08e388401c"
+    },
+    {
+      "path": "artifacts/production/public_test3_vm_v1/WEB_VM_TEST3.json",
+      "sha256": "452962cd2ff5de179f985222be18e4825eb39f0bac21beee0bff08e8821e8587"
+    }
+  ],
+  "specialist_policy": "Keep all36 VM source labels in unified manifest; project to actual specialist targets only after main-label preflight. No extra heads required."
+}

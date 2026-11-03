@@ -1,0 +1,18 @@
+{
+  "backup_reserve_seconds": 600,
+  "conservative_spend_before_run_usd": 14.68404856729211,
+  "conservative_spend_through_deadline_upper_usd": 21.28404856729211,
+  "created_utc": "2026-10-13T07:19:10.666320+00:00",
+  "extra_traffic_and_unmetered_margin_usd": 2.0,
+  "gpu_count": 1,
+  "gpu_name": "NVIDIA GeForce RTX 5090",
+  "hard_stop_unix": 1791904750.6663198,
+  "host_id": 601014,
+  "hourly_usd": 0.575,
+  "instance_id": 55518941,
+  "machine_id": 142280,
+  "max_new_running_cost_usd": 4.6,
+  "safety_stop_threshold_usd": 38.0,
+  "scope": "One fresh selected Core V20 K24 full-fit with expert Gold58; same shared rental, no resume/retry or immediate server Stop; full-fit LB not authorized.",
+  "total_server_budget_usd": 40.0
+}

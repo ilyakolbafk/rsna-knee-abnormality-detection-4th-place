@@ -1,0 +1,14 @@
+{
+  "ACL": ["tibial_attachment", "course", "femoral_attachment"],
+  "MCL": ["proximal", "middle", "distal", "superficial", "deep_available"],
+  "Medial Meniscus": ["anterior_horn", "body", "posterior_horn", "anterior_root", "posterior_root"],
+  "Lateral Meniscus": ["anterior_horn", "body", "posterior_horn", "anterior_root", "posterior_root"],
+  "Medial OA": ["femoral_surface", "tibial_surface"],
+  "Lateral OA": ["femoral_surface", "tibial_surface"],
+  "Patellofemoral OA": ["patella_medial_facet", "patella_ridge", "patella_lateral_facet", "trochlea_available"],
+  "Effusion": ["suprapatellar", "anterior", "posterior", "medial_available", "lateral_available"],
+  "Synovitis": ["suprapatellar", "anterior", "posterior", "medial_available", "lateral_available"],
+  "Baker Cyst": ["characteristic_interval"],
+  "Contusion": ["femur", "tibia", "fibula", "patella"],
+  "Fracture": ["femur", "tibia", "fibula", "patella"]
+}

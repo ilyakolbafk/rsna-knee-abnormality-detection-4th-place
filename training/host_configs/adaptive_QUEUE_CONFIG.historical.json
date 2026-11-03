@@ -1,0 +1,89 @@
+{
+  "LB_authorized": false,
+  "adaptive": {
+    "base_windows": 24,
+    "extra_cap": 24,
+    "extra_fraction": 0.375,
+    "gain": "unchangedU(0.9,1.1)",
+    "jitter": 1,
+    "metadata_width": 8,
+    "params": true,
+    "prefetch_factor": 1,
+    "series_drop": 0.1,
+    "token_drop": 0.15,
+    "workers": 4
+  },
+  "base_cache": "/root/rsna_aux60_v83_cache336_f01_v1",
+  "binding": {
+    "boot_id": "89197286-226b-455b-a6bc-8eb882e148a2",
+    "gpu_uuid": "GPU-70c932b5-0369-e20d-d0fb-c9f8d4bad17c",
+    "hostname": "94eae11809a1"
+  },
+  "budget": {
+    "backup_reserve_seconds": 600,
+    "baseline_unix": 1792007802.578182,
+    "baseline_upper_usd": 2,
+    "binding": {
+      "boot_id": "89197286-226b-455b-a6bc-8eb882e148a2",
+      "gpu_uuid": "GPU-70c932b5-0369-e20d-d0fb-c9f8d4bad17c",
+      "hostname": "94eae11809a1"
+    },
+    "cap_usd": 80,
+    "disk_reserve_bytes": 1610612736,
+    "fallback_stop_unix": 1792356043.784212,
+    "fallback_usd": 79,
+    "gpu_count": 1,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "hard_stop_unix": 1792351521.1711469,
+    "hourly_usd": 0.796,
+    "instance_id": 55983617,
+    "rent_epoch_unix": 1792007802.578182,
+    "rental_receipt_sha256": "d157fb4dd9403dba6488d6675c3e27f69637e23f8bd1aaaa97d730e355468a6b",
+    "status": "BOUND_SAME_INSTANCE_SEQUENTIAL_QUEUE",
+    "stop_usd": 78,
+    "terminal_idle_max_seconds": 600,
+    "transfer_allowance_usd": 2,
+    "version": 2
+  },
+  "checkpoint_policy": {
+    "keep_epoch_weights": [
+      18,
+      19,
+      20
+    ],
+    "no_resume": true,
+    "numeric_training_or_SWA_change": false,
+    "skip_latest": true,
+    "skip_main12": true
+  },
+  "cpu_upper_seconds": 2400,
+  "cuda_upper_seconds": 1800,
+  "extension_root": "/root/rsna_adaptive336_fullfit_20261016/extension_cache",
+  "fold2_root": "/root/rsna_k24_cache336_f2_append_20261015",
+  "fold4_root": "/root/rsna_k24_cache336_f4_append_20261015",
+  "fullfit_upper_seconds": 43200,
+  "instance_id": 55983617,
+  "last_batch": 5,
+  "max_optimizer_training_attempts": 1,
+  "mode": "adaptive_v3_E1_ON_fullfit_test3VM",
+  "new_rental_authorized": false,
+  "old4410_labels_unchanged": true,
+  "parents": 4406,
+  "pos_weight_rule": "fixedhistoricalR4352+expertGold58;3testVM do not change oldclassweightvector",
+  "predecessor_root": "/root/rsna_k24_noe1_fullfit_20261016",
+  "prior_root": "/root/rsna_k24_cache336_f01_queue_20261015",
+  "python": "/root/rsna_k24_crop110_f3_20261014/venv/bin/python",
+  "qa_retention_reserve_seconds": 5400,
+  "remote_root": "/root/rsna_adaptive336_fullfit_20261016",
+  "retention_upper_seconds": 3600,
+  "samples": 4413,
+  "selected_epochs": [
+    18,
+    19,
+    20
+  ],
+  "source_recipe": "adaptive336-memory-fix-v3-20261016",
+  "source_reference": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/adaptive336-memory-fix-v3-20261016/package",
+  "steps_per_epoch": 552,
+  "version": 2
+}

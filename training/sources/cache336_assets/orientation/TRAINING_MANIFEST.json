@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "files": {
+    "training_manifest4352.csv": "97fe47281c7aaac5eefdd9a163116f92b962134ea5176d11b86485fefda1dec7",
+    "series_operations.csv": "2f0c990749b0a132ee0f57eb004f1d10e67ee2e5a1ae9df0214e06a50460ae06",
+    "parent_changes4345.csv": "7bd86d59f41a964099aab74ffaa9c4685e5fcee077ba8be938261e8b4d475d6b",
+    "changed_parents125.csv": "6d1b596e85c00b3ec5afe097977c95529dbf179cf86c3b4a697755458e65abba",
+    "QA.json": "64ab1d86e32a5975204cefc5b2deb478ee95aeeec28549e13f5b862358eba405"
+  },
+  "state": "REVIEWED_LABELS_AND_OPERATIONS_NOT_REBUILT_IMAGE_CACHE",
+  "parent_count": 4345,
+  "sample_count": 4352,
+  "active_main12_count": 4350
+}

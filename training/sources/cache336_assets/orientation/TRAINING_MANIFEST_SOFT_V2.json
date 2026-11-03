@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "state": "REVIEWED_SECTIONS_WITH_EXISTING_CORE5_ANALOGUE_SOFT_LABELS",
+  "files": {
+    "QA.json": "e80db032c19776270c01d82d1304d61ca02d4079c51db3fccf19b90c634d56aa",
+    "bilateral_main12_soft_v2.csv": "75d135e15344f9c44aae04f0899dedee058c34218f0a6f7dc9f0a9b2cd01700b",
+    "calibration_by_target_state.csv": "27690853d94bceebbe500d047e7dbd75823ba535ef764a2f78d9ae78fd8ce744",
+    "changed_parents125.csv": "6d1b596e85c00b3ec5afe097977c95529dbf179cf86c3b4a697755458e65abba",
+    "parent_changes4345.csv": "7bd86d59f41a964099aab74ffaa9c4685e5fcee077ba8be938261e8b4d475d6b",
+    "series_operations.csv": "2f0c990749b0a132ee0f57eb004f1d10e67ee2e5a1ae9df0214e06a50460ae06",
+    "soft_labels_sidecar_v2.csv": "a839282692d38267a1a089cca3a4973e85fdd4a4b77de78fc3128321e3aec85c",
+    "training_manifest4352.csv": "1782769d28069698a0ee5e54888897526c418cbf92d68ee555943d0a9d862562"
+  },
+  "parent_count": 4345,
+  "sample_count": 4352,
+  "active_main12_count": 4350,
+  "active_main12_cells": 52200,
+  "newly_active_bilateral_cells": 69,
+  "new_reader_run": false,
+  "clinical_or_auc_validation": "NOT_PERFORMED"
+}

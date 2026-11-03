@@ -1,0 +1,19 @@
+{
+  "id": "ilyakolb/rsna-v83-aux60-cache-s03-20260915",
+  "title": "RSNA V83 AUX60 Cache S03 20260915",
+  "code_file": "rsna-v83-aux60-cache-s03-20260915.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "ilyakolb/rsna-v83-cache-assets-20260915"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": []
+}

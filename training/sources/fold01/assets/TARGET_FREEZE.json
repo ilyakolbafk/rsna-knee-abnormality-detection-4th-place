@@ -1,0 +1,36 @@
+{
+  "additional_common_masked_cells": 3,
+  "alpha_rule": "R fit only; confidence*mask weighted soft prevalence clipped[.03,.7], (1-p)/p clipped[1,10]; float32; same vector R/V. Auxiliary weights unchanged historical formula.",
+  "bilateral_rows": 14,
+  "cache_release_sha256": "1be85b01931cf97fa5b06f62b2c19866f19b71020f325a2ac32011dd52f25d35",
+  "cache_train_labels_sha256": "248525e2702d4893605fb5f4a8d61322802488e1e97b4df2eaf7f34a9a0ab10d",
+  "common_support_sha256": "285775afa4e030bdac9f63163678337f2b23be287b61f16e56c6c23bae9bf868",
+  "confidence025_active_cells": 69,
+  "files": {
+    "FROZEN_REFERENCE.csv": "148256a1a5adb3233b428585c57b7b2fb6958167c81b53bf0dd550853e21af6c",
+    "R_MAIN.csv": "698e2f29d88ce4d9e863f39af9129fe1fd6725a1a203ec0d66822c5779624450",
+    "V_MAIN.csv": "0320df67c1b582af60108018b7b6bbf8e5ba7ce95fabbb545a12d72685b5c780"
+  },
+  "lineage_source_freeze_sha256": "4712297ec4d37b379ac8e60cb6f01ed81a5451525ee2166822e65393b911c16e",
+  "orientation": {
+    "cache_release_sha256": "1be85b01931cf97fa5b06f62b2c19866f19b71020f325a2ac32011dd52f25d35",
+    "orientation_policy": {
+      "algorithm_sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9",
+      "canonical_target": "L",
+      "id": "knee-laterality-v8.3",
+      "release_manifest_sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2"
+    },
+    "orientation_state": "canonical_L_v8_3"
+  },
+  "parents": 4345,
+  "reference": "Untouched original R cache before common-support masking; every evaluation route restores it",
+  "samples": 4352,
+  "status": "PASS_MATCHED_TARGET_FREEZE",
+  "token_slot_samples_checked": 4352,
+  "v_input_sha256": "e621087afd217728e12c19af2cbbff38623f740090b45f044523bca140e6e8ef",
+  "weights": {
+    "0": "a38e55d6c4dc4aab4630bd1cca6bbe9e471985f27f739a6f27375d40154ae1ab",
+    "1": "d7d888faa80bf929af5932e41308033fdbf7e76e01d3c976d9681ff28b6a4b0d",
+    "3": "a169e4cb0ad3e7d465315dd61f9d40b823aef8d3ad52539d3a1bd6d8eec0bf1d"
+  }
+}

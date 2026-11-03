@@ -1,0 +1,109 @@
+{
+ "sources": {
+  "checked_files": 1488,
+  "problems": []
+ },
+ "synthetic_cache_seconds": 14.7,
+ "data_checks": [
+  {
+   "model": "fold0",
+   "rc": 0,
+   "seconds": 73.4,
+   "tail": ""
+  },
+  {
+   "model": "fold1",
+   "rc": 0,
+   "seconds": 8.3,
+   "tail": ""
+  },
+  {
+   "model": "fold2",
+   "rc": 0,
+   "seconds": 8.3,
+   "tail": ""
+  },
+  {
+   "model": "fold3",
+   "rc": 0,
+   "seconds": 8.5,
+   "tail": ""
+  },
+  {
+   "model": "fold4",
+   "rc": 0,
+   "seconds": 7.9,
+   "tail": ""
+  },
+  {
+   "model": "core",
+   "rc": 0,
+   "seconds": 10.1,
+   "tail": ""
+  },
+  {
+   "model": "repair",
+   "rc": 0,
+   "seconds": 10.4,
+   "tail": ""
+  },
+  {
+   "model": "mirror",
+   "rc": 0,
+   "seconds": 9.7,
+   "tail": ""
+  },
+  {
+   "model": "adaptive",
+   "rc": 0,
+   "seconds": 14.9,
+   "tail": ""
+  },
+  {
+   "model": "joint36",
+   "rc": 0,
+   "seconds": 6.1,
+   "tail": ""
+  }
+ ],
+ "h6_cpu": {
+  "targets": [
+   {
+    "arm": "core6",
+    "rows": 7609,
+    "test3_cells": 36,
+    "target_sha256": "0f2bc7912f33f83dbd7e3a799456e0b9e39a219830b260db9f4a2344c5872824",
+    "independent_VM_domains": false
+   },
+   {
+    "arm": "vm",
+    "rows": 7609,
+    "test3_cells": 36,
+    "target_sha256": "3287a083e55e392cd8aa5e54a793994a62c0eadef7b79672dca35f864cf7f1f7",
+    "independent_VM_domains": true
+   }
+  ],
+  "params_million": 50.6,
+  "status": "PASS"
+ },
+ "coatnet_cpu_step": {
+  "status": "PASS",
+  "collated_batch": "2 knees x 24 windows (sliced to 1 x 6 for CPU memory)",
+  "batch_shape": [
+   1,
+   6,
+   3,
+   336,
+   336
+  ],
+  "logits": [
+   1,
+   60
+  ],
+  "loss": 1.227674126625061,
+  "grad_norm": 34.81602478027344,
+  "seconds": 42.8,
+  "params_million": 73.5
+ },
+ "verdict": "PASS"
+}

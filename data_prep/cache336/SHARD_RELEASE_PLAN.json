@@ -1,0 +1,95 @@
+{
+  "builder": "kernel_global_pixel_shards/build_global_pixel_cache.py",
+  "builder_sha256": "935625ae385df67cba32d11aca08a3cce7f3ec27d42313be79edc0236e9c483a",
+  "family": "global_aux60_v83",
+  "gold_component": {
+    "duplicated_across_train_shards": false,
+    "studies": 58,
+    "train_mask": 0
+  },
+  "status": "PREPARED_NOT_PUSHED_AFTER_PADDING_FIX",
+  "total_parents": 4345,
+  "total_samples": 4352,
+  "train_shards": [
+    {
+      "parents": 254,
+      "samples": 254,
+      "shard": 0
+    },
+    {
+      "parents": 306,
+      "samples": 306,
+      "shard": 1
+    },
+    {
+      "parents": 254,
+      "samples": 254,
+      "shard": 2
+    },
+    {
+      "parents": 272,
+      "samples": 273,
+      "shard": 3
+    },
+    {
+      "parents": 275,
+      "samples": 276,
+      "shard": 4
+    },
+    {
+      "parents": 283,
+      "samples": 283,
+      "shard": 5
+    },
+    {
+      "parents": 280,
+      "samples": 280,
+      "shard": 6
+    },
+    {
+      "parents": 260,
+      "samples": 262,
+      "shard": 7
+    },
+    {
+      "parents": 261,
+      "samples": 261,
+      "shard": 8
+    },
+    {
+      "parents": 272,
+      "samples": 272,
+      "shard": 9
+    },
+    {
+      "parents": 275,
+      "samples": 275,
+      "shard": 10
+    },
+    {
+      "parents": 276,
+      "samples": 276,
+      "shard": 11
+    },
+    {
+      "parents": 262,
+      "samples": 263,
+      "shard": 12
+    },
+    {
+      "parents": 263,
+      "samples": 263,
+      "shard": 13
+    },
+    {
+      "parents": 271,
+      "samples": 272,
+      "shard": 14
+    },
+    {
+      "parents": 281,
+      "samples": 282,
+      "shard": 15
+    }
+  ]
+}

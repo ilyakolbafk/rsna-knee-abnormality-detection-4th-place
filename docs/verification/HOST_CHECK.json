@@ -1,0 +1,199 @@
+{
+  "A_test3": {
+    "rc": 0,
+    "seconds": 396.86838236899996,
+    "receipt": {
+      "status": "PASS",
+      "pipeline": "FINAL_SIX_H6SWA_ENS_RANK",
+      "reference_submission": 57532611,
+      "studies": 3,
+      "sixway": {
+        "rc": 0,
+        "seconds": 164.46281973299995,
+        "sha256": "9e42cd0844c2dc7dd7bcc22f995e849c368b060abc3565665d252b876fc55e49",
+        "sample_run": true
+      },
+      "h6": {
+        "weights": {
+          "core6": "c9d916ffe853af4dcdee3452178ce62c6d558c15b86c58881b6956a4b146b015",
+          "vm": "9e0960154610daf25a63a4d3ede3737bf69d06079d649f11a72b54d85390f7d6"
+        },
+        "recipe": {
+          "workers": 3,
+          "precision": "fp16",
+          "env": {
+            "H6_RESOLVER_DEVICE": "cuda:0"
+          },
+          "args": [
+            "--prefetch-ahead",
+            "8",
+            "--prefetch-threads",
+            "16"
+          ],
+          "parity_tol": 0.005,
+          "source": "Gold58 on Kaggle T4x2 22.10 (cold DICOM): 6.1 s/study steady (FP32 exact 14.9), 0 failures; fp16 arms max|dp| 0.0024 mean 7e-5 vs accepted-cache FP32, Gold AUC unchanged (core6 0.9315, vm 0.937); resolver on cuda identical predictions; prefetch 16 threads x 8 studies"
+        },
+        "wheels": [
+          "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+          "pydicom-3.0.2-py3-none-any.whl",
+          "timm-1.0.29-py3-none-any.whl"
+        ],
+        "rc": 0,
+        "seconds": 107.93636902800006,
+        "failures": 0,
+        "max_failures": 1,
+        "deadline_failures": 0,
+        "hard_failures": 0,
+        "budget_seconds": 30611.649022579193,
+        "gpu_seconds": 24.74355356300009,
+        "total_seconds": 96.1025690990001,
+        "first_failures": [],
+        "core6_max_abs_difference": 0.0,
+        "vm_max_abs_difference": 0.0
+      },
+      "submission_sha256": "9c9d3132f2ae34a9e437bd2ee92f7ae32a89a13a598b2760f519a84995d55e3b",
+      "sample_run": true,
+      "sample_reference_match": true,
+      "wall_seconds": 396.30641560899994
+    }
+  },
+  "B_gold58": {
+    "rc": 0,
+    "seconds": 1005.317087681,
+    "receipt": {
+      "status": "PASS",
+      "pipeline": "FINAL_SIX_H6SWA_ENS_RANK",
+      "reference_submission": 57532611,
+      "studies": 58,
+      "sixway": {
+        "rc": 0,
+        "seconds": 496.597063931,
+        "sha256": "bc8134ea7948ec37cca58b66df7fc33227aa6adfa62a2942b5ab56c01c1c4347",
+        "sample_run": false
+      },
+      "h6": {
+        "weights": {
+          "core6": "c9d916ffe853af4dcdee3452178ce62c6d558c15b86c58881b6956a4b146b015",
+          "vm": "9e0960154610daf25a63a4d3ede3737bf69d06079d649f11a72b54d85390f7d6"
+        },
+        "recipe": {
+          "workers": 3,
+          "precision": "fp16",
+          "env": {
+            "H6_RESOLVER_DEVICE": "cuda:0"
+          },
+          "args": [
+            "--prefetch-ahead",
+            "8",
+            "--prefetch-threads",
+            "16"
+          ],
+          "parity_tol": 0.005,
+          "source": "Gold58 on Kaggle T4x2 22.10 (cold DICOM): 6.1 s/study steady (FP32 exact 14.9), 0 failures; fp16 arms max|dp| 0.0024 mean 7e-5 vs accepted-cache FP32, Gold AUC unchanged (core6 0.9315, vm 0.937); resolver on cuda identical predictions; prefetch 16 threads x 8 studies"
+        },
+        "wheels": [
+          "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+          "pydicom-3.0.2-py3-none-any.whl",
+          "timm-1.0.29-py3-none-any.whl"
+        ],
+        "rc": 0,
+        "seconds": 443.507274434,
+        "failures": 0,
+        "max_failures": 1,
+        "deadline_failures": 0,
+        "hard_failures": 0,
+        "budget_seconds": 30338.822610855103,
+        "gpu_seconds": 342.3148569589998,
+        "total_seconds": 431.72647765600004,
+        "first_failures": []
+      },
+      "submission_sha256": "56e923801c903293b25a7ad1d867262144abb58ed8c04ace77b90566a6d9b60b",
+      "sample_run": false,
+      "sample_reference_match": null,
+      "wall_seconds": 1004.711588455
+    },
+    "sixway": {
+      "macro": 0.9896007093934397,
+      "per_target": {
+        "ACL": 1.0,
+        "MCL": 1.0,
+        "Medial Meniscus": 0.9939903846153846,
+        "Lateral Meniscus": 1.0,
+        "Medial OA": 0.9953488372093023,
+        "Lateral OA": 0.9825918762088974,
+        "PF OA": 0.9588159588159588,
+        "Effusion": 0.9962732919254659,
+        "Synovitis": 0.9796893667861409,
+        "Baker's": 0.9981884057971014,
+        "Contusion": 0.970310391363023,
+        "Fracture": 1.0
+      }
+    },
+    "h6_core6": {
+      "macro": 0.9201653631010197,
+      "per_target": {
+        "ACL": 0.9950980392156863,
+        "MCL": 0.9773242630385488,
+        "Medial Meniscus": 0.9723557692307693,
+        "Lateral Meniscus": 0.9329192546583851,
+        "Medial OA": 0.9922480620155039,
+        "Lateral OA": 0.804642166344294,
+        "PF OA": 0.8854568854568855,
+        "Effusion": 0.8906832298136645,
+        "Synovitis": 0.7873357228195937,
+        "Baker's": 0.9927536231884058,
+        "Contusion": 0.902834008097166,
+        "Fracture": 0.9083333333333333
+      }
+    },
+    "h6_vm": {
+      "macro": 0.9430882511852466,
+      "per_target": {
+        "ACL": 0.9901960784313726,
+        "MCL": 0.9591836734693877,
+        "Medial Meniscus": 0.9663461538461539,
+        "Lateral Meniscus": 0.9093167701863354,
+        "Medial OA": 0.993798449612403,
+        "Lateral OA": 0.8955512572533849,
+        "PF OA": 0.8983268983268984,
+        "Effusion": 0.9453416149068323,
+        "Synovitis": 0.8769414575866189,
+        "Baker's": 0.9891304347826086,
+        "Contusion": 0.9568151147098516,
+        "Fracture": 0.9361111111111111
+      }
+    },
+    "final_ens": {
+      "macro": 0.9826070710773177,
+      "per_target": {
+        "ACL": 0.9993872549019608,
+        "MCL": 1.0,
+        "Medial Meniscus": 0.9891826923076923,
+        "Lateral Meniscus": 0.9925465838509316,
+        "Medial OA": 0.9984496124031008,
+        "Lateral OA": 0.9284332688588007,
+        "PF OA": 0.935006435006435,
+        "Effusion": 0.9962732919254659,
+        "Synovitis": 0.9796893667861409,
+        "Baker's": 0.9972826086956522,
+        "Contusion": 0.975033738191633,
+        "Fracture": 1.0
+      }
+    },
+    "h6_core6_vs_cache_reference": {
+      "max_abs": 0.0038040876388549805,
+      "mean_abs": 6.128493983830605e-05,
+      "ref_macro": 0.9201653631010197
+    },
+    "h6_vm_vs_cache_reference": {
+      "max_abs": 0.002457529306411743,
+      "mean_abs": 5.3530671384604586e-05,
+      "ref_macro": 0.9430882511852466
+    }
+  },
+  "verdict": {
+    "A_public_sample_byte_identical": true,
+    "B_gold58_complete": true,
+    "B_h6_parity_within_5e3": true
+  }
+}

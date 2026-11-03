@@ -1,0 +1,94 @@
+{
+  "status": "PASS_BOUNDED_OAI_ACTUAL_TARGET_CPU_READER_CANARY_NOT_FULLCACHE_RELEASE",
+  "target": {
+    "instance": 56967269,
+    "machine": 1569,
+    "hostname": "56dc3869206e",
+    "boot_id": "d7c9a413-650b-4f6e-b872-2fa572010446"
+  },
+  "reader_pins_sha256": "cf97081d186b36b36d2f4f086c594e84ed4112a528ea91438824c829159c2d98",
+  "actual_QA_sha256": "bec36481dd71f8d1435139bf069eda799eb1a792ee9be1c482a44f7e2f53dee1",
+  "cases": [
+    {
+      "case": "OAI0001",
+      "recipe": "93d747c1a2c00bfefbd484fb7a553dd346e2d4c2eb622ddcd8d17eebaec88465",
+      "actual_rows": 647,
+      "blocks": 5,
+      "train_epochs": [
+        {
+          "epoch": 1,
+          "windows": 176,
+          "selected_rows_digest": "b96339c689a807834ee9b5a4d3eaf999d297a55a1a80ec11b8cfab05cf29cb91"
+        },
+        {
+          "epoch": 2,
+          "windows": 176,
+          "selected_rows_digest": "467391b923426a00993f83c58df9d5b9c41dbba42eace1bc465bbaf23cbe2570"
+        }
+      ],
+      "eval_window_candidates": 647,
+      "bounded_eval_windows": 3,
+      "both_arm_augmentation_and_VM_separate_head_masks": "PASS"
+    },
+    {
+      "case": "OAI0046",
+      "recipe": "48f9dafbf102e2c9b6a33a3a24fb932ff7332a091a614de70f9c607780021dc7",
+      "actual_rows": 647,
+      "blocks": 5,
+      "train_epochs": [
+        {
+          "epoch": 1,
+          "windows": 176,
+          "selected_rows_digest": "f5befa5e43ee035a3bab8694afdce7a78e91811acb88c133c95ff6a40f23334e"
+        },
+        {
+          "epoch": 2,
+          "windows": 176,
+          "selected_rows_digest": "061010171232883223b4688d3b3041e263989fd537f92ef27656402533587af4"
+        }
+      ],
+      "eval_window_candidates": 647,
+      "bounded_eval_windows": 3,
+      "both_arm_augmentation_and_VM_separate_head_masks": "PASS"
+    },
+    {
+      "case": "OAI0321",
+      "recipe": "0d495a0d763366ebe2c5d69ec70a34cc5bb8878d45f3e1396cab416a44883266",
+      "actual_rows": 653,
+      "blocks": 5,
+      "train_epochs": [
+        {
+          "epoch": 1,
+          "windows": 176,
+          "selected_rows_digest": "d7bb0c3894da389daebbf0160c13767011eec592bc4daf157fd3605af1f7b3f5"
+        },
+        {
+          "epoch": 2,
+          "windows": 176,
+          "selected_rows_digest": "b69f2a0ec6587287404d45a95aaf74575c745a054a346af9d4fccb83b077010c"
+        }
+      ],
+      "eval_window_candidates": 653,
+      "bounded_eval_windows": 3,
+      "both_arm_augmentation_and_VM_separate_head_masks": "PASS"
+    }
+  ],
+  "all3254_receiver_SHA_metadata_and_current_stats_checked": true,
+  "source_image_bytes_rehashed": 0,
+  "original_C3_reader_sampler_augmentation_and_targets_byteidentical": true,
+  "original_V1_C2_C3_unchanged": true,
+  "own_QA_process_terminal": true,
+  "own_admission_released": true,
+  "healthy_fit_or_observer_changes": false,
+  "GPU_used": false,
+  "training_started": false,
+  "fullcache_acceptance": false,
+  "pair_release": false,
+  "remaining": [
+    "RSNA finalcoverage and actual loader",
+    "threecorpus/MainDataset/test3 integration",
+    "new final contract/pins/release",
+    "actual pair GPU admission and exact model/Adam/EMA restore"
+  ],
+  "at_unix": 1792564675.287406
+}

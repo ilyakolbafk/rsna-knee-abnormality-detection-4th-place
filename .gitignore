@@ -1,0 +1,6 @@
+# Weights are released as Kaggle datasets (see README, Links); keep them out of the repository
+/weights/
+/runs/
+__pycache__/
+*.pyc
+.DS_Store

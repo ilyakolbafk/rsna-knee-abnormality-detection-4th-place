@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "v1_cells": 168,
+  "explicit_cells_preserved": 75,
+  "newly_active_cells": 69,
+  "newly_active_unmentioned": 48,
+  "newly_active_uncertain": 21,
+  "s06_cells_still_masked": 24,
+  "changed_sidecar_cells": 69,
+  "training_rows": 4352,
+  "active_main12_rows": 4350,
+  "active_main12_cells_before": 52131,
+  "active_main12_cells_after": 52200,
+  "non_bilateral_rows_exact": true,
+  "non_label_columns_exact": true,
+  "aux48_columns_exact": true,
+  "clinical_or_auc_validation": "NOT_PERFORMED",
+  "interpretation": "weak-label coverage change only",
+  "policy": {
+    "derived_confidence": 0.25,
+    "minimum_target_U_support": 20,
+    "state_readers": [
+      "Laymond Qwen3-8B",
+      "Yunus Gemini Flash"
+    ],
+    "gold_used_for_codebook": false,
+    "new_reader_run": false
+  }
+}

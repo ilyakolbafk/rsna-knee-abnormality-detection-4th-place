@@ -1,0 +1,7 @@
+{
+  "status": "PASS_ALL26_SELECTED_RAW_SOP_CRC32_INDEPENDENTLY_RECHECKED",
+  "count": 26,
+  "source_bytes_new_downloaded_or_local_selected_only": true,
+  "raw_receipts_sha256": "edd78dae83e64771b9e51987d74f0a9dc0e0ffe84487c24a0cdadb5c20c31de7",
+  "at_unix": 1792575567.1256058
+}

@@ -1,0 +1,9 @@
+{
+  "competition_data_dir": "/data/rsna-knee-abnormality-detection",
+  "weights_dir": "/data/rsna_final_ens_weights",
+  "predictions_dir": "/data/predictions",
+  "runs_dir": "/data/runs",
+  "cache336_dir": "/data/cache336_release",
+  "extension_cache_dir": "/data/extension_cache",
+  "h6_inputs_json": "/data/h6_v4/INPUTS.json"
+}

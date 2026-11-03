@@ -1,0 +1,67 @@
+{
+  "all_outputs_stored_locally": true,
+  "contract_sha256": "7133eb5fda635794c6725c49c55942e3486479e3460256edd0650790600e1ffb",
+  "factual_cutoff": "2026-09-06T10:16:33.746465+00:00",
+  "limits": "All source slices at processed 336px uint8/crop; no raw-DICOM archive, training, hidden-test or AUC claim",
+  "parts": [
+    {
+      "manifest_sha256": "938a6638153eb52c10674baab8b29591be20b786468e64005d69a6ae9f5501ec",
+      "origin": "KAGGLE",
+      "part": 0,
+      "studies": 533
+    },
+    {
+      "manifest_sha256": "922f33881b8e4ba1d31f75e40ba277f4b9ea112b95bbf1008553859390ef5d64",
+      "origin": "KAGGLE",
+      "part": 1,
+      "studies": 575
+    },
+    {
+      "manifest_sha256": "7d1d5f8cdae5a10eace9a83db8c1c3fa76b4e9cefeaf0eb3195f86f6df44b450",
+      "origin": "KAGGLE",
+      "part": 2,
+      "studies": 549
+    },
+    {
+      "manifest_sha256": "6a4183c4dc82f47200066d8a9b66e4e422cb873cf3a34cd64b6c37d299e8a57a",
+      "origin": "KAGGLE",
+      "part": 3,
+      "studies": 538
+    },
+    {
+      "manifest_sha256": "5a80b657e6ced9f84aac4a8bc0e2ec22e82a8422c84359a8160488d12d65313b",
+      "origin": "LOCAL_CPU",
+      "part": 4,
+      "studies": 582
+    },
+    {
+      "manifest_sha256": "62f03c027ef98e6f4408ce1d57c1b33931871988cbe36259ea2135b23c85bc3b",
+      "origin": "LOCAL_CPU",
+      "part": 5,
+      "studies": 508
+    },
+    {
+      "manifest_sha256": "a78eecda8fa21d6e49ec17df877135fb9fedae9713049b5098c58d0a0d05aa73",
+      "origin": "LOCAL_CPU",
+      "part": 6,
+      "studies": 574
+    },
+    {
+      "manifest_sha256": "c459854858d000f59a49cda8db32e00c1100bca579fc82d15fb94ebd858440b6",
+      "origin": "LOCAL_CPU",
+      "part": 7,
+      "studies": 548
+    }
+  ],
+  "status": "PASS",
+  "studies": 4407,
+  "totals": {
+    "bytes": 64782195842,
+    "center_pixel_differences": 0,
+    "center_pixels_checked": 22886502912,
+    "center_recompute_differences": 77,
+    "decode_errors": 2,
+    "source_series": 24371,
+    "source_slices": 819078
+  }
+}

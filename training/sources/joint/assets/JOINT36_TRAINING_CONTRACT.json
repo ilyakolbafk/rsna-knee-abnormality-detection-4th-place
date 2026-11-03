@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "factual_cutoff": "2026-10-12T14:33:08.342577+00:00",
+  "source_trainer_sha256": "3c2282454f88a44ce9b54c9c9d20bb3af9ea7ba2445cbb24d0bcb8708e38f19b",
+  "Core6_source": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/core6-sol-max-full-report-20260925/core6_equal_train4407.csv",
+  "Core6_source_sha256": "f33bd074ede3b1319238efabf6881901ec6d56a76da2e6976da9b0f79a9ca51d",
+  "Core6_recipe": "equal6 textual probabilities; frozen available5 fallback on2parents",
+  "Core6_bilateral_policy": "all14 bilateral samples masked in this branch; existing VM/E side operations retained",
+  "Core6_active_fit": 3471,
+  "Core6_active_validation": 867,
+  "cache_inventory_sha256": "d69f9d8c611499b7c1dd1635550692025dea152db1feb6b531c3cd2857c4e412",
+  "orientation_policy": "knee-laterality-v8.3",
+  "orientation_state": "canonical_L_v8_3",
+  "source_size": 336,
+  "model_resize": 384,
+  "fold": 3,
+  "seed": 20260908,
+  "fit": 3479,
+  "validation": 873,
+  "gold_evaluation_only": true,
+  "main_heads": 36,
+  "aux_heads": 48,
+  "main_loss_weights": [
+    0.45,
+    0.45,
+    0.1
+  ],
+  "inactive_Core6_loss_weights": [
+    0.5,
+    0.5,
+    0
+  ],
+  "aux_weight": 0.25,
+  "pos_weights": "frozen originalVM20 duplicated toall3 sources",
+  "primary_readout": [
+    0.5,
+    0.5,
+    0
+  ],
+  "secondary_readout": [
+    0.475,
+    0.475,
+    0.05
+  ],
+  "schedule": 24,
+  "stop": 20,
+  "fixed_swa": [
+    18,
+    19,
+    20
+  ],
+  "batch": 8,
+  "chunk": 96,
+  "augmentation": "unchangedE1/noMirror50",
+  "primary_comparator": "ordinaryJoint24 samefold/seed/recipe frozenSWA18-20",
+  "strength": "single-seed reusedGold58 development comparison; VM/E fold proxies measure reader agreement",
+  "semantic_sha256": "aff381c9b54e1f8fefd31b80962295c41f19719eb269d5b2b70d0edb0c024555"
+}

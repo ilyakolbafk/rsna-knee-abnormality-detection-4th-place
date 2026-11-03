@@ -1,0 +1,98 @@
+{
+  "rule": {
+    "thr": 0.4,
+    "mode": "k24",
+    "fixed": null,
+    "confirm": "aux60c>=.5 or core6>=.5",
+    "bilateral": "excluded",
+    "gold": "not used"
+  },
+  "folds_with_oof": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "folds_missing": [],
+  "knees_with_oof": 4352,
+  "knees_total": 4352,
+  "changed_cells": 898,
+  "changed_knees": 782,
+  "changed_by_target": {
+    "ACL": 49,
+    "MCL": 24,
+    "Medial Meniscus": 139,
+    "Lateral Meniscus": 100,
+    "Medial OA": 86,
+    "Lateral OA": 40,
+    "PF OA": 137,
+    "Effusion": 86,
+    "Synovitis": 93,
+    "Baker's": 40,
+    "Contusion": 65,
+    "Fracture": 39
+  },
+  "vm_pos_cells_by_target_in_oof_knees": {
+    "ACL": 485,
+    "MCL": 106,
+    "Medial Meniscus": 1613,
+    "Lateral Meniscus": 585,
+    "Medial OA": 699,
+    "Lateral OA": 246,
+    "PF OA": 702,
+    "Effusion": 1236,
+    "Synovitis": 873,
+    "Baker's": 539,
+    "Contusion": 548,
+    "Fracture": 162
+  },
+  "changed_by_fold": {
+    "0": 174,
+    "1": 205,
+    "2": 192,
+    "3": 143,
+    "4": 184
+  },
+  "inputs": {
+    "vmain": {
+      "path": ".codex/runs/k24-cache336-fold01-queue-20261015/package/assets/V_MAIN.csv",
+      "sha256": "0320df67c1b582af60108018b7b6bbf8e5ba7ce95fabbb545a12d72685b5c780"
+    },
+    "aux60": {
+      "path": "Claude outputs/core6_weights/data/aux60_oof_long.csv",
+      "sha256": "ebf17bb4f1d94bd0470e906c4c240a89cdd02773e7082f0b50d7fbda583ed4a0"
+    },
+    "core6": {
+      "path": "Claude outputs/core6_weights/data/train4407_core6_long.csv",
+      "sha256": "aa845b3592c055efc2bcf8cf5fe4049468592e5eda9b89fa2a22f6c04726d23e"
+    },
+    "oof": [
+      {
+        "path": ".codex/runs/k24-cache336-fold01-queue-20261015/retained/fold0/training/averaged_fold_predictions.csv",
+        "sha256": "96cc764887bca04a08a111c32f88d5404bcf736f03c438598e13a3538c8a9735"
+      },
+      {
+        "path": ".codex/runs/k24-cache336-fold01-queue-20261015/retained/fold1/training/averaged_fold_predictions.csv",
+        "sha256": "26b03d19fd56f400433e9de99efef42ae17fa4275e3ab7de737e8d799d72a7da"
+      },
+      {
+        "path": ".codex/runs/k24-cache336-fold2-append-20261015/retained/fold2/training/averaged_fold_predictions.csv",
+        "sha256": "903615d10f2a4d87f1a66482da4ef34f6d4cddbc3a222491ed8dcb39cd74e5fc"
+      },
+      {
+        "path": ".codex/runs/core-v20-ordinary-k24-f3-20261013/minimal_retention/averaged_fold_predictions.csv",
+        "sha256": "ccc2661b6a20853aa60887940240b8629785f3bb5ef50e93e29c34f9749817ab"
+      },
+      {
+        "path": ".codex/runs/k24-cache336-fold4-append-20261015/retained/fold4/training/averaged_fold_predictions.csv",
+        "sha256": "55dfd9397b522e0cd65506447b524186014aa7653de18beeb9a068fb8a3f4647"
+      }
+    ]
+  },
+  "outputs": {
+    "V_MAIN_REPAIR.csv": "94ec929bf326321f93525965ef056d439e77e7b70e1833d78675b820029bbddf",
+    "CHANGES.csv": "9f49f72aeae329943b4331722efba8d341c5bd74088d1ae1502a3f269843a5d1"
+  },
+  "unchanged_columns_check": true
+}

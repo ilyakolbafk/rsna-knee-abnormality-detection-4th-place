@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FINAL_OAI_COLLECTION_POLICY_AND_COMPATIBILITY_QA_NOT_FULL_CACHE_ACCEPTANCE",
+  "candidate_inventory_sha256": "78dbebf23dadf350d54e3f49f3e633941c740467a5950d1aa7431013109ad6c0",
+  "collection_sha256": "3421c377878c7607f635d33a25365cd0b8bb4e8a6c41f6855a75ae8388816550",
+  "final_manifest_sha256": "e9157af7ecd32e6a7593742c00e3c1d908613532e364f57d49b4d098bc7b0fee",
+  "ordinary_nonce_receipts": 3254,
+  "unique_nonces": 3254,
+  "receipt_index_semantic_sha256": "e8aac57fc08bd095b494963fe04ae470f40efa877cc28c50e520eba94fc2e2a0",
+  "independent_target_currentstat_receiptSHA_attestation_msk": "2026-10-21T08:43:16+03:00",
+  "checks": 28,
+  "source_image_bytes_rehashed": 0,
+  "changed_existing_candidate_files": [
+    "OAI_COLLECTION_POLICY.frozen.json"
+  ],
+  "all_adapter_and_trainer_code_unchanged": true,
+  "promoted": false,
+  "automatic_dispatch_enabled": false,
+  "remaining": [
+    "RSNA finaldelivery/coverage/semanticQA",
+    "fastMRI anatomicview/mapping semanticQA",
+    "threecorpus actualloader/admission and targetCPU/GPUQA",
+    "newfrozen release/pins/intent"
+  ],
+  "at_unix": 1792561548.591959
+}

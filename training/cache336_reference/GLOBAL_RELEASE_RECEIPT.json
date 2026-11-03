@@ -1,0 +1,152 @@
+{
+  "active_main_label_samples": 4350,
+  "builder_sha256": "935625ae385df67cba32d11aca08a3cce7f3ec27d42313be79edc0236e9c483a",
+  "components": [
+    {
+      "cache_bytes": 2660307425,
+      "cache_complete_sha256": "3365bfa4cbf862c51d41965ebe8737ee7edda355cb5a2c3b9ed9026c8008c4d5",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s00-20260915",
+      "manifest_sha256": "e20d9c7e2f14ddd5b45fd15e7e4eea9d00ad68dd903ecb1b178ccbb0f3b38464",
+      "role": "s00"
+    },
+    {
+      "cache_bytes": 3131347013,
+      "cache_complete_sha256": "81181f539f7d42f12968cc89065031a284699dade3bd2cf444ad6eeb025431d1",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s01-20260915",
+      "manifest_sha256": "7b7e721af8cbade2a8d31e93dcc9f4618de38d517ff1921ca0882d0e0cf4b696",
+      "role": "s01"
+    },
+    {
+      "cache_bytes": 2626527727,
+      "cache_complete_sha256": "5e8697160ac2480d87df5dfd90ee355fea977404046fcba7f95e5f8eee22115b",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s02-20260915",
+      "manifest_sha256": "4366f412f6685e0fbdabd87af7e8436d26a933da019f06b81d1510eb2e980b2e",
+      "role": "s02"
+    },
+    {
+      "cache_bytes": 2825704224,
+      "cache_complete_sha256": "ba2487d8b7015546a0afc9184c40b6082cec1122b598ca1654f3c185d5b6cff7",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s03-20260915",
+      "manifest_sha256": "5e12228b7e6132602a9b3b625d62d9d7f2a068c54af55c448e1248fea525c92f",
+      "role": "s03"
+    },
+    {
+      "cache_bytes": 2739579254,
+      "cache_complete_sha256": "c8c272941e8b75eceff68ef0fd766f99fad3fb8d613ae9b4b103cf7690c0b940",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s04-20260915",
+      "manifest_sha256": "0fb0f11953b1c0dd6aec06098538b500ede95800ca4191e3e9689c574a3a4b9e",
+      "role": "s04"
+    },
+    {
+      "cache_bytes": 2857024204,
+      "cache_complete_sha256": "2e0279c57585c68799dbf8cc49d3fa817df8934583fd0b9863755a248a0f35c0",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s05-20260915",
+      "manifest_sha256": "5e2bc38c896faa346c7f2416cd43ddcd7c08eee196152b453da57b4f93db5ea2",
+      "role": "s05"
+    },
+    {
+      "cache_bytes": 2913368092,
+      "cache_complete_sha256": "a6711908a29bbad417e070af8ef86cc325ade8c7af486a7abb6a4b7f251ede21",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s06-20260915",
+      "manifest_sha256": "93d47c2d2a620eb51147501c96e041acc77cead2d8a8deb597e821bb29efeec4",
+      "role": "s06"
+    },
+    {
+      "cache_bytes": 2662846659,
+      "cache_complete_sha256": "05e047b04e631c45030205b0b3ccbd578e193e1ac66363c289f9b2047eb3889b",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s07-20260915",
+      "manifest_sha256": "8ed2ceb956961c02e4bf0a059f0ec0a4c2c27b20111871877a9bd0bde8ea91d6",
+      "role": "s07"
+    },
+    {
+      "cache_bytes": 2675837759,
+      "cache_complete_sha256": "8ceaeb47c9af74c9204355be1a099e9699c316226a69fc7a84f74efa7ea34b56",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s08-20260915",
+      "manifest_sha256": "6445ed3653a2f1692b0d95b14a9e58b852b3a36a24bade68d87e754e9b28ed37",
+      "role": "s08"
+    },
+    {
+      "cache_bytes": 2802739700,
+      "cache_complete_sha256": "38d2e5753cf8a7e836f74653355110cf4ac90ce43732bfa2b38111085412b962",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s09-20260915",
+      "manifest_sha256": "0ba248a5b18ae383699650159f5dde5b82d01a8b538e30f79aef5f867a730aa8",
+      "role": "s09"
+    },
+    {
+      "cache_bytes": 2779528555,
+      "cache_complete_sha256": "b28aa0e18e0f9e590a9a34ac8c4c01e069a8cd54121a081ea8e5d83aa6148aa4",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s10-20260915",
+      "manifest_sha256": "22513632a3c2ff8c1af87673217d183b98da6a493a01e691c71df841599cbe68",
+      "role": "s10"
+    },
+    {
+      "cache_bytes": 2800625285,
+      "cache_complete_sha256": "599784cd7e17a669e873ab9083fa537ee849da38ce59c75e87b0c031b2f44e27",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s11-20260915",
+      "manifest_sha256": "95d69d3f3a71aa7ca2b49fb21a63cd6267e8fc4552bfdb559ec5a7b1ec55912c",
+      "role": "s11"
+    },
+    {
+      "cache_bytes": 2682942434,
+      "cache_complete_sha256": "8df52774777940079673f8ac247ccfc1b4f3e9fac1ce4037608ba83df5274304",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s12-20260915",
+      "manifest_sha256": "5b70877a7772f221b74e99f63ae55d0da6b7cdb38947adc3fcef73cbf198adb9",
+      "role": "s12"
+    },
+    {
+      "cache_bytes": 2709579697,
+      "cache_complete_sha256": "2c6bc14cd7979c61c888fa3fe0b0647bc3c56ba77f43abf04c27a7fdee99ff60",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s13-20260915",
+      "manifest_sha256": "af7e5dbe180e257cb2dcc412dbfce924398c8048a12f3de8062d6817ccd64f1f",
+      "role": "s13"
+    },
+    {
+      "cache_bytes": 2752956158,
+      "cache_complete_sha256": "e58d973ae847af0c6f82f8e4e19d969c9008621176ec0ccc99b2f6272f4d6844",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s14-20260915",
+      "manifest_sha256": "320d8dcf380526ccb28e58169a51e0289368a1879fb89efb2e8613d767ca46d2",
+      "role": "s14"
+    },
+    {
+      "cache_bytes": 2928644498,
+      "cache_complete_sha256": "65f98aba298bd8940af0fc63464bb3907c8f8e8a6af53018195b83d2db8cab8a",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-s15-20260915",
+      "manifest_sha256": "2e9b6b31ff6aae1068d1f3731896e7303332591499a0990321a237f5bfcf8fdd",
+      "role": "s15"
+    },
+    {
+      "cache_bytes": 586826120,
+      "cache_complete_sha256": "623e20780a32a9eec764f96dd15998666084fb43b086f7c11f434ff6d7c4ba42",
+      "kernel": "ilyakolb/rsna-v83-aux60-cache-gold58-20260915",
+      "manifest_sha256": "71cba9f27a5142a238e36e52c9f5001792ad51b37d9c54ca430e92b79ee0f4d3",
+      "role": "gold58"
+    }
+  ],
+  "gold_labels_sha256": "3644ae2217484fcf2b08158005692521c6e3901e0f309873d7e8f0004f558885",
+  "gold_manifest_sha256": "ddb30a6ba13deef31b484f2f7de86bf66ac4901775ef36237316f67601991d6a",
+  "gold_studies": 58,
+  "gold_train_mask": 0,
+  "known_source_frame_exceptions": [
+    {
+      "count": 1,
+      "shard": 8,
+      "study": "1.2.826.0.1.3680043.8.498.34685905030370793639196564723935583035"
+    },
+    {
+      "count": 1,
+      "shard": 9,
+      "study": "1.2.826.0.1.3680043.8.498.37833587429731221455928642963031995680"
+    }
+  ],
+  "orientation_policy": "knee-laterality-v8.3",
+  "orientation_state": "canonical_L_v8_3",
+  "status": "PASS_GLOBAL_AUX60_V83_RELEASE",
+  "train_gold_overlap": 0,
+  "train_labels_sha256": "248525e2702d4893605fb5f4a8d61322802488e1e97b4df2eaf7f34a9a0ab10d",
+  "train_manifest_sha256": "dd9ca286f75521248947a922a86e2568afc98905b151ed00675f976d0ad1a5a7",
+  "train_parents": 4345,
+  "train_samples": 4352,
+  "verified_at": 1791066772.061831,
+  "verified_npz_bytes": 45136384804,
+  "verified_npz_files": 4410
+}

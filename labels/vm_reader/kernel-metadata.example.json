@@ -1,0 +1,16 @@
+{
+  "id": "ilyakolb/rsna-knee-web-panels-shard-01-v1",
+  "title": "RSNA Knee Web Panels Shard 01 V1",
+  "code_file": "build_shard.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,753 @@
+{
+  "files": [
+    {
+      "bytes": 2741,
+      "path": "config/knee_orientation_policy.json",
+      "sha256": "cf370c3de03ebdcc5d4809070c3ad7ddf33d080ca1c66bcaf922d582d75ed5b0"
+    },
+    {
+      "bytes": 1977,
+      "path": "evidence/FULL_COLLECTION_VERIFIED.json",
+      "sha256": "f7a86836b50cbe5a1431422cb765e9c12687e29156e6c1f0ff124d3dcb837df9"
+    },
+    {
+      "bytes": 703,
+      "path": "evidence/anterior_v1_pf_oa_bootstrap.json",
+      "sha256": "86fc8ce33727a025ab95e0ea87d862f662a75e695fc2fba5242df772640fabe4"
+    },
+    {
+      "bytes": 882,
+      "path": "gold58/DOWNLOAD_SUMMARY.json",
+      "sha256": "facc6ee71c853cd2d107dbb93c2df501775532321068e167a9bcb7bc60ee2036"
+    },
+    {
+      "bytes": 6867,
+      "path": "gold58/gold58_labels.csv",
+      "sha256": "3644ae2217484fcf2b08158005692521c6e3901e0f309873d7e8f0004f558885"
+    },
+    {
+      "bytes": 17392,
+      "path": "gold58/gold58_manifest.csv",
+      "sha256": "770ef052548d059707edd65212343837740402d8ed5bea9ab14834cb3a9fbefe"
+    },
+    {
+      "bytes": 47770,
+      "path": "gold58/gold58_series.csv",
+      "sha256": "5f4d2cae2589023b44f9c18a2c199816dd6afdb0e32a4ff0d9daa88677631387"
+    },
+    {
+      "bytes": 10344,
+      "path": "gold58/gold58_validation_manifest.csv",
+      "sha256": "7874b05ecde4d912c0627ecf0612bb0f565540e60f90c43c8a683970b6566f76"
+    },
+    {
+      "bytes": 425,
+      "path": "manifests/SHARD_QA.json",
+      "sha256": "7b51c1ea63b9f6023a053d9f761e49398a08a687ab387e617f22a8cdae4549c4"
+    },
+    {
+      "bytes": 574,
+      "path": "manifests/SMOKE_SELECTION_QA.json",
+      "sha256": "72fae08e87f9cc81b9f35b310cbed628d76d400e37266e27aee720744d4046a7"
+    },
+    {
+      "bytes": 588251,
+      "path": "manifests/parent_shards16.csv",
+      "sha256": "386c0877a11cbedb0eddda296ac051519572fdd7261b6bc6a227b8617b602bdc"
+    },
+    {
+      "bytes": 303471,
+      "path": "manifests/smoke_train_parents200.csv",
+      "sha256": "4ca7a8a6eb093c1365f393bf6813c3392e34ce80e7360f6c6170754134d1f0ec"
+    },
+    {
+      "bytes": 11409,
+      "path": "orientation/MANIFEST.json",
+      "sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2"
+    },
+    {
+      "bytes": 661,
+      "path": "orientation/TRAINING_MANIFEST.json",
+      "sha256": "b3df67fd929f778cdebd61c073b388ab54ef88be147d0317052d80c5fc01a640"
+    },
+    {
+      "bytes": 1124,
+      "path": "orientation/TRAINING_MANIFEST_SOFT_V2.json",
+      "sha256": "c1f7052f3b8e4aa7039e913acbc77fd7cc15eca3fae00b1724f2da04269fb05b"
+    },
+    {
+      "bytes": 11409,
+      "path": "orientation_runtime/MANIFEST.json",
+      "sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2"
+    },
+    {
+      "bytes": 582,
+      "path": "orientation_runtime/ORIENTATION_RECEIPT.json",
+      "sha256": "8fe26c58547ebd3858660996dc7b91c6ed3a87461496e2054d6891ecabd7b376"
+    },
+    {
+      "bytes": 1147,
+      "path": "orientation_runtime/runtime/MANIFEST.json",
+      "sha256": "f431aa0044c3f5219810c54887e447e3a2f6d79a67baa8a920c3c29210bfadd0"
+    },
+    {
+      "bytes": 2991,
+      "path": "orientation_runtime/runtime/base_policy.py",
+      "sha256": "dd2bd3f3c7121c829af6295b5bdfda462e24e8e63956d7a65a4176194fb70038"
+    },
+    {
+      "bytes": 9002,
+      "path": "orientation_runtime/runtime/base_runtime.py",
+      "sha256": "fbcd9d25f83c0818d46091e24630ebad3ef5bd483b297d2c4b045c348fe1ac20"
+    },
+    {
+      "bytes": 8996,
+      "path": "orientation_runtime/runtime/canonical_inputs.py",
+      "sha256": "7ac7e10384adeb82b208d7d5f6188c9707776b12cd882cfce89c3ed1fbf4babe"
+    },
+    {
+      "bytes": 6347109,
+      "path": "orientation_runtime/runtime/depth.pt",
+      "sha256": "ab3376ae3e49df38ed143a0f99cb6445b65eba88cd06b73f33ae1cce8a461712"
+    },
+    {
+      "bytes": 2141,
+      "path": "orientation_runtime/runtime/h1_adapter.py",
+      "sha256": "37ce9bd03ee52315b6a647ab1fec26dda231d779a0ba64c0c54ecdd63d127915"
+    },
+    {
+      "bytes": 12011,
+      "path": "orientation_runtime/runtime/h1_base.py",
+      "sha256": "8b3aa358835fe6728519131022b14f99b4c85e66c29c810bd80b5745ef954b65"
+    },
+    {
+      "bytes": 6646,
+      "path": "orientation_runtime/runtime/policy_v8.py",
+      "sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9"
+    },
+    {
+      "bytes": 2126100,
+      "path": "orientation_runtime/runtime/pose.pt",
+      "sha256": "82c1ee56e5accaa3b284154e0ccbc346f8fff7f9ec87ed1752b55b324afa9ea0"
+    },
+    {
+      "bytes": 9087,
+      "path": "orientation_runtime/runtime/raw_inputs.py",
+      "sha256": "2df5839e6dd6683d23012fa116e0f3b61e05e9a669fffcfc6a0216ddbd013060"
+    },
+    {
+      "bytes": 2324,
+      "path": "orientation_runtime/runtime/resolver.py",
+      "sha256": "77a1c111bf9583ff00f4d328f5c3a52e52ff5e8c2c07c6945ea65c07105cb1a1"
+    },
+    {
+      "bytes": 150,
+      "path": "orientation_runtime/runtime/rsna_knee/__init__.py",
+      "sha256": "4e7afbc89fd6eef3e36bc39424d990d7aeb42d89d737af1a617415babb83307d"
+    },
+    {
+      "bytes": 13147,
+      "path": "orientation_runtime/runtime/rsna_knee/acquisition_features.py",
+      "sha256": "c254f16f054500f0cc375455a8b003db45ddbbf420018d08738592852245efe4"
+    },
+    {
+      "bytes": 5956,
+      "path": "orientation_runtime/runtime/rsna_knee/adjudication_postfreeze.py",
+      "sha256": "558d112be08a1c963bd04a2160876572afe24887db36ec71e73b6aeb63e5e60d"
+    },
+    {
+      "bytes": 10008,
+      "path": "orientation_runtime/runtime/rsna_knee/adjudication_validation.py",
+      "sha256": "5cb8ddd5669f332a7dd17b41670eab989e776bec561e8ed673ec16e5c918956e"
+    },
+    {
+      "bytes": 6063,
+      "path": "orientation_runtime/runtime/rsna_knee/anatomical_laterality.py",
+      "sha256": "f2a3e7739c52c424b807f00939a92851fa0d7bab40616450915bb86e574fcbd3"
+    },
+    {
+      "bytes": 9873,
+      "path": "orientation_runtime/runtime/rsna_knee/anatomy_roi.py",
+      "sha256": "cd724773c0e75cb8d3ba711378e8d0c2eb3e8eb9c91837577e3ccbb9fb4d4384"
+    },
+    {
+      "bytes": 13213,
+      "path": "orientation_runtime/runtime/rsna_knee/aux_qwen.py",
+      "sha256": "d9dbb742f2fa4183546da852ac135b32fd7582e97ebf253a399b964b1eb25bff"
+    },
+    {
+      "bytes": 10635,
+      "path": "orientation_runtime/runtime/rsna_knee/aux_qwen_audit.py",
+      "sha256": "e089c50fe99c340c8ea06a28d0a0e88afcbd2b7bd3c692660c2962d7a8267095"
+    },
+    {
+      "bytes": 16836,
+      "path": "orientation_runtime/runtime/rsna_knee/aux_targets.py",
+      "sha256": "139e30733b159adc07abc13b79b52f1123e0a88cce4a3758423cde03d13dbea4"
+    },
+    {
+      "bytes": 299,
+      "path": "orientation_runtime/runtime/rsna_knee/batch_inputs.py",
+      "sha256": "b4ab7cd2e90cec20ecf4bbde01d57c2604c32ae445dad878213670935dddd780"
+    },
+    {
+      "bytes": 7746,
+      "path": "orientation_runtime/runtime/rsna_knee/cache.py",
+      "sha256": "99467e7aef463a35a392564a2dfedec1eca4b12140ed100ab33c8241d190f8eb"
+    },
+    {
+      "bytes": 8996,
+      "path": "orientation_runtime/runtime/rsna_knee/canonical_inputs.py",
+      "sha256": "7ac7e10384adeb82b208d7d5f6188c9707776b12cd882cfce89c3ed1fbf4babe"
+    },
+    {
+      "bytes": 12096,
+      "path": "orientation_runtime/runtime/rsna_knee/cautious_label_policies.py",
+      "sha256": "03a8c81499bbaf6042cc8fa322456618c91256b00d6d2fc0c710dcd7487dfdc7"
+    },
+    {
+      "bytes": 18557,
+      "path": "orientation_runtime/runtime/rsna_knee/centering_manifest.py",
+      "sha256": "b1fe83be569f7206582af23559a574a5b3b0998196571e016012b9e320499d8a"
+    },
+    {
+      "bytes": 8086,
+      "path": "orientation_runtime/runtime/rsna_knee/central_sampling.py",
+      "sha256": "f8434a31cf24d9d27b03704c3f1b1bbe80d53d93b8b7f26cdca2157decb33214"
+    },
+    {
+      "bytes": 37704,
+      "path": "orientation_runtime/runtime/rsna_knee/cli.py",
+      "sha256": "410162a7c3e73ace2f4c11bc4edbf1952b9c888a27ba9e1a01d28807e6a7dff7"
+    },
+    {
+      "bytes": 19116,
+      "path": "orientation_runtime/runtime/rsna_knee/coatnet_v5.py",
+      "sha256": "ce601b2e5aae7f4771d64faa0d82f598e4ade9a80b946a07d24c747a6d7a29ed"
+    },
+    {
+      "bytes": 8744,
+      "path": "orientation_runtime/runtime/rsna_knee/compartment_inputs.py",
+      "sha256": "d4219d8bce5c5df8a977f836f0adfdd2ea6e9e9fd3cb0fdb6f2b5119b1044093"
+    },
+    {
+      "bytes": 11571,
+      "path": "orientation_runtime/runtime/rsna_knee/compartment_locator_v2.py",
+      "sha256": "41a6cf21a7947aba2b3b096c318c894b8f5e1be76570871358edec870f2bf21c"
+    },
+    {
+      "bytes": 8908,
+      "path": "orientation_runtime/runtime/rsna_knee/config.py",
+      "sha256": "ea29530b51955bfe773869f8c9888ed22aeecc5fc314eb94202e4bae48b9af17"
+    },
+    {
+      "bytes": 12269,
+      "path": "orientation_runtime/runtime/rsna_knee/consensus.py",
+      "sha256": "e5c41bb908a138bc138e4bfbf35c64c7d7a1f1211fde3a0b44ebea1fbf33bac7"
+    },
+    {
+      "bytes": 480,
+      "path": "orientation_runtime/runtime/rsna_knee/constants.py",
+      "sha256": "1a29c2e22497a4d91ed2f2a6a45c4a55f7ff47a85564cab6e3e887b30b9bcd8e"
+    },
+    {
+      "bytes": 1815,
+      "path": "orientation_runtime/runtime/rsna_knee/data_rng.py",
+      "sha256": "e28e6225419b71bb880b250695e62055c90c152e02587d323b36f8fa7c481e66"
+    },
+    {
+      "bytes": 8100,
+      "path": "orientation_runtime/runtime/rsna_knee/dataset.py",
+      "sha256": "6866070b6805063d281a7feb7cc382bf6934987f735dbab1796c2537b6dad226"
+    },
+    {
+      "bytes": 9912,
+      "path": "orientation_runtime/runtime/rsna_knee/dicom.py",
+      "sha256": "8ad3b8ba94892e1be1307e9642c01c63151baf68ff1051b816662c87d0cbac3d"
+    },
+    {
+      "bytes": 15519,
+      "path": "orientation_runtime/runtime/rsna_knee/dicom_headers.py",
+      "sha256": "824e0af71798e947c084bc3b5efe52ed02d142737fa49bcdaf16b5d2dddd50a8"
+    },
+    {
+      "bytes": 1305,
+      "path": "orientation_runtime/runtime/rsna_knee/epoch_stop.py",
+      "sha256": "949f1a2e270da7b9f029e5be3eafc6aa6039c76c75d6b5c42f1626b78a5cdecd"
+    },
+    {
+      "bytes": 13328,
+      "path": "orientation_runtime/runtime/rsna_knee/experiment_gate.py",
+      "sha256": "94cf1dabbe96b190b24117e5d5d0ae86ec6e0a948402983d8336dfe150da6ec0"
+    },
+    {
+      "bytes": 30108,
+      "path": "orientation_runtime/runtime/rsna_knee/feature_oof.py",
+      "sha256": "aff45410dd2317a43f3075083dca5a5855592a0ff8f01864c527654c3cc810d5"
+    },
+    {
+      "bytes": 19803,
+      "path": "orientation_runtime/runtime/rsna_knee/foldfit_orthographic_features.py",
+      "sha256": "4f6fe7a8fa652353c58facc71f90c8457175ca3f82b3be5bc667950de477f3e3"
+    },
+    {
+      "bytes": 11620,
+      "path": "orientation_runtime/runtime/rsna_knee/folds.py",
+      "sha256": "d99864e05646aa41f484dcbf55ac219663701d6222d1244556651a54f81f240b"
+    },
+    {
+      "bytes": 7060,
+      "path": "orientation_runtime/runtime/rsna_knee/full_source_cache.py",
+      "sha256": "1ccb568b503ee822b54cff9fb6a7fc2131e6605d9fba89c6785160e97e70d023"
+    },
+    {
+      "bytes": 7788,
+      "path": "orientation_runtime/runtime/rsna_knee/full_source_dataset.py",
+      "sha256": "37e28370ce6f237fca28b871de419bcafd63bd86a80cb3f4a2dab3eaff36ad94"
+    },
+    {
+      "bytes": 27783,
+      "path": "orientation_runtime/runtime/rsna_knee/gold58_crossfit.py",
+      "sha256": "430d90d890e77cc9cffe7ac3b2f1bfbc1e174617f70f8812591ae010f9b7d54b"
+    },
+    {
+      "bytes": 15195,
+      "path": "orientation_runtime/runtime/rsna_knee/gold58_reliability.py",
+      "sha256": "931666a3e854a2ee69fa0b034b477f84a657f88eb715fda61a515b89bf0ad2eb"
+    },
+    {
+      "bytes": 44444,
+      "path": "orientation_runtime/runtime/rsna_knee/grayscale_cache.py",
+      "sha256": "f7072d5a63c41c0d023e8266e97d578093f597bba81a65ea9843d4d43ecef830"
+    },
+    {
+      "bytes": 7306,
+      "path": "orientation_runtime/runtime/rsna_knee/header_readback.py",
+      "sha256": "9d02f5bd749778ce57093bd1251d198705551ad57a93fb43459368faf9de51f5"
+    },
+    {
+      "bytes": 3590,
+      "path": "orientation_runtime/runtime/rsna_knee/infer.py",
+      "sha256": "8cd1d27f63d9b0d8183c0066af91b21f65477f84d14ee810eddbbdd7d9c992bc"
+    },
+    {
+      "bytes": 928,
+      "path": "orientation_runtime/runtime/rsna_knee/input_contract.py",
+      "sha256": "b6ae57ce81935f16c8517e8ef07bcf286e6a73ce5aafa39d2bf530430fd8999a"
+    },
+    {
+      "bytes": 22332,
+      "path": "orientation_runtime/runtime/rsna_knee/joint_line_locator.py",
+      "sha256": "970b983cba92fbcfd7210839622c89baa8d5f7d30b1384699d4ce843e8b8cb68"
+    },
+    {
+      "bytes": 12714,
+      "path": "orientation_runtime/runtime/rsna_knee/label_audit.py",
+      "sha256": "9e5c1378bae2b3701e922bd53f09372702024a74a558193a28845b850a414f82"
+    },
+    {
+      "bytes": 7125,
+      "path": "orientation_runtime/runtime/rsna_knee/label_risk_features_v2.py",
+      "sha256": "7808b5507ea5fc4b45a88c68ce61f9a3df0d7668694cc066d902e94ece42b08c"
+    },
+    {
+      "bytes": 33572,
+      "path": "orientation_runtime/runtime/rsna_knee/label_risk_v2.py",
+      "sha256": "f4af23848b39dfa64a50659f5b8ff3a1f6247ac0f2a8a4ae711a5697b8be2fbd"
+    },
+    {
+      "bytes": 13360,
+      "path": "orientation_runtime/runtime/rsna_knee/laterality_inference.py",
+      "sha256": "5cbc99d48e64eb73858d42329711c3a41c3da38f4f7393650064a29e2ef02111"
+    },
+    {
+      "bytes": 3009,
+      "path": "orientation_runtime/runtime/rsna_knee/laterality_scope.py",
+      "sha256": "091c721969a1405420ebf2d048832df9d2f52808e970f201b8c89751d7505384"
+    },
+    {
+      "bytes": 12275,
+      "path": "orientation_runtime/runtime/rsna_knee/laterality_v6.py",
+      "sha256": "254328fb55aafe600e0ba0dec16611c96e7b27bb8bbbfcfd381408106e82e717"
+    },
+    {
+      "bytes": 27078,
+      "path": "orientation_runtime/runtime/rsna_knee/local_diagnostics.py",
+      "sha256": "1c01aa590e37314337430ebd1b59de48d149307575dd3a349a342dcf4e0de6b2"
+    },
+    {
+      "bytes": 3941,
+      "path": "orientation_runtime/runtime/rsna_knee/metadata.py",
+      "sha256": "6d99d78ca2e16677d3c8eacf9fcab640d579fffbc2a6cf226b7bef4a769c0332"
+    },
+    {
+      "bytes": 2298,
+      "path": "orientation_runtime/runtime/rsna_knee/metrics.py",
+      "sha256": "1ad9660b8c7c792c7f23afe9d4a134b4479c2b27b9eea1e68dc1a6b336d5d430"
+    },
+    {
+      "bytes": 30252,
+      "path": "orientation_runtime/runtime/rsna_knee/model.py",
+      "sha256": "2837481fc14a2b75d4bed2d05eed2be696e896d98f9ae9616bf1c50e738f54bf"
+    },
+    {
+      "bytes": 26258,
+      "path": "orientation_runtime/runtime/rsna_knee/morphology_analysis.py",
+      "sha256": "826dc45d44fc6c41f05f878076de9d71a6dcc25af33717ba3d2768ff325ee6a3"
+    },
+    {
+      "bytes": 26914,
+      "path": "orientation_runtime/runtime/rsna_knee/morphology_features.py",
+      "sha256": "36a513c7e398262f3cab7fcb89f9e1363f8c94d3a8849247cb9b986f0f341ecd"
+    },
+    {
+      "bytes": 18869,
+      "path": "orientation_runtime/runtime/rsna_knee/morphology_stats.py",
+      "sha256": "f0490bcaeffca28209e3db0ffed76a8c5c869a7f79540c5329ce19e9c8538212"
+    },
+    {
+      "bytes": 8993,
+      "path": "orientation_runtime/runtime/rsna_knee/native64_cycle.py",
+      "sha256": "501e9fbc3c3f926f32e0ac6cbfccacbc290e654b7011bc163e7219eb11d2f1e0"
+    },
+    {
+      "bytes": 7236,
+      "path": "orientation_runtime/runtime/rsna_knee/native64_raw.py",
+      "sha256": "870634f165341add019f697a8b0473b3327661ff0c5d53d0df5a7325ced965f5"
+    },
+    {
+      "bytes": 43682,
+      "path": "orientation_runtime/runtime/rsna_knee/native_neighbor_bank.py",
+      "sha256": "0a531d33f4db03345b0823b3a5a44cc24b0d08ecf0cd12f74d2ad39484a085a6"
+    },
+    {
+      "bytes": 10873,
+      "path": "orientation_runtime/runtime/rsna_knee/oof.py",
+      "sha256": "62006043bfaad341d3bffcb86d4b3da48d5a741f73e047e0def3b329ba45f547"
+    },
+    {
+      "bytes": 4467,
+      "path": "orientation_runtime/runtime/rsna_knee/oof_comparison.py",
+      "sha256": "783104cc80fb313ce8c758648ff7b4b886daac48f71c2cea1d05443c54232b93"
+    },
+    {
+      "bytes": 10234,
+      "path": "orientation_runtime/runtime/rsna_knee/pilot.py",
+      "sha256": "3d9d6d37efaf3fb61fa1ac82010bac1de23b2122113cd0ccef06f315f21fb503"
+    },
+    {
+      "bytes": 24772,
+      "path": "orientation_runtime/runtime/rsna_knee/policy_oof.py",
+      "sha256": "5cfc479ccb4284458f216c70faf503d8f2bfb8407db468f3df4ce11f6046299f"
+    },
+    {
+      "bytes": 27222,
+      "path": "orientation_runtime/runtime/rsna_knee/proxy_associations.py",
+      "sha256": "72c6a1cf859d6c8579c4d54e2df8e33f87f9950eb2ec78c73d2ad3c58eaac600"
+    },
+    {
+      "bytes": 14166,
+      "path": "orientation_runtime/runtime/rsna_knee/pseudo_oof.py",
+      "sha256": "4a7e1d616fb83fc2506ac454c4842c513ddb36e2b289a69d0871316eb5ed83ae"
+    },
+    {
+      "bytes": 3853,
+      "path": "orientation_runtime/runtime/rsna_knee/regularized_cycle.py",
+      "sha256": "36a0c92e80ab8912e34dbbd94c1fa7c88ee83bd4233e07295247bc9a80f31df2"
+    },
+    {
+      "bytes": 18679,
+      "path": "orientation_runtime/runtime/rsna_knee/remote_zip.py",
+      "sha256": "7b5e0d62d1832dc7a3ed733cc2e397d8ffe24b8ac8d842c170bda84bb449c2a8"
+    },
+    {
+      "bytes": 10597,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_complete_panel.py",
+      "sha256": "295ac1645aa983e61aa454ee04286ade8b3a7e1c5b1e9f8f7d5b9e1e1c062e45"
+    },
+    {
+      "bytes": 20106,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_evaluation.py",
+      "sha256": "2be0533564041d6b6cc612f8cb3a53ffbef198077b7034600c8a898316376b3d"
+    },
+    {
+      "bytes": 29123,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_features.py",
+      "sha256": "ae05d2bb95802d19ef891565411b837f04cf6b035c801b07d5c79bad2b109c7b"
+    },
+    {
+      "bytes": 26915,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_finalizer.py",
+      "sha256": "114696ec9dea4df6d67b0f132fe3c5e3b8d8fd0aa3c6417e542a86cd63154edd"
+    },
+    {
+      "bytes": 19733,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_freeze_manifest.py",
+      "sha256": "10c6109cf2241605010c4778c7c8d4eb10ba7911266483c90075a2d2fcfccf7f"
+    },
+    {
+      "bytes": 53843,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_gold_gate.py",
+      "sha256": "abb0ed0e0868ef6e5b04a05dc119644065f6761d980b5d6b7436a133d6ccce9a"
+    },
+    {
+      "bytes": 42812,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_inputs.py",
+      "sha256": "93d364ea770f6a835751fb88c29844ce86460da55099c765dc7b66a8d61b4583"
+    },
+    {
+      "bytes": 32311,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_lopo.py",
+      "sha256": "46657e7085b21923910bfbecc12cb8c7108d1f9e5b50fa3191fc746e9f2535e8"
+    },
+    {
+      "bytes": 11974,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_panel.py",
+      "sha256": "842446f46831bc735faeb99d3c66d996ec9b70cb72f9eb45c518cb97d9284e98"
+    },
+    {
+      "bytes": 21003,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_post_oof.py",
+      "sha256": "ea2b1adee28e185391ff8ad81ccac5f081f46418edeb7fb45301c6aec44571a7"
+    },
+    {
+      "bytes": 19442,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_postfreeze_gold.py",
+      "sha256": "ed04fdab4fc72a26a11108db66930eb643aa09acf71410be14afeea475d5d7b4"
+    },
+    {
+      "bytes": 39691,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_segment_gate.py",
+      "sha256": "f2cd44e04e8a0ed571b7ab73da2c6a190734c19c3b5cf3441ce8e83052ee0cde"
+    },
+    {
+      "bytes": 20610,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_segments.py",
+      "sha256": "f4145f89e97b8e1fff5128f30330bda650ebf1bc197b8d76b4cdf8dd95f634d8"
+    },
+    {
+      "bytes": 109078,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_stats.py",
+      "sha256": "75c7db428a55a997668ac5cbdab3fbefffebe6e02a9ea171caccabb921e685c8"
+    },
+    {
+      "bytes": 12777,
+      "path": "orientation_runtime/runtime/rsna_knee/report_reliability_token_exact.py",
+      "sha256": "433fbd753ebcb5c5714de421237ceaf76150ef01c932a81d6f666d625a32eb63"
+    },
+    {
+      "bytes": 44720,
+      "path": "orientation_runtime/runtime/rsna_knee/report_rules.py",
+      "sha256": "3c8215311c9f5a2351f35bb1e29e82b826aeea63aba720c7fc78a0038ba6b47a"
+    },
+    {
+      "bytes": 8626,
+      "path": "orientation_runtime/runtime/rsna_knee/report_teacher.py",
+      "sha256": "0e0a7fb23738e9ad8813aa2e2ed05844d9a0034ad1ebf89dff9d6b8854a2ea26"
+    },
+    {
+      "bytes": 3737,
+      "path": "orientation_runtime/runtime/rsna_knee/reports.py",
+      "sha256": "b3cc79ab0c6c407f5ca27c3e3f240e24ed05dac65f059fb59ffa4c87f10014b0"
+    },
+    {
+      "bytes": 23750,
+      "path": "orientation_runtime/runtime/rsna_knee/residual_oof.py",
+      "sha256": "4902626a6670da85d87175126a943f054e0176ea090eb615b278cc0198f1bb66"
+    },
+    {
+      "bytes": 26085,
+      "path": "orientation_runtime/runtime/rsna_knee/screen_analysis.py",
+      "sha256": "0b92a987a2ed01dc3e3a714a644d0df0637578f946a056163a39f5f916aab0a4"
+    },
+    {
+      "bytes": 12913,
+      "path": "orientation_runtime/runtime/rsna_knee/screen_queue.py",
+      "sha256": "8ff06b6b150e8632a572811ad0dfb78378490b412aec99645bbcad68bfa12262"
+    },
+    {
+      "bytes": 10822,
+      "path": "orientation_runtime/runtime/rsna_knee/sharded_dataset.py",
+      "sha256": "ed5f93f48366007fa10d72ee9273d4c0a104bdea62928c1b4bfc53d4c3795f87"
+    },
+    {
+      "bytes": 8635,
+      "path": "orientation_runtime/runtime/rsna_knee/smoke.py",
+      "sha256": "7d5728f0c5c074f432a6a29d4d7c0c8a746b48cd81ca638257a2d166f878ce33"
+    },
+    {
+      "bytes": 47467,
+      "path": "orientation_runtime/runtime/rsna_knee/source_clusters.py",
+      "sha256": "76cd05e45daa2e620968ffe0f5cbefaea434fc14495a320c7a130bfe87a4afdd"
+    },
+    {
+      "bytes": 45513,
+      "path": "orientation_runtime/runtime/rsna_knee/study_centering.py",
+      "sha256": "07bec242359d1592bf8b426ea86f68e820cd5a87937f5090bc8d3998175dca90"
+    },
+    {
+      "bytes": 6745,
+      "path": "orientation_runtime/runtime/rsna_knee/study_laterality.py",
+      "sha256": "e75fc1a88dd1efadf554da95161b6d27e7d7e322bedb2a5cf9baab3da501373b"
+    },
+    {
+      "bytes": 46949,
+      "path": "orientation_runtime/runtime/rsna_knee/train.py",
+      "sha256": "2c91e231a659ce7547bc467f3af3f3ecc7c88e463cdb72659ff6b2101a1e75d3"
+    },
+    {
+      "bytes": 73868,
+      "path": "orientation_runtime/runtime/rsna_knee/train_score_reducer.py",
+      "sha256": "537b675f903f5121bbe5f28624700fe13ed8ce74fa3e8648787eeed51a9ad98e"
+    },
+    {
+      "bytes": 8694,
+      "path": "orientation_runtime/runtime/rsna_knee/training_state.py",
+      "sha256": "7516bfd33efea036cbfe29c30b96a3afa2f8b62918cfadc01eeb72eac5fb09f5"
+    },
+    {
+      "bytes": 13068,
+      "path": "orientation_runtime/runtime/rsna_knee/weak_labels.py",
+      "sha256": "530ac6aa4491d4be08b825039dfbd281445451fa9d20d106d5f3c913664f3098"
+    },
+    {
+      "bytes": 3174396,
+      "path": "orientation_runtime/runtime/sagittal.pt",
+      "sha256": "6c32fab5e9652798cedaa64e613c28dcb7b2714118b5ff14454fd6c980d26fbf"
+    },
+    {
+      "bytes": 97511347,
+      "path": "orientation_runtime/runtime/side.pt",
+      "sha256": "06601edd36da332be55c723639549ea4525551ab38a053de20b5799c6ee81e5d"
+    },
+    {
+      "bytes": 23183,
+      "path": "plan/PLAN_V83_BIG_TRAIN_20260915.md",
+      "sha256": "629fd62479c3104ea9e51f83b5c471c3366664a4d2a3ce044cbf9c1b6fd7ed95"
+    },
+    {
+      "bytes": 7027,
+      "path": "plan/QUEUE_PLAN.json",
+      "sha256": "03b7c791aca8a3ceb28b5e9d26d678f0d23b2d28ba7ec5db8eae351d3417b9d4"
+    },
+    {
+      "bytes": 15307,
+      "path": "scripts/anterior_locator_v1.py",
+      "sha256": "aace24a700638cef7e4d627a9e876b583d46adfb10fd90df3a025a544f59d19f"
+    },
+    {
+      "bytes": 18747,
+      "path": "scripts/compartment_locator_v1.py",
+      "sha256": "9da547d451f0ce9287d9527b1860e0b3f6471c3d38a6dcbcec783f0ade089ae6"
+    },
+    {
+      "bytes": 26563,
+      "path": "scripts/ligament_locator_v1.py",
+      "sha256": "09c2b9cb6d6a79d4ff141915fe45d9a67b4459d6a2e759ccd8cceee017a8bcb3"
+    },
+    {
+      "bytes": 1806,
+      "path": "scripts/ligament_strip_v1.py",
+      "sha256": "13f08ca926937c8007059ec4dd02b21175e7d590f06bcf8def146ad1217da9ee"
+    },
+    {
+      "bytes": 1334,
+      "path": "scripts/prepare_orientation_runtime.py",
+      "sha256": "41cfc863dc200647070f73dcedfdeccc757b26a2ccbd4966fc6af933b6f5a126"
+    },
+    {
+      "bytes": 14301,
+      "path": "specs/ANTERIOR_V2_RECESS_20260915.md",
+      "sha256": "35b53854df54a50e41d56a52fbfb5013e9760070808aa35fac3d94f00ba140c6"
+    },
+    {
+      "bytes": 3207,
+      "path": "specs/ANTERIOR_V2_RECESS_V83_AMENDMENT_20260915.md",
+      "sha256": "1a3c3a58c49bdbd38058c2276c5cd8e00a5b002437b1d02d3faed26c9f4dfd2b"
+    },
+    {
+      "bytes": 23677,
+      "path": "specs/COMPARTMENT_MODEL_SPEC_20260913.md",
+      "sha256": "c323054148a7b4fb673becd661b876c6a805b0f0e2d62cf4fee27df50e333662"
+    },
+    {
+      "bytes": 1241,
+      "path": "specs/GRID_PHASE_TTA_PROBE_20260915.md",
+      "sha256": "aa1752b53c7486a1f810c321c40b2f4fbe275bcb35929beb1c2ab02b14aafab8"
+    },
+    {
+      "bytes": 4876,
+      "path": "specs/LIGAMENT_MODEL_SPEC_20260915.md",
+      "sha256": "631ad16d13731f0e175d294732770184cac2630e51ffeece910f65d1b53050f2"
+    },
+    {
+      "bytes": 2676,
+      "path": "specs/NATIVE64_V2_INPUT_SPEC_20260915.md",
+      "sha256": "499873e91813dac58037a17d88e80c9a3dd807342d1a5e69c9e2fd22e57aa454"
+    },
+    {
+      "bytes": 2302,
+      "path": "specs/R5_V83_MATCHED_PROBE_20260915.md",
+      "sha256": "ffd784eb78b5d50e6ea078e3b9c2391fd549931dca9d7e308c84540fafe028fa"
+    },
+    {
+      "bytes": 11969,
+      "path": "specs/SEVERITY_LABEL_ARM_SPEC_20260914.md",
+      "sha256": "df762241b0aae764f82cbe462a413d8c27493319ddfb8ca7189a55c7ebf27bfe"
+    },
+    {
+      "bytes": 3035,
+      "path": "specs/V83_BIG_TRAIN_AMENDMENT_20260915.md",
+      "sha256": "43a635fdee5267c1caefe820079ed0dd0f3229964fb351d170780d0059c305f4"
+    },
+    {
+      "bytes": 806,
+      "path": "training_overlay_soft_v2/QA.json",
+      "sha256": "e80db032c19776270c01d82d1304d61ca02d4079c51db3fccf19b90c634d56aa"
+    },
+    {
+      "bytes": 5877,
+      "path": "training_overlay_soft_v2/bilateral_main12_soft_v2.csv",
+      "sha256": "75d135e15344f9c44aae04f0899dedee058c34218f0a6f7dc9f0a9b2cd01700b"
+    },
+    {
+      "bytes": 3359,
+      "path": "training_overlay_soft_v2/calibration_by_target_state.csv",
+      "sha256": "27690853d94bceebbe500d047e7dbd75823ba535ef764a2f78d9ae78fd8ce744"
+    },
+    {
+      "bytes": 24850,
+      "path": "training_overlay_soft_v2/changed_parents125.csv",
+      "sha256": "6d1b596e85c00b3ec5afe097977c95529dbf179cf86c3b4a697755458e65abba"
+    },
+    {
+      "bytes": 861196,
+      "path": "training_overlay_soft_v2/parent_changes4345.csv",
+      "sha256": "7bd86d59f41a964099aab74ffaa9c4685e5fcee077ba8be938261e8b4d475d6b"
+    },
+    {
+      "bytes": 11808785,
+      "path": "training_overlay_soft_v2/series_operations.csv",
+      "sha256": "2f0c990749b0a132ee0f57eb004f1d10e67ee2e5a1ae9df0214e06a50460ae06"
+    },
+    {
+      "bytes": 89413,
+      "path": "training_overlay_soft_v2/soft_labels_sidecar_v2.csv",
+      "sha256": "a839282692d38267a1a089cca3a4973e85fdd4a4b77de78fc3128321e3aec85c"
+    },
+    {
+      "bytes": 6340761,
+      "path": "training_overlay_soft_v2/training_manifest4352.csv",
+      "sha256": "1782769d28069698a0ee5e54888897526c418cbf92d68ee555943d0a9d862562"
+    }
+  ],
+  "gold_train_mask": 0,
+  "gold_validation_studies": 58,
+  "orientation_policy": "knee-laterality-v8.3",
+  "orientation_state": "canonical_L_v8_3",
+  "parents": 4345,
+  "payload_bytes_before_archive": 131248015,
+  "samples": 4352,
+  "status": "PASS_LOCAL_ASSET_PAYLOAD",
+  "version": 2
+}

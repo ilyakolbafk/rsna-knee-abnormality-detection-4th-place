@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "orientation_policy": {
+    "id": "knee-laterality-v8.3",
+    "release_manifest_sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2",
+    "algorithm_sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9",
+    "canonical_target": "L"
+  },
+  "consumer": "training",
+  "runtime_files": 107,
+  "training_tables_exported": false,
+  "image_cache_built": false,
+  "entrypoints": [
+    "resolver.LateralityResolver",
+    "raw_inputs.prepare_variants",
+    "h1_adapter.apply_tokens",
+    "raw_inputs.aggregate_knees"
+  ]
+}

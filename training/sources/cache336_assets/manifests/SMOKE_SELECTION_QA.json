@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "parents": 200,
+  "samples": 204,
+  "folds": {
+    "0": 57,
+    "1": 51,
+    "2": 48,
+    "4": 48
+  },
+  "bilateral_parents": 4,
+  "selection": "all eligible bilateral parents first, then sha256(v83-smoke-200|ParentStudyInstanceUID); folds 0/1/2/4 only; Gold excluded",
+  "source": "artifacts/production/laterality_v8_3/training_overlay_soft_v2/training_manifest4352.csv",
+  "source_sha256": "1782769d28069698a0ee5e54888897526c418cbf92d68ee555943d0a9d862562",
+  "manifest_sha256": "4ca7a8a6eb093c1365f393bf6813c3392e34ce80e7360f6c6170754134d1f0ec"
+}

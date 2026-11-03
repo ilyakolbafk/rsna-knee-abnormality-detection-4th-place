@@ -1,0 +1,30 @@
+{
+  "Gold58_in_fit": true,
+  "Gold58_samples": 58,
+  "Gold_aux_masked": true,
+  "Gold_metric_role": "in_sample_training_diagnostic; Gold58 explicitly included in fit; not held-out validation",
+  "cache_release_sha256": "1be85b01931cf97fa5b06f62b2c19866f19b71020f325a2ac32011dd52f25d35",
+  "canonical_freeze_sha256": "22569ccfb127ba21a59a4aba39d32f0eedfe9a14739e385faf454b48b1b211de",
+  "canonical_fullfit_source_sha256": "d4608cf6bf712f051237a2eae58312081047ac8c8f2b4a8755ed07d944df3c63",
+  "entry_sha256": "51a26eae57320d25beced99bc14df77855dd6d52ff01e6d2e6932b7a9ee20576",
+  "files": {
+    "FULLFIT_MAIN.csv": "30458fe3f697b2b71372741c89a271ea72356a0062d0d6f290c0ac72a36a354d",
+    "FULLFIT_R_WEIGHT_REFERENCE.csv": "e31c176aa9aea0b5e7f050000718eb4d1b932639d69196938ae46de5e3a55d57",
+    "FULLFIT_TOKEN_SLOT_MAP.csv": "cc79f6c3dd39baac98f03f7ef60c532f6a0eda4faa5fcedc2f1880a0d32ae7ef",
+    "GOLD58_EXPERT_MAIN.csv": "3644ae2217484fcf2b08158005692521c6e3901e0f309873d7e8f0004f558885",
+    "POS_WEIGHT_FULLFIT.json": "3d6741a423181312d6fe8aaf7e0d836da944e309e2ee415381da6653e3e17e2f"
+  },
+  "nongold_samples": 4352,
+  "parents": 4403,
+  "samples": 4410,
+  "slot_check": {
+    "Gold58": 58,
+    "Gold58_NPZ_SHA256_checked": true,
+    "NPZ_identity_and_token_mask_checked": true,
+    "samples": 4410,
+    "slot_boundaries": "source-derived builder/series geometry/count map; not independent pixel plane proof"
+  },
+  "status": "PASS_SELECTED_K24_FULLFIT_TARGET_FREEZE",
+  "target_semantic_sha256": "2a8106626bd0e972c7c16f263db6c1a1e25b3ebb0a542b38aa0f06bfb3ee465e",
+  "training_sample_ids_sha256": "95433293f6d83a37d9b706326e4b5ec44b70db062069b385a4f6feab7e52a20f"
+}

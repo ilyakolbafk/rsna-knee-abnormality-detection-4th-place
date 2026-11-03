@@ -1,0 +1,63 @@
+{
+  "status": "PASS_EXACT_TARGET_PREPARATION",
+  "contract_semantic_sha256": "9cbb505b620f77b7644d482a3c1589e7f2f999004e978cc9b16c392224758948",
+  "code_sha256": "c7ab2c68421e7139d41b7845feffa207dc6c6e80dca05f032b2138a00dde7deb",
+  "registry_sha256": "e0c62ae81248eb7640b90f6f303f1584c0388a2d7992495f420fd681a90b861c",
+  "canonical_samples": 4352,
+  "parents": 4345,
+  "bilateral_samples": 14,
+  "bilateral_parents": 7,
+  "fit_samples": 3479,
+  "val_samples": 873,
+  "evidence_null_cells": 9,
+  "outside_cache_records": [
+    {
+      "record_key": "1.2.826.0.1.3680043.8.498.45865541491386404818767748310365919685",
+      "case_id": "T0937",
+      "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+    },
+    {
+      "record_key": "1.2.826.0.1.3680043.8.498.18680059761479598675335345641208680006",
+      "case_id": "T3013",
+      "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+    },
+    {
+      "record_key": "1.2.826.0.1.3680043.8.498.57836524675365700674244122764523161699",
+      "case_id": "T3439",
+      "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+    },
+    {
+      "record_key": "1.2.826.0.1.3680043.8.498.11295899132697862632905938037090529644",
+      "case_id": "T3525",
+      "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+    }
+  ],
+  "outputs": {
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/VM_MAIN.csv": "7c88dadc9037641f0a50ab735a9f0d2cdece60a1415e2984059702c333f19a21",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/E_MAIN.csv": "1179ccebcbb0206dd140f1b216b9ce8ba1357c54031c00dff2a7faf3645ac313",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/MEAN_MAIN.csv": "3b242b684703d5c59d0270d9160638fb7c858c03a72aade3f8a0c8ecca7a9a21",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/EVIDENCE_MAPPING.csv": "27d4e1c7359954130a0f88c3535100e806dfcc0480c3bd3f2757c4349fef2e2c",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/NULL_CELLS.json": "f0cb9493c7f45799471be5baf36ce6201fc4ca71d304677cbd71b88ac58e2c26",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/OUTSIDE_CANONICAL_CACHE.json": "4324888ac90611ef67008067f7384f935fba90a7bcf93d9bcfed6b20aeae2ac8",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/BASE_FRAME.csv": "a4f785453aa43574acef2dca03fe1f69c4d57e7f567757a590dae422c65e867b"
+  },
+  "metadata_sources": {
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s00_v1_20260915T0125Z/global_aux60_v83_train_s00/TRAIN_LABELS.csv": "64083d6b50af42158ec602c987db3a73be137d3333781950910fa3bb98491df0",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s01_v1_20260915T0132Z/global_aux60_v83_train_s01/TRAIN_LABELS.csv": "fd8e43d2f9cdac3e4c991c0cad2205e3d7bc07fdd2b92404e588b9f51719c84e",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s02_v1_20260915T0144Z/global_aux60_v83_train_s02/TRAIN_LABELS.csv": "0593948925aa320ad14491c8bb33eb844830f82e508ac9d1dfca540665c913e6",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s03_v1_20260915T0150Z/global_aux60_v83_train_s03/TRAIN_LABELS.csv": "e47d2a438fb01021ee58b9094271513a4b73ce373bb579dcdd5e95975eb23602",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s04_v1_20260915T0202Z/global_aux60_v83_train_s04/TRAIN_LABELS.csv": "d6eb4d46728a5174b4da7dab7b71b98c7d7c6b45eb9146a8b57d832cf3b4417c",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s05_v1_20260915T0156Z/global_aux60_v83_train_s05/TRAIN_LABELS.csv": "e52ff3f935fe25fd61da0b9b2e92c5428dcbf041483a9ac65bfca873a816236c",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s06_v1_20260915T0202Z/global_aux60_v83_train_s06/TRAIN_LABELS.csv": "09b3cf0a71d49cbc5193051b69d47263590fd476aa6d37e2fb7073298bcea4ce",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s07_v1_20260915T0214Z/global_aux60_v83_train_s07/TRAIN_LABELS.csv": "e682a6395604a183f6c583ad9df18a82426705aa7a9bef62f997fc61f11f9af5",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s08_v1_20260915T0214Z/global_aux60_v83_train_s08/TRAIN_LABELS.csv": "3ef3179dc1ca959579ac8ad2f6636a1d1fe3ef457d285082c659b83b10c84b03",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s09_v1_20260915T0230Z/global_aux60_v83_train_s09/TRAIN_LABELS.csv": "6dc54c0b43d08828e872c7e7efcc82864ef85522bb5d78d6cb6aa19629d0d06f",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s10_v1_20260915T0240Z/global_aux60_v83_train_s10/TRAIN_LABELS.csv": "f2b214ba65f2b7c998022d16087b4ef213178cd88e3448a1ec0bae9546177ba6",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s11_v1_20260915T0240Z/global_aux60_v83_train_s11/TRAIN_LABELS.csv": "6301211e9e641da14cef2f24aa5e184e678be473866ac8e675705154873dfc11",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s12_v1_20260915T0240Z/global_aux60_v83_train_s12/TRAIN_LABELS.csv": "a6be99ec22c9a9eb3423c34bf0a7da792063b371817e830d731eaa99e67996b1",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s13_v1_20260915T0250Z/global_aux60_v83_train_s13/TRAIN_LABELS.csv": "0540eda514b109a04153f3d1725593a17c819f0321a5a08a92212c56feb10878",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s14_v1_20260915T0300Z/global_aux60_v83_train_s14/TRAIN_LABELS.csv": "b8f3c8ca311716ae30de06c058853b882270b6189ced24e3e863c3856505e6f3",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/rsna-v83-big-train-20260915/kaggle_cache_preparation/readback/global_s15_v1_20260915T0314Z/global_aux60_v83_train_s15/TRAIN_LABELS.csv": "2c9cbf6e47d4f64459e64ab7be1c090b45667e5d55c5564758e1a769419b6597"
+  },
+  "boundary": "VM20 IDs/folds/masks/confidence/aux retained. Exact Evidence probabilities; arithmetic label mean; nine nulls masked. Four extra web rows preserved but excluded from unchanged cache. No model fitting/scoring."
+}

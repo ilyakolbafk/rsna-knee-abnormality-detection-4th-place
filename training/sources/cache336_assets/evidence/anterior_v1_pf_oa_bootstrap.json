@@ -1,0 +1,20 @@
+{
+  "status": "PASS_EVALUATION",
+  "target": "PF OA",
+  "blend": "rank(0.70 AUX60 + 0.30 anterior_v1_R5)",
+  "rows": 841,
+  "groups": 815,
+  "baseline_auc": 0.8613174882629108,
+  "blend_auc": 0.869900234741784,
+  "delta": 0.008582746478873249,
+  "ci95": [
+    0.0020233389198569957,
+    0.01533800654179445
+  ],
+  "bootstrap_valid": 10000,
+  "bootstrap_seed": 20260913,
+  "label_mask": "Core5 mask=1, confidence>=0.5, y!=0.5",
+  "prediction_sha256": "fd841f684a4bf0d15d9c269e01f5d90d5880becf54b1bdfd86d2c4d21e89d205",
+  "reference_sha256": "fa304b6b00edc485a2e887fdf89f4b7c03b401d75a71e823c63067d1cb2efa4a",
+  "interpretation": "paired report_group bootstrap; descriptive fold-3 development evidence"
+}

@@ -1,0 +1,1719 @@
+{
+  "files": [
+    {
+      "path": "EXPECTED_RSNA_SAMPLES.json",
+      "bytes": 318288,
+      "sha256": "4e8c30edeed8517ce8b3aafaabf0048ed55d73b2e00d3ef9e7ec55c2c8cb648e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2320,
+      "sha256": "ad8e898982bc924f241b5d2d76e99568606b72f82b6b1caab088ee594e281579"
+    },
+    {
+      "path": "RSNA_SAMPLE_MAPPING.csv",
+      "bytes": 1654240,
+      "sha256": "85eafc25ecb43696bb1f2cec9d97f00f72aff0bdf0d6867c5ca373e69239104a"
+    },
+    {
+      "path": "RSNA_SERIES_OPERATIONS.csv",
+      "bytes": 11808785,
+      "sha256": "2f0c990749b0a132ee0f57eb004f1d10e67ee2e5a1ae9df0214e06a50460ae06"
+    },
+    {
+      "path": "bootstrap.py",
+      "bytes": 751,
+      "sha256": "28c3892a4d936eee0c49c6f70605dcacf6d2607586b119c23719c314b2100f99"
+    },
+    {
+      "path": "build_px_v4.py",
+      "bytes": 17165,
+      "sha256": "2c2ef34fdbf467aaf22e2806c707129b8586cc50fb78e86d77af1be7e2eeb0d5"
+    },
+    {
+      "path": "cache_store.py",
+      "bytes": 5343,
+      "sha256": "13fb8eb0eb898da2a4dd2469a1782ca448e7886a8ae53ad6db929322ca8f1f57"
+    },
+    {
+      "path": "metadata/gold58_series.csv",
+      "bytes": 47770,
+      "sha256": "5f4d2cae2589023b44f9c18a2c199816dd6afdb0e32a4ff0d9daa88677631387"
+    },
+    {
+      "path": "metadata/test_series.csv",
+      "bytes": 2213,
+      "sha256": "d8b0402ccd4d1383bf8b154b781e53f156a5438778fadca04fca3c64592f4f2d"
+    },
+    {
+      "path": "metadata/train_series.csv",
+      "bytes": 3458834,
+      "sha256": "573c1d80772bf41211c91b149c95677385a1c22d63f485c347f1b46c0177aef3"
+    },
+    {
+      "path": "orientation_v8_3/MANIFEST.json",
+      "bytes": 11409,
+      "sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2"
+    },
+    {
+      "path": "orientation_v8_3/ORIENTATION_RECEIPT.json",
+      "bytes": 582,
+      "sha256": "8fe26c58547ebd3858660996dc7b91c6ed3a87461496e2054d6891ecabd7b376"
+    },
+    {
+      "path": "orientation_v8_3/runtime/MANIFEST.json",
+      "bytes": 1147,
+      "sha256": "f431aa0044c3f5219810c54887e447e3a2f6d79a67baa8a920c3c29210bfadd0"
+    },
+    {
+      "path": "orientation_v8_3/runtime/base_policy.py",
+      "bytes": 2991,
+      "sha256": "dd2bd3f3c7121c829af6295b5bdfda462e24e8e63956d7a65a4176194fb70038"
+    },
+    {
+      "path": "orientation_v8_3/runtime/base_runtime.py",
+      "bytes": 9002,
+      "sha256": "fbcd9d25f83c0818d46091e24630ebad3ef5bd483b297d2c4b045c348fe1ac20"
+    },
+    {
+      "path": "orientation_v8_3/runtime/canonical_inputs.py",
+      "bytes": 8996,
+      "sha256": "7ac7e10384adeb82b208d7d5f6188c9707776b12cd882cfce89c3ed1fbf4babe"
+    },
+    {
+      "path": "orientation_v8_3/runtime/depth.pt",
+      "bytes": 6347109,
+      "sha256": "ab3376ae3e49df38ed143a0f99cb6445b65eba88cd06b73f33ae1cce8a461712"
+    },
+    {
+      "path": "orientation_v8_3/runtime/h1_adapter.py",
+      "bytes": 2141,
+      "sha256": "37ce9bd03ee52315b6a647ab1fec26dda231d779a0ba64c0c54ecdd63d127915"
+    },
+    {
+      "path": "orientation_v8_3/runtime/h1_base.py",
+      "bytes": 12011,
+      "sha256": "8b3aa358835fe6728519131022b14f99b4c85e66c29c810bd80b5745ef954b65"
+    },
+    {
+      "path": "orientation_v8_3/runtime/policy_v8.py",
+      "bytes": 6646,
+      "sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9"
+    },
+    {
+      "path": "orientation_v8_3/runtime/pose.pt",
+      "bytes": 2126100,
+      "sha256": "82c1ee56e5accaa3b284154e0ccbc346f8fff7f9ec87ed1752b55b324afa9ea0"
+    },
+    {
+      "path": "orientation_v8_3/runtime/raw_inputs.py",
+      "bytes": 9087,
+      "sha256": "2df5839e6dd6683d23012fa116e0f3b61e05e9a669fffcfc6a0216ddbd013060"
+    },
+    {
+      "path": "orientation_v8_3/runtime/resolver.py",
+      "bytes": 2324,
+      "sha256": "77a1c111bf9583ff00f4d328f5c3a52e52ff5e8c2c07c6945ea65c07105cb1a1"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/__init__.py",
+      "bytes": 150,
+      "sha256": "4e7afbc89fd6eef3e36bc39424d990d7aeb42d89d737af1a617415babb83307d"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/acquisition_features.py",
+      "bytes": 13147,
+      "sha256": "c254f16f054500f0cc375455a8b003db45ddbbf420018d08738592852245efe4"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/adjudication_postfreeze.py",
+      "bytes": 5956,
+      "sha256": "558d112be08a1c963bd04a2160876572afe24887db36ec71e73b6aeb63e5e60d"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/adjudication_validation.py",
+      "bytes": 10008,
+      "sha256": "5cb8ddd5669f332a7dd17b41670eab989e776bec561e8ed673ec16e5c918956e"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/anatomical_laterality.py",
+      "bytes": 6063,
+      "sha256": "f2a3e7739c52c424b807f00939a92851fa0d7bab40616450915bb86e574fcbd3"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/anatomy_roi.py",
+      "bytes": 9873,
+      "sha256": "cd724773c0e75cb8d3ba711378e8d0c2eb3e8eb9c91837577e3ccbb9fb4d4384"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/aux_qwen.py",
+      "bytes": 13213,
+      "sha256": "d9dbb742f2fa4183546da852ac135b32fd7582e97ebf253a399b964b1eb25bff"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/aux_qwen_audit.py",
+      "bytes": 10635,
+      "sha256": "e089c50fe99c340c8ea06a28d0a0e88afcbd2b7bd3c692660c2962d7a8267095"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/aux_targets.py",
+      "bytes": 16836,
+      "sha256": "139e30733b159adc07abc13b79b52f1123e0a88cce4a3758423cde03d13dbea4"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/batch_inputs.py",
+      "bytes": 299,
+      "sha256": "b4ab7cd2e90cec20ecf4bbde01d57c2604c32ae445dad878213670935dddd780"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/cache.py",
+      "bytes": 7746,
+      "sha256": "99467e7aef463a35a392564a2dfedec1eca4b12140ed100ab33c8241d190f8eb"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/canonical_inputs.py",
+      "bytes": 8996,
+      "sha256": "7ac7e10384adeb82b208d7d5f6188c9707776b12cd882cfce89c3ed1fbf4babe"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/cautious_label_policies.py",
+      "bytes": 12096,
+      "sha256": "03a8c81499bbaf6042cc8fa322456618c91256b00d6d2fc0c710dcd7487dfdc7"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/centering_manifest.py",
+      "bytes": 18557,
+      "sha256": "b1fe83be569f7206582af23559a574a5b3b0998196571e016012b9e320499d8a"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/central_sampling.py",
+      "bytes": 8086,
+      "sha256": "f8434a31cf24d9d27b03704c3f1b1bbe80d53d93b8b7f26cdca2157decb33214"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/cli.py",
+      "bytes": 37704,
+      "sha256": "410162a7c3e73ace2f4c11bc4edbf1952b9c888a27ba9e1a01d28807e6a7dff7"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/coatnet_v5.py",
+      "bytes": 19116,
+      "sha256": "ce601b2e5aae7f4771d64faa0d82f598e4ade9a80b946a07d24c747a6d7a29ed"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/compartment_inputs.py",
+      "bytes": 8744,
+      "sha256": "d4219d8bce5c5df8a977f836f0adfdd2ea6e9e9fd3cb0fdb6f2b5119b1044093"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/compartment_locator_v2.py",
+      "bytes": 11571,
+      "sha256": "41a6cf21a7947aba2b3b096c318c894b8f5e1be76570871358edec870f2bf21c"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/config.py",
+      "bytes": 8908,
+      "sha256": "ea29530b51955bfe773869f8c9888ed22aeecc5fc314eb94202e4bae48b9af17"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/consensus.py",
+      "bytes": 12269,
+      "sha256": "e5c41bb908a138bc138e4bfbf35c64c7d7a1f1211fde3a0b44ebea1fbf33bac7"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/constants.py",
+      "bytes": 480,
+      "sha256": "1a29c2e22497a4d91ed2f2a6a45c4a55f7ff47a85564cab6e3e887b30b9bcd8e"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/data_rng.py",
+      "bytes": 1815,
+      "sha256": "e28e6225419b71bb880b250695e62055c90c152e02587d323b36f8fa7c481e66"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/dataset.py",
+      "bytes": 8100,
+      "sha256": "6866070b6805063d281a7feb7cc382bf6934987f735dbab1796c2537b6dad226"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/dicom.py",
+      "bytes": 9912,
+      "sha256": "8ad3b8ba94892e1be1307e9642c01c63151baf68ff1051b816662c87d0cbac3d"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/dicom_headers.py",
+      "bytes": 15519,
+      "sha256": "824e0af71798e947c084bc3b5efe52ed02d142737fa49bcdaf16b5d2dddd50a8"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/epoch_stop.py",
+      "bytes": 1305,
+      "sha256": "949f1a2e270da7b9f029e5be3eafc6aa6039c76c75d6b5c42f1626b78a5cdecd"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/experiment_gate.py",
+      "bytes": 13328,
+      "sha256": "94cf1dabbe96b190b24117e5d5d0ae86ec6e0a948402983d8336dfe150da6ec0"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/feature_oof.py",
+      "bytes": 30108,
+      "sha256": "aff45410dd2317a43f3075083dca5a5855592a0ff8f01864c527654c3cc810d5"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/foldfit_orthographic_features.py",
+      "bytes": 19803,
+      "sha256": "4f6fe7a8fa652353c58facc71f90c8457175ca3f82b3be5bc667950de477f3e3"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/folds.py",
+      "bytes": 11620,
+      "sha256": "d99864e05646aa41f484dcbf55ac219663701d6222d1244556651a54f81f240b"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/full_source_cache.py",
+      "bytes": 7060,
+      "sha256": "1ccb568b503ee822b54cff9fb6a7fc2131e6605d9fba89c6785160e97e70d023"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/full_source_dataset.py",
+      "bytes": 7788,
+      "sha256": "37e28370ce6f237fca28b871de419bcafd63bd86a80cb3f4a2dab3eaff36ad94"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/gold58_crossfit.py",
+      "bytes": 27783,
+      "sha256": "430d90d890e77cc9cffe7ac3b2f1bfbc1e174617f70f8812591ae010f9b7d54b"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/gold58_reliability.py",
+      "bytes": 15195,
+      "sha256": "931666a3e854a2ee69fa0b034b477f84a657f88eb715fda61a515b89bf0ad2eb"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/grayscale_cache.py",
+      "bytes": 44444,
+      "sha256": "f7072d5a63c41c0d023e8266e97d578093f597bba81a65ea9843d4d43ecef830"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/header_readback.py",
+      "bytes": 7306,
+      "sha256": "9d02f5bd749778ce57093bd1251d198705551ad57a93fb43459368faf9de51f5"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/infer.py",
+      "bytes": 3590,
+      "sha256": "8cd1d27f63d9b0d8183c0066af91b21f65477f84d14ee810eddbbdd7d9c992bc"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/input_contract.py",
+      "bytes": 928,
+      "sha256": "b6ae57ce81935f16c8517e8ef07bcf286e6a73ce5aafa39d2bf530430fd8999a"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/joint_line_locator.py",
+      "bytes": 22332,
+      "sha256": "970b983cba92fbcfd7210839622c89baa8d5f7d30b1384699d4ce843e8b8cb68"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/label_audit.py",
+      "bytes": 12714,
+      "sha256": "9e5c1378bae2b3701e922bd53f09372702024a74a558193a28845b850a414f82"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/label_risk_features_v2.py",
+      "bytes": 7125,
+      "sha256": "7808b5507ea5fc4b45a88c68ce61f9a3df0d7668694cc066d902e94ece42b08c"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/label_risk_v2.py",
+      "bytes": 33572,
+      "sha256": "f4af23848b39dfa64a50659f5b8ff3a1f6247ac0f2a8a4ae711a5697b8be2fbd"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/laterality_inference.py",
+      "bytes": 13360,
+      "sha256": "5cbc99d48e64eb73858d42329711c3a41c3da38f4f7393650064a29e2ef02111"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/laterality_scope.py",
+      "bytes": 3009,
+      "sha256": "091c721969a1405420ebf2d048832df9d2f52808e970f201b8c89751d7505384"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/laterality_v6.py",
+      "bytes": 12275,
+      "sha256": "254328fb55aafe600e0ba0dec16611c96e7b27bb8bbbfcfd381408106e82e717"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/local_diagnostics.py",
+      "bytes": 27078,
+      "sha256": "1c01aa590e37314337430ebd1b59de48d149307575dd3a349a342dcf4e0de6b2"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/metadata.py",
+      "bytes": 3941,
+      "sha256": "6d99d78ca2e16677d3c8eacf9fcab640d579fffbc2a6cf226b7bef4a769c0332"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/metrics.py",
+      "bytes": 2298,
+      "sha256": "1ad9660b8c7c792c7f23afe9d4a134b4479c2b27b9eea1e68dc1a6b336d5d430"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/model.py",
+      "bytes": 30252,
+      "sha256": "2837481fc14a2b75d4bed2d05eed2be696e896d98f9ae9616bf1c50e738f54bf"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/morphology_analysis.py",
+      "bytes": 26258,
+      "sha256": "826dc45d44fc6c41f05f878076de9d71a6dcc25af33717ba3d2768ff325ee6a3"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/morphology_features.py",
+      "bytes": 26914,
+      "sha256": "36a513c7e398262f3cab7fcb89f9e1363f8c94d3a8849247cb9b986f0f341ecd"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/morphology_stats.py",
+      "bytes": 18869,
+      "sha256": "f0490bcaeffca28209e3db0ffed76a8c5c869a7f79540c5329ce19e9c8538212"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/native64_cycle.py",
+      "bytes": 8993,
+      "sha256": "501e9fbc3c3f926f32e0ac6cbfccacbc290e654b7011bc163e7219eb11d2f1e0"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/native64_raw.py",
+      "bytes": 7236,
+      "sha256": "870634f165341add019f697a8b0473b3327661ff0c5d53d0df5a7325ced965f5"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/native_neighbor_bank.py",
+      "bytes": 43682,
+      "sha256": "0a531d33f4db03345b0823b3a5a44cc24b0d08ecf0cd12f74d2ad39484a085a6"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/oof.py",
+      "bytes": 10873,
+      "sha256": "62006043bfaad341d3bffcb86d4b3da48d5a741f73e047e0def3b329ba45f547"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/oof_comparison.py",
+      "bytes": 4467,
+      "sha256": "783104cc80fb313ce8c758648ff7b4b886daac48f71c2cea1d05443c54232b93"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/pilot.py",
+      "bytes": 10234,
+      "sha256": "3d9d6d37efaf3fb61fa1ac82010bac1de23b2122113cd0ccef06f315f21fb503"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/policy_oof.py",
+      "bytes": 24772,
+      "sha256": "5cfc479ccb4284458f216c70faf503d8f2bfb8407db468f3df4ce11f6046299f"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/proxy_associations.py",
+      "bytes": 27222,
+      "sha256": "72c6a1cf859d6c8579c4d54e2df8e33f87f9950eb2ec78c73d2ad3c58eaac600"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/pseudo_oof.py",
+      "bytes": 14166,
+      "sha256": "4a7e1d616fb83fc2506ac454c4842c513ddb36e2b289a69d0871316eb5ed83ae"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/regularized_cycle.py",
+      "bytes": 3853,
+      "sha256": "36a0c92e80ab8912e34dbbd94c1fa7c88ee83bd4233e07295247bc9a80f31df2"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/remote_zip.py",
+      "bytes": 18679,
+      "sha256": "7b5e0d62d1832dc7a3ed733cc2e397d8ffe24b8ac8d842c170bda84bb449c2a8"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_complete_panel.py",
+      "bytes": 10597,
+      "sha256": "295ac1645aa983e61aa454ee04286ade8b3a7e1c5b1e9f8f7d5b9e1e1c062e45"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_evaluation.py",
+      "bytes": 20106,
+      "sha256": "2be0533564041d6b6cc612f8cb3a53ffbef198077b7034600c8a898316376b3d"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_features.py",
+      "bytes": 29123,
+      "sha256": "ae05d2bb95802d19ef891565411b837f04cf6b035c801b07d5c79bad2b109c7b"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_finalizer.py",
+      "bytes": 26915,
+      "sha256": "114696ec9dea4df6d67b0f132fe3c5e3b8d8fd0aa3c6417e542a86cd63154edd"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_freeze_manifest.py",
+      "bytes": 19733,
+      "sha256": "10c6109cf2241605010c4778c7c8d4eb10ba7911266483c90075a2d2fcfccf7f"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_gold_gate.py",
+      "bytes": 53843,
+      "sha256": "abb0ed0e0868ef6e5b04a05dc119644065f6761d980b5d6b7436a133d6ccce9a"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_inputs.py",
+      "bytes": 42812,
+      "sha256": "93d364ea770f6a835751fb88c29844ce86460da55099c765dc7b66a8d61b4583"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_lopo.py",
+      "bytes": 32311,
+      "sha256": "46657e7085b21923910bfbecc12cb8c7108d1f9e5b50fa3191fc746e9f2535e8"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_panel.py",
+      "bytes": 11974,
+      "sha256": "842446f46831bc735faeb99d3c66d996ec9b70cb72f9eb45c518cb97d9284e98"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_post_oof.py",
+      "bytes": 21003,
+      "sha256": "ea2b1adee28e185391ff8ad81ccac5f081f46418edeb7fb45301c6aec44571a7"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_postfreeze_gold.py",
+      "bytes": 19442,
+      "sha256": "ed04fdab4fc72a26a11108db66930eb643aa09acf71410be14afeea475d5d7b4"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_segment_gate.py",
+      "bytes": 39691,
+      "sha256": "f2cd44e04e8a0ed571b7ab73da2c6a190734c19c3b5cf3441ce8e83052ee0cde"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_segments.py",
+      "bytes": 20610,
+      "sha256": "f4145f89e97b8e1fff5128f30330bda650ebf1bc197b8d76b4cdf8dd95f634d8"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_stats.py",
+      "bytes": 109078,
+      "sha256": "75c7db428a55a997668ac5cbdab3fbefffebe6e02a9ea171caccabb921e685c8"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_reliability_token_exact.py",
+      "bytes": 12777,
+      "sha256": "433fbd753ebcb5c5714de421237ceaf76150ef01c932a81d6f666d625a32eb63"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_rules.py",
+      "bytes": 44720,
+      "sha256": "3c8215311c9f5a2351f35bb1e29e82b826aeea63aba720c7fc78a0038ba6b47a"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/report_teacher.py",
+      "bytes": 8626,
+      "sha256": "0e0a7fb23738e9ad8813aa2e2ed05844d9a0034ad1ebf89dff9d6b8854a2ea26"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/reports.py",
+      "bytes": 3737,
+      "sha256": "b3cc79ab0c6c407f5ca27c3e3f240e24ed05dac65f059fb59ffa4c87f10014b0"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/residual_oof.py",
+      "bytes": 23750,
+      "sha256": "4902626a6670da85d87175126a943f054e0176ea090eb615b278cc0198f1bb66"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/screen_analysis.py",
+      "bytes": 26085,
+      "sha256": "0b92a987a2ed01dc3e3a714a644d0df0637578f946a056163a39f5f916aab0a4"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/screen_queue.py",
+      "bytes": 12913,
+      "sha256": "8ff06b6b150e8632a572811ad0dfb78378490b412aec99645bbcad68bfa12262"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/sharded_dataset.py",
+      "bytes": 10822,
+      "sha256": "ed5f93f48366007fa10d72ee9273d4c0a104bdea62928c1b4bfc53d4c3795f87"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/smoke.py",
+      "bytes": 8635,
+      "sha256": "7d5728f0c5c074f432a6a29d4d7c0c8a746b48cd81ca638257a2d166f878ce33"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/source_clusters.py",
+      "bytes": 47467,
+      "sha256": "76cd05e45daa2e620968ffe0f5cbefaea434fc14495a320c7a130bfe87a4afdd"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/study_centering.py",
+      "bytes": 45513,
+      "sha256": "07bec242359d1592bf8b426ea86f68e820cd5a87937f5090bc8d3998175dca90"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/study_laterality.py",
+      "bytes": 6745,
+      "sha256": "e75fc1a88dd1efadf554da95161b6d27e7d7e322bedb2a5cf9baab3da501373b"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/train.py",
+      "bytes": 46949,
+      "sha256": "2c91e231a659ce7547bc467f3af3f3ecc7c88e463cdb72659ff6b2101a1e75d3"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/train_score_reducer.py",
+      "bytes": 73868,
+      "sha256": "537b675f903f5121bbe5f28624700fe13ed8ce74fa3e8648787eeed51a9ad98e"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/training_state.py",
+      "bytes": 8694,
+      "sha256": "7516bfd33efea036cbfe29c30b96a3afa2f8b62918cfadc01eeb72eac5fb09f5"
+    },
+    {
+      "path": "orientation_v8_3/runtime/rsna_knee/weak_labels.py",
+      "bytes": 13068,
+      "sha256": "530ac6aa4491d4be08b825039dfbd281445451fa9d20d106d5f3c913664f3098"
+    },
+    {
+      "path": "orientation_v8_3/runtime/sagittal.pt",
+      "bytes": 3174396,
+      "sha256": "6c32fab5e9652798cedaa64e613c28dcb7b2714118b5ff14454fd6c980d26fbf"
+    },
+    {
+      "path": "orientation_v8_3/runtime/side.pt",
+      "bytes": 97511347,
+      "sha256": "06601edd36da332be55c723639549ea4525551ab38a053de20b5799c6ee81e5d"
+    },
+    {
+      "path": "qa_cache.py",
+      "bytes": 2858,
+      "sha256": "19ea1b0e1f5457d7a0a5a8643c3455bb45ed10d5fe8613b2e763a63b764346e6"
+    },
+    {
+      "path": "reference/compact_train.py",
+      "bytes": 230308,
+      "sha256": "04df7e2e154b2c2521696908f272940c63ce17e9b6337b85847fee64504eeaba"
+    },
+    {
+      "path": "reference/knee_anchor_bank_v2.py",
+      "bytes": 14529,
+      "sha256": "e564807a129dfcd3c984348917436ee6083066a4d685340587ebd1d3ea14f309"
+    },
+    {
+      "path": "reference/px_cache.py",
+      "bytes": 20263,
+      "sha256": "b13e38a7ad3bd496f8027e02209653e224b0926db4f0853eeb0d076a2d6e2632"
+    },
+    {
+      "path": "reference/side_common.py",
+      "bytes": 1571,
+      "sha256": "bbcc5d027834e6a6fd48c4a8cf228e25661b7522c792587c840fe4d7cd5c0566"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 198,
+      "sha256": "8c9ab5150fcb34a1fc431961b2e913678d228b66b49b5051db58401ebf9481af"
+    },
+    {
+      "path": "runtime_core.py",
+      "bytes": 5545,
+      "sha256": "3981354b6977d248fd35b11696453d38a83d9de83e4cf0bf06c581185ac95d9d"
+    },
+    {
+      "path": "support.py",
+      "bytes": 2238,
+      "sha256": "beab1d5e0f859589a41dc3711f8c67daae6aafaca01ef64129dd9cc9e2883d8e"
+    },
+    {
+      "path": "test_runtime.py",
+      "bytes": 4050,
+      "sha256": "339328d8bf07a0fef69f3764ea553fe3577cbd4bfb7c329cd8b10d2ccd1b9db2"
+    },
+    {
+      "path": "vendor/mainline/training/__init__.py",
+      "bytes": 51,
+      "sha256": "f7cebdc73ea1c77f2873b99a084450dee178c38ab0e8b2daaa7dfea7144aba29"
+    },
+    {
+      "path": "vendor/mainline/training/anatomy.py",
+      "bytes": 24016,
+      "sha256": "fb471164a703c03d23fbd4e82ada9d4580c56e69c27578d6ce9db9e35ef6dd13"
+    },
+    {
+      "path": "vendor/mainline/training/anatomy_contract.py",
+      "bytes": 3460,
+      "sha256": "e84b197df66eb1c7589e4a655bd6feef25a644ac64b2ebf0698178452699c5f9"
+    },
+    {
+      "path": "vendor/mainline/training/anatomy_runtime.py",
+      "bytes": 10264,
+      "sha256": "d12609a3a47270f8292b8b4276e0379c482a44afdbe2f91b2b924399b753716e"
+    },
+    {
+      "path": "vendor/mainline/training/common.py",
+      "bytes": 2004,
+      "sha256": "8283fa1f8e7ef8cfacbba52df1715636be3c9ad688e39912814e7d5bcf57105f"
+    },
+    {
+      "path": "vendor/mainline/training/coronal_views.py",
+      "bytes": 2788,
+      "sha256": "841f216d2682ae2c0f8afd82fc902b9fa74924d7145b952069dea8b0bbd03c40"
+    },
+    {
+      "path": "vendor/mainline/training/dicom_geometry.py",
+      "bytes": 43287,
+      "sha256": "12aa501f9704aef15b7a3bbd560951acb6d95b89b7de0141d6cf89fc3f051ab1"
+    },
+    {
+      "path": "vendor/mainline/training/exact_duplicates.py",
+      "bytes": 9587,
+      "sha256": "51b38db21ce9c5fe2b6278a835983414756b61ac6af81aba380b44b41b075897"
+    },
+    {
+      "path": "vendor/mainline/training/geometry_bank.py",
+      "bytes": 8136,
+      "sha256": "804df5fa4a0705592b1d3cf2d20dae79b48d46ea5cc5e86c2a31cc7fa1b9c648"
+    },
+    {
+      "path": "vendor/mainline/training/geometry_runtime.py",
+      "bytes": 2585,
+      "sha256": "3b5e9da70ea4012e778f57f0bd7d58c526aa10a886ea523df7abe622b5184a16"
+    },
+    {
+      "path": "vendor/mainline/training/input_provenance.py",
+      "bytes": 8161,
+      "sha256": "b3a22500c7f976f6ee040239ada5cacecf2326861cb49af1c7d8cfdeeb55fcda"
+    },
+    {
+      "path": "vendor/mainline/training/intensity_mapping.py",
+      "bytes": 2869,
+      "sha256": "19be2d8cbd6f8971c1288d7512a8cca41d143470c2ba6e9b9096fde035fa9d41"
+    },
+    {
+      "path": "vendor/mainline/training/native_cache.py",
+      "bytes": 9028,
+      "sha256": "c53ce8985406b3b918d9e821d43518479e89d9f946daebd817f378e3949718b9"
+    },
+    {
+      "path": "vendor/mainline/training/native_data.py",
+      "bytes": 24408,
+      "sha256": "f59afe205c8e193369fa3ccd22edcce8df3b293205fc48ddb1dd45169ee43b36"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/__init__.py",
+      "bytes": 2005,
+      "sha256": "75ad9863ffb185e880939a283d9096b80c61e9b3e7a3082e12f01d53298713a7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/__init__.py",
+      "bytes": 614,
+      "sha256": "7e7445c49f6e17edd75884a2f66cc83da768a9d2f9985fe07916856e7811ff16"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/gmm/gmm.cpp",
+      "bytes": 3119,
+      "sha256": "67c485fb69ba4f680559814a71bedaef56d8a322949d7ff1a1e66cb18fe71052"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/gmm/gmm.h",
+      "bytes": 1677,
+      "sha256": "e1b3adeb50f69bc7485c8f3cf57aa9d2a982a0565f2044d2b7471e6c14cdc38d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/gmm/gmm_cpu.cpp",
+      "bytes": 1084,
+      "sha256": "f2a01ac5cb22e1578f86c4900981bcc452d668afe73a682f8dce25c852d880e7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/gmm/gmm_cuda.cu",
+      "bytes": 17582,
+      "sha256": "5e26a2c67c8c4b4fbb99a8a193f789a2c8b0e1c3958c56fc4c9df224281302d1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/gmm/gmm_cuda_linalg.cuh",
+      "bytes": 4133,
+      "sha256": "598801d9a3021435196d86893c4325a9c3fecdba7b9fae5278d31a8b851dc22d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_extensions/loader.py",
+      "bytes": 3606,
+      "sha256": "0af3e7c1cfcdf2c96e5fcff937624abe46dad2dffd408eaa9ff5245b265ed629"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/_version.py",
+      "bytes": 497,
+      "sha256": "04320e2e272625cec1529f3d49044c47aad7f11cef41cc17c9a887965b8d44b7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/__init__.py",
+      "bytes": 825,
+      "sha256": "ade0e360c7ecf3fa3969749a17489cf608614bb95dd3e9f5a853232dc1c844f5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/datasets.py",
+      "bytes": 16904,
+      "sha256": "b73f05453a58692f9aa69f6faba129b905a2ed6b1c276961756b76ebbe33dac5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/deepgrow/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/deepgrow/dataset.py",
+      "bytes": 10161,
+      "sha256": "ddf80f73af830ed7365070ab6fcc6efe342a6e7f5c14243221caabec112fdc20"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/deepgrow/interaction.py",
+      "bytes": 3584,
+      "sha256": "5ce548bd33c4b19ea2cd11f2eea9ccd44e51e0efafbaac2ac88863b39b54e400"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/deepgrow/transforms.py",
+      "bytes": 40931,
+      "sha256": "9222dcc8b03baa7aaf9850225a4bfd6e79854313fdcc6ad61d8f4d89d4c99cb1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/mmars/__init__.py",
+      "bytes": 698,
+      "sha256": "035551a061de285c361dc6bb3e967959abd69479e595d859cb3ac3f4d854bb0d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/mmars/mmars.py",
+      "bytes": 11843,
+      "sha256": "8f85cb937fb984b4f3fa6d8a74bbfb7ef1275fe2a92494428ce1ac0470a60746"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/mmars/model_desc.py",
+      "bytes": 8510,
+      "sha256": "58be6095c18a137207d258d2c0dca6e4582601933a02ee3d9358d08edb8e5047"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/pathology/__init__.py",
+      "bytes": 831,
+      "sha256": "39ac0f6f596e673a391587e3d8103d37caa00a47162896e48e04ac98ba63aaf3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/pathology/datasets.py",
+      "bytes": 13723,
+      "sha256": "fee2ddd0effbefa40393a64285beb19295980f079a7191b6fbf8fc7bd83750b6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/pathology/handlers.py",
+      "bytes": 4390,
+      "sha256": "6340eec235e7d9610d0687b22509b6d0c241690ec27c34a9e2fc21b56b4502f2"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/pathology/metrics.py",
+      "bytes": 7253,
+      "sha256": "a12a3db21159d083ece7c7b72c89d89b4fa8fc7e483d21c1ecefda4c28150c57"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/pathology/utils.py",
+      "bytes": 2934,
+      "sha256": "d3901ff1790736eb12342215e09139316f97fc9ca9da36f198cc277f013023cf"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/apps/utils.py",
+      "bytes": 11183,
+      "sha256": "6a0f84a2d0d2d34d80c836874fec501ee5ba41082a83e20e578c637006e7b6eb"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/config/__init__.py",
+      "bytes": 869,
+      "sha256": "3180168d226e1a00cade49a234ef3fa218aed5f83fff4807136bbde3b19ffc8e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/config/deviceconfig.py",
+      "bytes": 9756,
+      "sha256": "5be45768185ea761ee159e62b6928993e323f3acd8d02bff51b2a3a8e8325504"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/config/type_definitions.py",
+      "bytes": 2986,
+      "sha256": "a0c2bd310b0f086fc83e4def507fba5464a4c5066bf72d518edebffc358a85fd"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/__init__.py",
+      "bytes": 2265,
+      "sha256": "70a36aa57940966f43ab09d080bfa91353e07fa036336c48c703ea61386edca3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/csv_saver.py",
+      "bytes": 4624,
+      "sha256": "95dfa7090eced618488fb3ce4a7353c9b282a1fcb620005eef4f2ad2f7c141f5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/dataloader.py",
+      "bytes": 3558,
+      "sha256": "74a3c67d360c356bfc32229b40f495ff8bf3ca3a590c56b46821a8633c45c6ba"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/dataset.py",
+      "bytes": 51739,
+      "sha256": "79469ca06e07c448ca6cb6a58d568e842ca7a7e06ee20772d455ae4d181f8611"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/decathlon_datalist.py",
+      "bytes": 5786,
+      "sha256": "6a501aff864a4642e7f915c262ab5e625ec749df47cfa19ccc0ae1e3265951ce"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/grid_dataset.py",
+      "bytes": 9858,
+      "sha256": "da5080b9c4604e545a00ca07247ff9ed438d1729d64dc485e774e219857b001e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/image_dataset.py",
+      "bytes": 6641,
+      "sha256": "693fda0d93050f7655d46d10d4b10abae20c37eca2ee350207e86ba4ddbf6f86"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/image_reader.py",
+      "bytes": 32309,
+      "sha256": "b8299f1c3eb61f27d96172606fae21effe102fc6ec211d0ce428d9dc531eeda0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/iterable_dataset.py",
+      "bytes": 6432,
+      "sha256": "59b472a18115c0730833322c6067ccbc1cf7799a35c47e9d51596959112eb3d3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/nifti_saver.py",
+      "bytes": 9144,
+      "sha256": "0a949f00f5083c25d4195e3d9cf750aa11e6b3ed455527328a0fed2d5393da3c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/nifti_writer.py",
+      "bytes": 8473,
+      "sha256": "290d7ad0529037f0f63ab2e283bdafd333997c073b09bd16c115fd62c4d82451"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/png_saver.py",
+      "bytes": 6280,
+      "sha256": "a14ff78358654333c3d061ad1ecc56d76b2fa653171f852ca68c71106783f65f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/png_writer.py",
+      "bytes": 3746,
+      "sha256": "30767c125cc87a569213bc11cd989599e5c74c553d23ba8ffbfc0e6f056422d9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/samplers.py",
+      "bytes": 5111,
+      "sha256": "a6b41b5b9ead3859b477edec60365fbfba67a0736ee0c35960ba06913efd3c08"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/synthetic.py",
+      "bytes": 5918,
+      "sha256": "24d384ae6a9b644513e4343473a88976a853d124f0879876931df599948a1156"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/test_time_augmentation.py",
+      "bytes": 9872,
+      "sha256": "f747c57a347db7f0af8ce6b15b2af24ff22a11bd7c2e77465cd63e0ef6f9a428"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/thread_buffer.py",
+      "bytes": 3753,
+      "sha256": "fa93b9279f7b58fc019a1127fffa779a93a27e880a25ee4b871e163aacc830a9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/data/utils.py",
+      "bytes": 45188,
+      "sha256": "cad687e3a970ea232e3d2d2727bb9aca32b625aa9294d155b1bc1949c4fc4507"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/__init__.py",
+      "bytes": 1016,
+      "sha256": "d48d2d85a753ff98328e50e8ec5cea28bbfc16b5edac14031b1c5e62c35fc3c1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/evaluator.py",
+      "bytes": 20419,
+      "sha256": "814b21b6ac713575156761aa77aee9027e9ea69624373a6d4392c449de1d9179"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/multi_gpu_supervised_trainer.py",
+      "bytes": 6152,
+      "sha256": "e731a7bcebd3753117e01c87185970059af09ec4586a1ecc4d1d04f24e7e9a16"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/trainer.py",
+      "bytes": 17550,
+      "sha256": "ebd12742e715e151d7414b03ba74d5b38ff7a080673a849ed1d57b866cf458e2"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/utils.py",
+      "bytes": 6355,
+      "sha256": "85d417abb2dfcf85656576dedffd2be1a59cc0d8bff4b45a54101f82d836826b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/engines/workflow.py",
+      "bytes": 12799,
+      "sha256": "7576f0bfe967817797988c096eb8e629f04fa3bb0780b31ca0ccaf80bad52e25"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/__init__.py",
+      "bytes": 1956,
+      "sha256": "328f381525389bce4b576720fbc40ce4747c399fa39253ce310e3ea5fff52c94"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/checkpoint_loader.py",
+      "bytes": 6775,
+      "sha256": "0229f6d30994f2d90c078de7b5a34d2f7c48fc5c980ea5f9b31e4006196c02b3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/checkpoint_saver.py",
+      "bytes": 14921,
+      "sha256": "4abbfb3c1a7a6b13d63d3c5e06d685e18f4b91603d9cf27d1a0ec5aad3cdb039"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/classification_saver.py",
+      "bytes": 6472,
+      "sha256": "3ee026ee8b445c2b70578c542f69a8134a6be111395a7aefba169eee7d2ab580"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/confusion_matrix.py",
+      "bytes": 3205,
+      "sha256": "c5729792dcac77eec8bc212229d688839c652db870acedfd9fbdfa9d9256ac6a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/earlystop_handler.py",
+      "bytes": 4296,
+      "sha256": "1cd03d2754567c87dd9d3088762817e65243f545759126680ea8a801e5cac915"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/garbage_collector.py",
+      "bytes": 3274,
+      "sha256": "c9672c8a32900acf22f68a7dc345ac9160d56ffc2fdda44b889fe4a5e20be5dd"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/hausdorff_distance.py",
+      "bytes": 3090,
+      "sha256": "1c4c280578c8a36c45fdb1067ae2cae5d5e9df7c4e07644bf6ff845012773210"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/ignite_metric.py",
+      "bytes": 5201,
+      "sha256": "be1d3510f0700c123403e7ab04607db2100fe02e6f7b318dc1fb0f01099bd2f6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/lr_schedule_handler.py",
+      "bytes": 3511,
+      "sha256": "d686d02e10b60ba848b71f79325fd46ebc7b32201668b31db748f1a63eef9748"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/mean_dice.py",
+      "bytes": 2333,
+      "sha256": "770ff1a708709774818b4858554264f180b1340a0b7374e8dca3deeeae9ea557"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/metric_logger.py",
+      "bytes": 5062,
+      "sha256": "234f6eedd6067cac9a16420ee3c497421819fcdb222285e8dc6f73b5548fdb76"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/metrics_saver.py",
+      "bytes": 7900,
+      "sha256": "e67e1629f7a5890352cca1a0b8e775ed3d0836ab8a7263c76d73f38aa0e0f99b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/parameter_scheduler.py",
+      "bytes": 7055,
+      "sha256": "9629ca89a6c725d3f6c7f66a7231cd13c821453f46f3a9f9a6d1cf1f92b3904d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/postprocessing.py",
+      "bytes": 2414,
+      "sha256": "119f1358cd248322efdf027fe0eabba9b5f9a5fbc035ddfb7fccad01daea5dc4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/regression_metrics.py",
+      "bytes": 5308,
+      "sha256": "c7c59ce71a95f22c6522803a3c7a8286bc4db1ee6339bda1e83d12a8fccc0c68"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/roc_auc.py",
+      "bytes": 2723,
+      "sha256": "250e14033917d9a7fb43ba7e06a63a27bf42f171a5bf5ad46b2f77e6d42a1475"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/segmentation_saver.py",
+      "bytes": 8146,
+      "sha256": "725c6ed8346fe9987ee20be5e11360aa880434597b3f3cb66b6bee79928c386a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/smartcache_handler.py",
+      "bytes": 3023,
+      "sha256": "0c23199142ca1be0ab4e73d8adedca9be1e0618c056b21d8e76dd323ab737752"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/stats_handler.py",
+      "bytes": 10226,
+      "sha256": "fe8214277a573bab62a52dc416dfdf450c340fe3c7d509173b1747e894524c27"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/surface_distance.py",
+      "bytes": 2810,
+      "sha256": "65a3a0bf25e6c393dc2b1f6248b9265c11f673c595a3316bc25526afe019f74e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/tensorboard_handlers.py",
+      "bytes": 17138,
+      "sha256": "20ee81cb3e5ad66815f497b0ab33c96d03051168c456ea53199c2de44879863c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/transform_inverter.py",
+      "bytes": 8261,
+      "sha256": "d85701f95e53c8c9ede7debe1da3c1b262afe5793a4a2227b55f71062fca06fb"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/utils.py",
+      "bytes": 11846,
+      "sha256": "32db24ffff658c5f4ced492c779f14adcee274692df2fed0f9f61a40370f49e6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/handlers/validation_handler.py",
+      "bytes": 3246,
+      "sha256": "47851c46d8c9e8b70531efede7792aaa88c09a997fa091bb7f71f3a2db35e9b5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/inferers/__init__.py",
+      "bytes": 709,
+      "sha256": "cdd5464327f6a6c79683864a41fb89cdc0cbbc86b711d02372a214e3604c13e9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/inferers/inferer.py",
+      "bytes": 9332,
+      "sha256": "3926b5a47137cddfb159e54b9f84298c5010e94fd4ea79a21132a7b42c808370"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/inferers/utils.py",
+      "bytes": 8693,
+      "sha256": "8ecd4c3e4b3fd1af453df74ab5c613aacab80c01505b75bb81f694b5f59b8166"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/__init__.py",
+      "bytes": 1119,
+      "sha256": "5e763db0f4a7519824faebd0900610da0a194163d375de044b10f42d6806642b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/deform.py",
+      "bytes": 4024,
+      "sha256": "8faae089d297c8507c9c0ce48c3cfbe03fe2225dc9a4067624b7c8b032e47fbb"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/dice.py",
+      "bytes": 37690,
+      "sha256": "ee0578105b6d4eea2043aa077d43daedfb68e1f49dff232e245795391a3bf85e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/focal_loss.py",
+      "bytes": 7220,
+      "sha256": "7b41385dec04c64dbc3093c0b3f645e7b87a3163a221ca38cf4489586b45abd3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/image_dissimilarity.py",
+      "bytes": 10830,
+      "sha256": "e3596298bf8de127e4b4ea73257a3c281769c229f17569133e93b298b80673d7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/multi_scale.py",
+      "bytes": 3781,
+      "sha256": "b0e0621edf318eec1643c9b5257e3b45f92cc4cd493b0d8d41fe17fbd2e784f4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/spatial_mask.py",
+      "bytes": 2900,
+      "sha256": "7bc88e34ba9c682a2181cce3f999af5d7b6e53418e672dfc820afb22f28d5bb6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/losses/tversky.py",
+      "bytes": 6639,
+      "sha256": "44689b302d4ded175ba6e1b6aa562906b2e9574a9e4ef71a52d3e72c4389affa"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/__init__.py",
+      "bytes": 1327,
+      "sha256": "1fdb895e2dbda65cde7ebed9badaa6c186ae931371a01d9ea1409ccde33f0389"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/confusion_matrix.py",
+      "bytes": 14437,
+      "sha256": "b019685db568aea0bce2967aa4b887c8ce9986968a01c2daf4beedb8d197af4f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/froc.py",
+      "bytes": 6039,
+      "sha256": "ecd67b4ce1dc45759872c548290255b4503011ccb93168894a81e7938ebd308c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/hausdorff_distance.py",
+      "bytes": 8394,
+      "sha256": "077b04cd1d8008c1d07a1f61dfb28fccc9c6c89047f449eb1de6ccf7a9f888cf"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/meandice.py",
+      "bytes": 6136,
+      "sha256": "e2c936821ed290f9ea49e8fbaf118c2b7866068d628c9388a20230c75bdd2c03"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/metric.py",
+      "bytes": 9212,
+      "sha256": "5dc40a1a42baefb7f79d0835bbc4a10c51405102d46aa4024a2535d0604f708e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/regression.py",
+      "bytes": 9758,
+      "sha256": "b3b008bf83ef646649aed5324150ea37b3d0df37ba3b9093f9b4a7954c91957d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/rocauc.py",
+      "bytes": 6949,
+      "sha256": "9832012fd8dc8202f9890291147bae0b84ff155704b6b84730c4cd0cc4b3a89c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/surface_distance.py",
+      "bytes": 7608,
+      "sha256": "303e2f27d4ac4712c76cd5a32b081a6fef07782ba3e985f60bd757996c4a3a3b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/metrics/utils.py",
+      "bytes": 8671,
+      "sha256": "c90e5a2a4bdd36f70fbbc02909afb97a4fa51c19aa7abf2f2763499dcd6c0dad"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/__init__.py",
+      "bytes": 812,
+      "sha256": "ccf3b2fd73e38026d202816bf1a181e98b9462e892569e3ea6ec68943fabc66f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/__init__.py",
+      "bytes": 1735,
+      "sha256": "2d80cf5b1dc63f04029787b1377c3b63deafb0ffc09ed9e72375c8e12b0bdf10"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/acti_norm.py",
+      "bytes": 4331,
+      "sha256": "5388eb2ab3f2382ebd7477233a7e8d1151d232ecd1f65579c6a97dd3b1bd8611"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/activation.py",
+      "bytes": 3707,
+      "sha256": "3d0e380ede3e890ee388e623ec26b8cf543cb8008a86173da8da6be419612854"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/aspp.py",
+      "bytes": 4022,
+      "sha256": "15adc1082b7372385fb2aeb92df2845acedb17158caa665f4bd0287badb56a29"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/convolutions.py",
+      "bytes": 11695,
+      "sha256": "d8dc501c142648f14ee17f7cbcfb1d0c846a5ef491a89f1c16fcf466b8b1f64b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/crf.py",
+      "bytes": 4964,
+      "sha256": "2989c26e1b3bef18958f17e7e0ec4cf024889c7e8e07e6869ef063b59bb17516"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/downsample.py",
+      "bytes": 2432,
+      "sha256": "5db7f1f7f254daa68b24ef2971052475686ed49893a55a7be2801570570447ee"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/dynunet_block.py",
+      "bytes": 9652,
+      "sha256": "1e99f0eb7841fec0bf1579fe9b93399303b2a57e8f878e40ef21fb5d42eeb8ad"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/dynunet_block_v1.py",
+      "bytes": 5004,
+      "sha256": "96472edd5dba0f75a4a358fab413c0aea16615efa1d496e19da9170aafa885f5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/fcn.py",
+      "bytes": 9325,
+      "sha256": "d6ac0768a52d24461c5a1efa81db51fba888c3b29fe316e0cdae11796d7580ab"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/localnet_block.py",
+      "bytes": 11573,
+      "sha256": "c57b05dab88c0b16355796e0584d8af59e0861566efe5a19506895c4bd576e6e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/mlp.py",
+      "bytes": 1706,
+      "sha256": "668c573f1de030d4e15f2749ee5f2706ada8d05148fd9a6e522b19404d20252c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/patchembedding.py",
+      "bytes": 5151,
+      "sha256": "0e2cc60ad1e24d0ef502ca78863cc995a764c48683f6886c1d97afad9e92401f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/regunet_block.py",
+      "bytes": 8748,
+      "sha256": "8031fc2f08129e4150883e68253aefb5a9ac05f532ec6568487e93f2df46306b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/segresnet_block.py",
+      "bytes": 3230,
+      "sha256": "ceb60462c524bfed5e157bd624d93ddb369621be18f7625b77497af45d0ca92a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/selfattention.py",
+      "bytes": 2477,
+      "sha256": "e992dbf587d0b2957eb7e47ebd633135d00ad5b6b28f735264a0243801245fd1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/squeeze_and_excitation.py",
+      "bytes": 12910,
+      "sha256": "f4f494841572b80dea6339f592019ec4657babebccddef36f049bef0bb784a6c"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/transformerblock.py",
+      "bytes": 1963,
+      "sha256": "1c42e65db93435ed648a6bbf81bb6b641ca4a9f5a7cb59202ec05157cb7c9e2a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/unetr_block.py",
+      "bytes": 9200,
+      "sha256": "c63cbf381adc9c7f37e57e91310cdce2361de741057dfd31008949d3b5fdf903"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/upsample.py",
+      "bytes": 11271,
+      "sha256": "2c81346d3d66fd97f6b585e6a70638675630d572ce38fcd87319dc1963499ee2"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/blocks/warp.py",
+      "bytes": 6372,
+      "sha256": "65e44767ed8eaf44939b9a38b87033215ffb6934fdfbe61ef1f3d133bf78316b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/__init__.py",
+      "bytes": 1234,
+      "sha256": "d3727cf61950c34dcb066ea6cfb08d39044143720d3472c723381318c65c4921"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/convutils.py",
+      "bytes": 8408,
+      "sha256": "1f3e5e90c304b53a35053afc4caca5087e07b9da8fe4c2602af5c1d3204e20ef"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/factories.py",
+      "bytes": 11119,
+      "sha256": "b6196b589de8ce9705daf761a4f0aebdad95f72c9d98c98faa8ac3d5627b9260"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/filtering.py",
+      "bytes": 3774,
+      "sha256": "88651dc771f10419e1f65494b1d424aeccff859625931768c9598b224b6d7662"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/gmm.py",
+      "bytes": 3296,
+      "sha256": "a38f1049fd56cfcfc6ef9b88b22de9537d199becd9d554086d680940fa265acf"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/simplelayers.py",
+      "bytes": 17655,
+      "sha256": "fae4da705f88b96f9b9a7ef2788c5efa9fa0410626a0f5e3118a9d6581ca6333"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/spatial_transforms.py",
+      "bytes": 23892,
+      "sha256": "c2f5b0cdd5fa6ed051bf48580678bd64d06d2c0e9bb50a3289ea2b71929bf4bc"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/layers/utils.py",
+      "bytes": 4112,
+      "sha256": "fda41fd88933ad003f47e5a8310ef806b2d7ea0782db6f949e081be7ccc2a4b1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/__init__.py",
+      "bytes": 2364,
+      "sha256": "e050dc6ee2afc42d014acdbd568a3eaedd7a42726f380d181f431a6fb2acc368"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/ahnet.py",
+      "bytes": 22027,
+      "sha256": "de912197b948e7937968f7fed2b775b9c75024b727837e7bbfe2f04594182162"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/autoencoder.py",
+      "bytes": 7549,
+      "sha256": "9f96d591f785bc54e1ffab22068bdc6797b1a592a1bb66a5675446f55051fea7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/basic_unet.py",
+      "bytes": 8717,
+      "sha256": "30f90f5a167a1c9dc537f652f536a2c7cf2bd70fadc7d8b667d5649cd359f4a4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/classifier.py",
+      "bytes": 6504,
+      "sha256": "2a39c154e28c7a936ed40c9cc0efb673afab50962a373f56a0ab0f4af94c714b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/densenet.py",
+      "bytes": 12822,
+      "sha256": "88b36f49d06d937fbb424ddab503c7376885399ca02516d13a44c276391b1a8d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/dynunet.py",
+      "bytes": 14032,
+      "sha256": "f6e1c47b5b532de2c064df29e68e4f215d4dd9d001a5dbbd180ef4a0a32802bb"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/dynunet_v1.py",
+      "bytes": 6524,
+      "sha256": "e1ee347e9e7891de6574768c4a58d1c8f03570d64514491ed85eb440ffa1a0e1"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/efficientnet.py",
+      "bytes": 35062,
+      "sha256": "8a312cf8cbdc3b1b7fdca00ffd8bdef7923bcd812bd74354894c34b81d3c9b20"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/fullyconnectednet.py",
+      "bytes": 5395,
+      "sha256": "f139e3a09259d5f02380b73025b7e21873d674d0bbb4fe19aa9ee0df3b921416"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/generator.py",
+      "bytes": 6336,
+      "sha256": "ad3b29e459299653b123bdb823d33e35f6646c9083eb8465dd3aceed1baa256b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/highresnet.py",
+      "bytes": 8109,
+      "sha256": "4351fac4f5ff74b1f8778d82bcda31d82b17e168a96a93ae90d963e033f364ce"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/netadapter.py",
+      "bytes": 4193,
+      "sha256": "d2d1ba4d6127e8920db124042b738fd3f4711eaff657d222e724e35b9d4566d4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/regressor.py",
+      "bytes": 6131,
+      "sha256": "6c64c847d9f346eec05377ce90c759bb13cb578e00dac5748964a5f074bb66c6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/regunet.py",
+      "bytes": 16850,
+      "sha256": "63e5e5ae631b0f1f5df9bbe66f47cc05eb6297dc9bc68f26bb45f996e050941b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/resnet.py",
+      "bytes": 15511,
+      "sha256": "d8244999688756de8baf1fa75772bd398ce687dffc0d854012278085f956b703"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/segresnet.py",
+      "bytes": 13994,
+      "sha256": "a4befed0acac0c6ae8caaa06908745a02a713de5d4c6c5f6b8ac366ca031e56f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/senet.py",
+      "bytes": 18592,
+      "sha256": "a3f9ceda2b2d7a65f6daa51ad522e3cf9f5a7fa882c201011f8c9b8a4e7b1828"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/torchvision_fc.py",
+      "bytes": 4590,
+      "sha256": "024f78fbc2d9e641e049c4e40ad7b8755811f3af0e3607a900885764ebef5bd4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/unet.py",
+      "bytes": 7119,
+      "sha256": "2c2352cbbf2a5b73eb3e93ca1a4a8d73f414d8aab386fbc4941f8f0dd857afa3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/unetr.py",
+      "bytes": 6989,
+      "sha256": "b16f64be5d99c36562fd4f335bde880a76ad360e31abe3310a0fd710d37263ff"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/varautoencoder.py",
+      "bytes": 3795,
+      "sha256": "0db0ef247a403f53c7115d60039313bdfe156d5b55ba4415bdc9bcd539935518"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/vit.py",
+      "bytes": 3281,
+      "sha256": "bfcb306d2d1a65a1544c1ba4ad4afcd81118b90afb74a1db775486f0e8084e2b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/nets/vnet.py",
+      "bytes": 9458,
+      "sha256": "4f012eda0c32f6585b65a35334d1dc73e3ab9c80b93178032652b0bf2905c168"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/networks/utils.py",
+      "bytes": 16178,
+      "sha256": "19f7ec1c5528152064b1587766c742e5748c904a502894044049d8e35a3c57e5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/optimizers/__init__.py",
+      "bytes": 696,
+      "sha256": "1b613b3951f883ce99ebe9fc3583d148debf1dacc7189bf4c62e62abf3de598a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/optimizers/lr_finder.py",
+      "bytes": 21351,
+      "sha256": "661656dc409dd991e52f779c313530db61e18ffcf65f34ed596f57e1ee7ca409"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/optimizers/lr_scheduler.py",
+      "bytes": 1995,
+      "sha256": "d7cca7ce7e51b5f8562592d75f5af5bc7212d1921e55a4891764f8ed5028c289"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/optimizers/novograd.py",
+      "bytes": 5702,
+      "sha256": "ff54d7fdc3fd4937b7a275e2bcbe79ccb37bfb1788b5e74d97af2b7318a448e9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/optimizers/utils.py",
+      "bytes": 4096,
+      "sha256": "8abeddc87fcd0b7476f8e8e7df6f9d1824d131950029f37af9c59cf8c9b86af9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/__init__.py",
+      "bytes": 10240,
+      "sha256": "cee450cf26ad55d8288e5a4e4cf6d0fc54de433eb6fd37059a8bd285683335d8"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/adaptors.py",
+      "bytes": 8921,
+      "sha256": "fc0843023270fa486408500ac911b5c345d8def774964b19a1b4430a0a0ef512"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/compose.py",
+      "bytes": 7253,
+      "sha256": "d1189f38861708dbd83614ea01e4668e0b75eae30d915f46e326d4f25b2a3447"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/croppad/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/croppad/array.py",
+      "bytes": 43515,
+      "sha256": "9353a38d645ef7005cfa0455014204959f27707fffe55cf02746d574fcb49b6d"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/croppad/batch.py",
+      "bytes": 5626,
+      "sha256": "e490830ce921ec5cc2e9c2c0d1ec70bb9985b50f69474e0d7f52b53806c10559"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/croppad/dictionary.py",
+      "bytes": 63592,
+      "sha256": "c8db17c3a08759014bd687aa0dae0a091a4cdbcbcd95b60cc2eaa652076dd4fc"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/intensity/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/intensity/array.py",
+      "bytes": 65320,
+      "sha256": "923a64dead03a9a134818b2cbd4de492e3f9d16687e7fc33e85a0d1ea82af85a"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/intensity/dictionary.py",
+      "bytes": 55274,
+      "sha256": "a4bfc0c42b5f9528533e577c8cee78e03391ac19684182c603857ad86ef7e321"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/inverse.py",
+      "bytes": 5786,
+      "sha256": "b9b9659d2ddc95fa4a0e3fd3b6012c3e983804f85d0221a09700baa265152644"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/inverse_batch_transform.py",
+      "bytes": 4854,
+      "sha256": "d5cdfd9651b28db2aeacee15a01d35518494154c5f42c2b0ab10ddece467dfab"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/io/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/io/array.py",
+      "bytes": 12944,
+      "sha256": "1dbd03f687c398598fa3a1ca945f3f6ece969a23cb1ae1808e862478a8046942"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/io/dictionary.py",
+      "bytes": 12899,
+      "sha256": "bd19c31d87ee9cd1efe07320a99b3fcfb8f3a8337f3af824c9458f29aa4ffaf5"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/post/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/post/array.py",
+      "bytes": 22470,
+      "sha256": "d3a8b5a6e3b60264d013cbcfd17292743e8b88560406140152c69cff0805a89f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/post/dictionary.py",
+      "bytes": 30012,
+      "sha256": "2186967a3f327ae4aefa136f3636f7c09a283c89c5591892bc359308a54e4e21"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/spatial/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/spatial/array.py",
+      "bytes": 86930,
+      "sha256": "97139a707a2573645d0dfdbe6ab6b43d11d0b8d71da4afbaa4a389cef4a526c2"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/spatial/dictionary.py",
+      "bytes": 83526,
+      "sha256": "5e3e8022b87918e0522afec19d89960fec7c63a614fd431243579c08f0c4dfd4"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/transform.py",
+      "bytes": 14919,
+      "sha256": "c67c42e61c0fbfdfb69568a857eb9bf2b63e27c06f0f6b504e836ddd9a9f7610"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/utility/__init__.py",
+      "bytes": 581,
+      "sha256": "8a5a8a436973226a6f3a10e88b910ccfd374c13496f4d82d9fccc48aa0a109a0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/utility/array.py",
+      "bytes": 32743,
+      "sha256": "29c57e42feaa853e7f2fe13d13676b28353dfa2d726d0b61d98dc61b92e0c750"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/utility/dictionary.py",
+      "bytes": 46979,
+      "sha256": "31767befc29fcab5ae08f8b2493236fb4f7d64465afea9704f3f43f83a876fa0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/transforms/utils.py",
+      "bytes": 36147,
+      "sha256": "c322384a0e1d89bfb36c3f0ff1f685b7348896150302717b3645dfceb4d7c9c6"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/__init__.py",
+      "bytes": 2165,
+      "sha256": "a921e13d4cb7310ad27e002168a81ea63ae9bfe225230b6e5bcff8ebbd454500"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/aliases.py",
+      "bytes": 4085,
+      "sha256": "f67560d5c309a90faa362ce1b3f454a06c2831d79818586868453177ed730de3"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/decorators.py",
+      "bytes": 3013,
+      "sha256": "a99617e96b6ad35e52bd339f8731b49e7780559ebbd4879c4a4f01293188f1ca"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/deprecated.py",
+      "bytes": 7386,
+      "sha256": "9169660cb368fcb8a129e7df7a6c8836f0fcbf58810291097bb557e49b695a47"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/dist.py",
+      "bytes": 6581,
+      "sha256": "712b0f2092ee5d125c5addec5a4733711cb3a803dc868ecfe03786841770ead7"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/enums.py",
+      "bytes": 5907,
+      "sha256": "b85ba9c556ef074de482a6d1e1b15f980addd96c7c341b6c3c72a9708226c375"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/jupyter_utils.py",
+      "bytes": 14055,
+      "sha256": "a201047f0c206d83000d1785729147d8dcc353d25b1f97b360e806e16aa048a9"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/misc.py",
+      "bytes": 12523,
+      "sha256": "e2b245d3d5a8a4b35117a0a736560bfc7215e85672513c2f25e17606ab1d8a0f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/module.py",
+      "bytes": 10674,
+      "sha256": "59192a83d68d5b8e4aac1104bf50dfdb09cce6810e02b3fc3be1aca3b7caa85f"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/profiling.py",
+      "bytes": 3414,
+      "sha256": "7a35204c7330e33db6da84c842777d76691c726b2b13b1b5a54484b7dbba7b8b"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/utils/state_cacher.py",
+      "bytes": 4076,
+      "sha256": "5b159ca17c9bd1ad1aa91b2aa06912e1cc0d79ad3f288e9e11eedea101c2ec83"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/visualize/__init__.py",
+      "bytes": 920,
+      "sha256": "59ef6b46c7cd5dbe56e6f3a500fd249ec3215405589410f1fc7993f25cac3722"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/visualize/class_activation_maps.py",
+      "bytes": 15226,
+      "sha256": "2209b7c5a2c6b44c9e86ba6f78940a5d82e932fad41dbacb2361bdeddfd2184e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/visualize/img2tensorboard.py",
+      "bytes": 8499,
+      "sha256": "8b3467803396254ce007ec6544536e92f651a60c036564dc831d72dda0bfced0"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/visualize/occlusion_sensitivity.py",
+      "bytes": 14598,
+      "sha256": "c2daac0a096d06c9849886045e4e02bc601b94c28ab4786c4447f297b980d70e"
+    },
+    {
+      "path": "vendor/mainline/training/vendor_runtime/monai060/monai/visualize/visualizer.py",
+      "bytes": 1320,
+      "sha256": "a1a0a92470828064b986feef5cb83fd6db1c400092036e0d1b782a4275a08776"
+    },
+    {
+      "path": "weights/anatomy.pt",
+      "bytes": 112496037,
+      "sha256": "5904dd16eb9a4fd7a1caf90ac977f8fe2ef364908598c23c209db3fe7fd1563e"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": "fm-anatomy-storage-policy-v1",
+  "destination_stat_admission_sha256": "ac94039012942b89dca4ca38b00fff93505431f6b7a80cd5162f7dfcd0b2dd07",
+  "core_sha256": "dc0a97d74e9840d7976c2404cd8293d360a5113a4b181504fe816aa56458cbac",
+  "promotion_sha256": "db1b90662a190a8415eb179c95a80a10d0b6f04b31d6910fa784305904c6aedb",
+  "fullsha_qa_sha256": "afb573c26ccb378cbf1f9b31124437cefbfa57a4c33fdef25effd136b365e8a0",
+  "target": {
+    "instance": 56967269,
+    "machine": 1569,
+    "hostname": "56dc3869206e"
+  },
+  "producer_code_sha256": {
+    "fm_training_reader.py": "469caeabfeac917f69ad75b3bc3f8aadf3225a94a31cdbd46e5365cffacf569e",
+    "fm_loader_reference.py": "398df66c079e3ee9a74edb76ed0361d1dfc444fae1b6110a96c2adf5c1c9694d",
+    "fm_chunk_loader.py": "b17055efda7806cb502c5b36ce3adf054a9a85d09cbec1e319a74a89ee698816",
+    "fm_chunk_array.py": "e8dab0c3557916fcf1a17890ebe3fed6b34401961048a204e5a5d6d53a33c46a",
+    "fm_delta_codec.py": "747fa9d689f0ea80c9cd248095530fb050fdf9467044dd3b21f17378b3393e7a",
+    "fm_aux_chunk_adapter.py": "93313c4f8308d3b7876027db47e00edf3dd0691ff85de7f11c96d58cb79137d2",
+    "fm_aux_reference.py": "301b9a51be426f22b0baade0f46bbf85c33da511d20910221fb57d8e55ed21c0",
+    "qa_fm_consumer.py": "0fa2ff6b770a78f9117f8c9cb1a9499303857534f7af5f51e113dea80947658d",
+    "anatomy_job.py": "7d43e67a049070fbe434123c98eebb50ee09322b131ad76a8bb16802e696f0f2"
+  },
+  "qa_harness_sha256": "f23de87e15c9af8142ff09ba9eb1df77450254731c81f554ddcf639f7dbc3849",
+  "explicit_storage_adaptation": true,
+  "public_sampler_targets_augmentation_unchanged": true,
+  "private_pixel_parity": false,
+  "automatic_dispatch_enabled": false
+}

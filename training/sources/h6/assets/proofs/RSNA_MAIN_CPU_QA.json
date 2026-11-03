@@ -1,0 +1,91 @@
+{
+  "status": "PASS_ALL_RSNA_DECLARED_METADATA_AND_ACTUAL_POOLED_MAIN_DATASET_CPU_INTEGRATION_NOT_SEMANTIC_RELEASE",
+  "target_instance": 56967269,
+  "registry_sha256": "af9822069d21faedcce73c930c1760fbf456bcd0243fec565685dad22e913dc0",
+  "RSNA_samples": 4413,
+  "fit": 4355,
+  "Gold": 58,
+  "tail_frames_accounted": 141,
+  "exact_alias_series_accounted": 32,
+  "frozen_quarantines_preserved": 2,
+  "OAI_descriptor_cases": 3254,
+  "MainDataset_rows": 7609,
+  "actual_selected_cases": [
+    "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+    "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+    "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+    "OAI0001",
+    "OAI0046",
+    "OAI0321"
+  ],
+  "botharms_test3_VM36_exact": true,
+  "workers0vs2_pixel_meta_mask_label_parity": true,
+  "actual_results": [
+    {
+      "arm": "core6",
+      "key": "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+      "actual_windows": 176
+    },
+    {
+      "arm": "core6",
+      "key": "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+      "actual_windows": 176
+    },
+    {
+      "arm": "core6",
+      "key": "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+      "actual_windows": 176
+    },
+    {
+      "arm": "core6",
+      "key": "OAI0001",
+      "actual_windows": 176
+    },
+    {
+      "arm": "core6",
+      "key": "OAI0046",
+      "actual_windows": 176
+    },
+    {
+      "arm": "core6",
+      "key": "OAI0321",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "OAI0001",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "OAI0046",
+      "actual_windows": 176
+    },
+    {
+      "arm": "vm",
+      "key": "OAI0321",
+      "actual_windows": 176
+    }
+  ],
+  "source_NPZ_fullSHA_bytes": 0,
+  "GPU_used": false,
+  "training_started": false,
+  "production_semantic_release": false,
+  "sourcebasiscode_and_pixelrerender_admission_pending": true,
+  "at_unix": 1792574274.123672
+}

@@ -1,0 +1,86 @@
+{
+  "version": 6,
+  "previous_semantic_sha256": "c583cd73a1d667ecda3d92a7c4b9674bf9d162bcd74ef4baf763d86e0f7931df",
+  "factual_cutoff": "2026-10-08T20:52:47.408278+00:00",
+  "goal": "Freeze VM20 three main-target arms and exact canonical Evidence mapping; evaluation requested by human",
+  "owner": "root",
+  "grain": "Canonical SampleID; bilateral UID::L/R grouped in unchanged ParentStudyInstanceUID/report_group/fold",
+  "sources": {
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/web-full-evidence-v1-20261006/ACCEPTED_REGISTRY.json": "e0c62ae81248eb7640b90f6f303f1584c0388a2d7992495f420fd681a90b861c",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/short20_package/assets/V_MAIN.csv": "0320df67c1b582af60108018b7b6bbf8e5ba7ce95fabbb545a12d72685b5c780",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/short20_package/assets/V_INPUT.csv": "e621087afd217728e12c19af2cbbff38623f740090b45f044523bca140e6e8ef",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/short20_package/assets/POS_WEIGHT_f3.json": "a169e4cb0ad3e7d465315dd61f9d40b823aef8d3ad52539d3a1bd6d8eec0bf1d",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/short20_package/assets/aux_names.json": "9204106eb8b43be2a5ec00b2240b1f7f3a6465891eddd55dcd7f4c58399934b9",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/short20_package/assets/TARGET_FREEZE.json": "c2f07b8a6b8dff7036a46dc27b6dfa11706835fca04b06fe791962a5d74502ae",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/independent_discovery/staging_review/EXPECTED_TRAINING_OBJECTS.json": "d69f9d8c611499b7c1dd1635550692025dea152db1feb6b531c3cd2857c4e412",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/configs/knee_orientation_policy.json": "cf370c3de03ebdcc5d4809070c3ad7ddf33d080ca1c66bcaf922d582d75ed5b0",
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/HUMAN_CLARIFICATION.json": "4edba4f0396670f803f1d873ef822e3feb2cb392a2a741765b97164c45ae5d73"
+  },
+  "temporal_boundaries": "Current first-accepted Evidence registry; immutable VM20 source targets/folds/checkpoints; no historical record replacement",
+  "joins": "Canonical V_MAIN4352 left to registry by UID+side for seven bilateral parents (L->left,R->right); unilateral exactUID + null side. Require one-to-one4352; preserve four outside-cache Evidence rows in source registry, exclude from training",
+  "null_policy": "No imputation. Preserve existing VM mask/confidence; Evidence null makes only E/mean-target cell masked. VM branch in joint retains original VM mask. No accepted row retry. Gold excluded from fit",
+  "arms": {
+    "evidence12": "Replace main probabilities by Evidence; same original confidence/mask intersect finiteEvidence",
+    "mean12": "Arithmetic mean0.5VM+0.5Evidence probabilities wherever both assessable; same historical confidence/mask",
+    "joint24": "VM12 and E12 disease attention columns/classifier rows sharing same backbone/meta/firstattention; equal0.5 branch loss plus unchanged0.25 AUX48; initial disease12 weights cloned for second branch, independent parameters thereafter; no learned output fusion"
+  },
+  "common_recipe": {
+    "baseline": "core_v2a_main_V_short20_f3",
+    "orientation": "knee-laterality-v8.3 canonical_L_v8_3",
+    "fold": 3,
+    "seed": 20260908,
+    "fit_samples": 3479,
+    "val_samples": 873,
+    "schedule_epochs": 24,
+    "stop_epochs": 20,
+    "fixed_weight_average_epochs": [
+      18,
+      19,
+      20
+    ],
+    "batch": 8,
+    "training_windows": 12,
+    "evaluation_tokens": "all valid up to64",
+    "AUX48": "unchanged text labels and historical0.25 weight; Evidence28aux not silently substituted",
+    "pos_weight": "exact frozen VM20 POS_WEIGHT_f3 first12 duplicated for jointE12; AUX48 unchanged",
+    "optimizer": "historical AdamW3e-5/1e-3,wd0.02,OneCyclepct0.15,clip3.0; BF16 encoder/FP32heads",
+    "augmentation": "exact historical V20 GPU aug, seriesdrop0.10/tokendrop0.15/jitter1; no orientation policy change"
+  },
+  "evaluation": {
+    "new_epochs": "Each1..20 and fixed SWA18..20, predictions retained",
+    "gold": "Gold58 only evaluation,12AUC/macro; source/cache/GoldUID exclusion must be pinned before launch",
+    "pseudo": "Held-out fold3 only. VM andEvidence labels on same per-target matched assessable support; historicalmask>0/conf>=0.5; exclude either targetp=0.5 for binaryAUC. Thresholdp>0.5. Report12AUC/macro and counts by source; no training-row pseudo performance claim",
+    "grain": "Primary parent max aggregation as VM20; diagnostic SampleID for bilateral; same support acrossarms",
+    "joint_outputs": [
+      "VM12",
+      "Evidence12",
+      "primary all12 mean",
+      "alternative EffusionVM-only"
+    ],
+    "original_VM20": "Score existing preserved fold3 weights/SWA on same Gold and matched VM/Evidence pseudo targets; only extant epoch checkpoints, no fabricated missing epochs",
+    "selection": "Fixed20/SWA18..20; no Gold epoch/weight search. Both Effusion readouts shown as descriptive reused-development comparison"
+  },
+  "parameters": {
+    "new_trainings": 3,
+    "extra_training_for_Effusion": 0,
+    "new_rentals": 0,
+    "total_budget_usd": 30
+  },
+  "publication_boundary": "Local preparation and previously authorized one-instance training; noLBsubmit. Source/runtime/evaluation gates must pass before launch",
+  "read_only_delegation": {
+    "expected_benefit": "Independent mapping/source and trainer/protocol checks after root-owned recipe; root retains metric/joins/interpretation",
+    "streams": [
+      "source mapping and fixedtarget parity",
+      "training/evaluation implementation and GPU smoke protocol"
+    ]
+  },
+  "change_log": [
+    "Human clarified VM20 architecture and Gold/pseudo per-epoch evaluation; human overrode Claude EffusionVM-only default: meanall12 primary, W-onlyEffusion diagnostic. Current Evidence recordcoveragecomplete4356 withnineoriginalnullcells.",
+    "Exact target preparation code pinned before producing outputs; no recipe change.",
+    "V5 pre-output run failed on omitted unilateral side field. V6 uses schema-valid missing side as None, same as immutable registry. No raw/accepted edit or join weakening for bilateral. V5 preserved; no target outputs produced by v5."
+  ],
+  "code": {
+    "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/fold3-evidence-three-arms-20261008/training_preparation/prepare_targets_v6.py": "c7ab2c68421e7139d41b7845feffa207dc6c6e80dca05f032b2138a00dde7deb"
+  },
+  "semantic_sha256": "9cbb505b620f77b7644d482a3c1589e7f2f999004e978cc9b16c392224758948"
+}

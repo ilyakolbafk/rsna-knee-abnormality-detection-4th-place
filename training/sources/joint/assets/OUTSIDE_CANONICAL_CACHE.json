@@ -1,0 +1,22 @@
+[
+  {
+    "record_key": "1.2.826.0.1.3680043.8.498.45865541491386404818767748310365919685",
+    "case_id": "T0937",
+    "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+  },
+  {
+    "record_key": "1.2.826.0.1.3680043.8.498.18680059761479598675335345641208680006",
+    "case_id": "T3013",
+    "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+  },
+  {
+    "record_key": "1.2.826.0.1.3680043.8.498.57836524675365700674244122764523161699",
+    "case_id": "T3439",
+    "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+  },
+  {
+    "record_key": "1.2.826.0.1.3680043.8.498.11295899132697862632905938037090529644",
+    "case_id": "T3525",
+    "reason": "Outside unchanged canonical VM20/cache4352; source registry preserved"
+  }
+]

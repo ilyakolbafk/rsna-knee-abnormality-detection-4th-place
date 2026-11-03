@@ -1,0 +1,30 @@
+{
+  "id": "ilyakolb/rsna-final-six-h6-ens-20261022",
+  "title": "RSNA Final Six H6 Ens 20261022",
+  "code_file": "inference.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "ilyakolb/rsna-sixway-resident-runtime-20261017/1",
+    "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1",
+    "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1",
+    "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+    "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1",
+    "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1",
+    "ilyakolb/rsna-j36-masked336-weights-20261016/1",
+    "ilyakolb/rsna-h6-rank-full336-20261022/1",
+    "ilyakolb/rsna-h6-swa1416-weights-20261022/1"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4",
+  "docker_image_pinning_type": "original",
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f"
+}

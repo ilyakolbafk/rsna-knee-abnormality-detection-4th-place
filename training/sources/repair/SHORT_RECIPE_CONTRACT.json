@@ -1,0 +1,50 @@
+{
+  "fold": 3,
+  "fresh_initialization": true,
+  "frozen_asset_sha256": {
+    "FROZEN_REFERENCE.csv": "148256a1a5adb3233b428585c57b7b2fb6958167c81b53bf0dd550853e21af6c",
+    "POS_WEIGHT_f0.json": "a38e55d6c4dc4aab4630bd1cca6bbe9e471985f27f739a6f27375d40154ae1ab",
+    "POS_WEIGHT_f3.json": "a169e4cb0ad3e7d465315dd61f9d40b823aef8d3ad52539d3a1bd6d8eec0bf1d",
+    "R_MAIN.csv": "698e2f29d88ce4d9e863f39af9129fe1fd6725a1a203ec0d66822c5779624450",
+    "TARGET_FREEZE.json": "fdf5126abf43e848b50613589cf37e17f2c03d7fecbe302869094e7319ab5a9d",
+    "TOKEN_SLOT_MAP.csv": "c0a6bc105012f6506f2584eca264d5d8632a3d13bc36114c1669412e0785bb00",
+    "TOKEN_SLOT_MAP_RECEIPT.json": "22fcf875b87c355cc1700c4411c0f77c5c8fcdaf9ccabdd65bbe1aae0907d876",
+    "V_INPUT.csv": "e621087afd217728e12c19af2cbbff38623f740090b45f044523bca140e6e8ef",
+    "V_MAIN.csv": "94ec929bf326321f93525965ef056d439e77e7b70e1833d78675b820029bbddf",
+    "aux_names.json": "9204106eb8b43be2a5ec00b2240b1f7f3a6465891eddd55dcd7f4c58399934b9"
+  },
+  "gold_in_fit": false,
+  "kept_weights": [
+    14,
+    17,
+    18,
+    19,
+    20
+  ],
+  "only_allowed_training_differences": "Schedulelength/stop/averagingwindow and explicit recipeidentity; all architecture,augmentation,loss,data,target/confidence/pos_weight settings unchanged.; ordinary K12\u2192K24: training WINDOW sampling12\u219224 only; architecture remains ordinary Core V20",
+  "orientation_preflight_receipt": "/Users/ilakolb/Documents/ChatGPT/RSNA Knee/.codex/runs/gpu48-core-rv-epochs-f3-20261004/orientation_runtime/EXPORT_RECEIPT.json",
+  "reference_window": [
+    18,
+    19,
+    20
+  ],
+  "run_identity": "ordinary Core V20 teacher-V K24 fold3",
+  "schedule": 24,
+  "seed": 20260908,
+  "selected_epochs": [
+    18,
+    19,
+    20
+  ],
+  "source_reference": "ordinary Core V20 K12 frozen recipe; only train samplerWINDOWS12\u219224",
+  "sparse_checkpoints": [
+    14,
+    17,
+    20
+  ],
+  "stop": 20,
+  "teacher": "V",
+  "train_windows_per_sample": 24,
+  "variant": "CORE_V20_ORDINARY_K24_SHORT20",
+  "version": 1
+}

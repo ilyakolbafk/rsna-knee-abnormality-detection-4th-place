@@ -1,0 +1,18 @@
+{
+  "backup_reserve_seconds": 600,
+  "conservative_spend_before_run_usd": 11.577279275919418,
+  "conservative_spend_through_deadline_upper_usd": 18.177279275919418,
+  "created_utc": "2026-10-13T01:55:38.839944+00:00",
+  "extra_traffic_and_unmetered_margin_usd": 2.0,
+  "gpu_count": 1,
+  "gpu_name": "NVIDIA GeForce RTX 5090",
+  "hard_stop_unix": 1791885338.839944,
+  "host_id": 601014,
+  "hourly_usd": 0.575,
+  "instance_id": 55518941,
+  "machine_id": 142280,
+  "max_new_running_cost_usd": 4.6,
+  "safety_stop_threshold_usd": 38.0,
+  "scope": "One fresh ordinary Core V20 teacher-V K24 fold3 optimizer run; no resume or immediate server Stop. Later user-authorized fullfit requires a separate fresh guard; completed Transformer K24 LB submission is separately authorized.",
+  "total_server_budget_usd": 40.0
+}

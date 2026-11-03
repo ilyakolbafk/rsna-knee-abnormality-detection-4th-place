@@ -1,0 +1,126 @@
+rsna-knee-final-ens/
+├── configs/
+│   ├── reference/  (8 files)
+│   ├── blend_final_ens.json
+│   ├── blend_late_p4.json
+│   ├── h6_inference_recipe.json
+│   └── weights_manifest.json
+├── data_prep/
+│   ├── cache336/
+│   │   ├── kaggle_kernels/  (34 files)
+│   │   ├── KERNEL_RELEASE_REGISTRY.json
+│   │   ├── SHARD_RELEASE_PLAN.json
+│   │   ├── build_cache336.py
+│   │   ├── download_and_verify_cache.py
+│   │   └── fast_kernel_output.py
+│   ├── extension_cache/
+│   │   ├── kaggle_kernels/  (32 files)
+│   │   ├── reference/  (4 files)
+│   │   ├── PASS_EXT_BANK.json
+│   │   ├── build_extension_cache.py
+│   │   ├── finalize_cache.py
+│   │   └── verify_ext_bank.py
+│   ├── h6_v4/
+│   │   ├── fastmri/  (87 files)
+│   │   ├── oai/  (38 files)
+│   │   ├── rsna/  (342 files)
+│   │   └── README.md
+│   ├── test3_cache/
+│   │   ├── test3_orientation/  (108 files)
+│   │   ├── workspace_inputs/  (6 files)
+│   │   ├── TEST3_CACHE_AUDIT.json
+│   │   └── build_test3_cache.py
+│   └── README.md
+├── docs/
+│   ├── data/
+│   │   └── column_probes.csv
+│   ├── figures/  (14 files)
+│   ├── verification/
+│   │   ├── CPU_SMOKE.json
+│   │   └── HOST_CHECK.json
+│   ├── ENVIRONMENT.md
+│   ├── MODEL_SUMMARY.md
+│   ├── REPRODUCIBILITY.md
+│   ├── SOLUTION.md
+│   └── SOLUTION_DETAILED.md
+├── kaggle/
+│   ├── host_check/
+│   │   ├── kernel/  (2 files)
+│   │   └── build_check_kernel.py
+│   └── scored_notebook/
+│       ├── inference.ipynb
+│       └── kernel-metadata.json
+├── labels/
+│   ├── core6/
+│   │   ├── data/  (3 files)
+│   │   ├── PROMPT_CORE6_TEXT_V1.md
+│   │   ├── build_master.py
+│   │   ├── evalib2.py
+│   │   ├── fit_weights_cv.py
+│   │   ├── materialize_recipes.py
+│   │   ├── transfer_4407.py
+│   │   └── verify.py
+│   ├── evidence_v1/
+│   │   ├── PROMPT_EXAMPLE_FEV_R01B01.md
+│   │   └── prepare_launch.py
+│   ├── gold58/
+│   │   ├── gold58_labels.csv
+│   │   └── gold58_series.csv
+│   ├── vm_reader/
+│   │   ├── docs/  (6 files)
+│   │   ├── PROMPT_EXAMPLE_S01B01.md
+│   │   ├── PROMPT_MANIFEST_S01.json
+│   │   ├── build_batch_prompts.py
+│   │   ├── build_shard.py
+│   │   ├── kernel-metadata.example.json
+│   │   ├── render_menu_b_v5_gold58.py
+│   │   └── render_reader_panels.py
+│   ├── vm_repair/
+│   │   ├── CHANGES.csv
+│   │   ├── RECEIPT.json
+│   │   └── build_vm_repair.py
+│   └── README.md
+├── src/
+│   └── rsna_knee_final/
+│       ├── inference/  (3 files)
+│       ├── __init__.py
+│       ├── blend.py
+│       ├── predict_pipeline.py
+│       ├── sources.py
+│       └── train_host.py
+├── tests/
+│   └── cpu_smoke.py
+├── tools/
+│   └── average_h6.py
+├── training/
+│   ├── cache336_reference/  (57 files)
+│   ├── host_configs/
+│   │   ├── adaptive_EXTENSION_SERIALIZATION_INVENTORY.json
+│   │   ├── adaptive_QUEUE_CONFIG.historical.json
+│   │   ├── adaptive_TEST3_EXTENSION_QA.json
+│   │   └── fold_recipes.json
+│   ├── sources/  (1401 files)
+│   ├── H6_RECIPE.md
+│   ├── HOST_PORT.md
+│   └── README.md
+├── LICENSE
+├── README.md
+├── SETTINGS.json
+├── directory_structure.txt
+├── entry_points.md
+├── predict.py
+├── requirements.txt
+└── train.py
+
+weights/ (separate archive, see weights/README.md)
+├── rsna-sixway-resident-runtime-20261017/        Sixway runtime and reference outputs
+├── rsna-vm336-k24-folds-fullfit-weights-20261016/ fold0..4.pt
+├── rsna-v20-ordinary-k24-fullfit-weights-20261013/ core checkpoint.pt
+├── rsna-vm336-k24-vmrepair-fullfit-weights-20261016/ repair checkpoint.pt
+├── rsna-mirror336-k24-r3-raw-weights-20261016/    mirror checkpoint.pt + runtime
+├── rsna-adaptive336-fullfit-weights-20261017/     adaptive checkpoint.pt + runtime
+├── rsna-j36-masked336-weights-20261016/           joint36 checkpoint.pt
+├── rsna-h6-rank-full336-20261022/                 H6 runtime payload (v4 producer, wheels)
+├── rsna-h6-swa1416-weights-20261022/              core6 / vm SWA EMA14-16 weights
+├── pretrained/                                    v8.3 side model (ours); the three public pretrained files go here
+└── training_inputs/test3_cache/                   the three sample test studies in cache336 format

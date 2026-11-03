@@ -1,0 +1,93 @@
+{
+  "name": "H6_FULL_V4_CORE6_AND_VM_DUALHEAD",
+  "seed_base": 1,
+  "rng_key": 0,
+  "epochs": 16,
+  "main_batch": 2,
+  "windows": 176,
+  "chunk": 32,
+  "workers": 2,
+  "fm_weight": 0.3,
+  "weight_decay": 0.05,
+  "gradient_clip": 5,
+  "warmup_fraction": 0.05,
+  "swa_epochs": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "swa_source": "EMA",
+  "recovery_interval": 100,
+  "disk_floor_bytes": 12000000000,
+  "head_bases": {
+    "core6": {
+      "main": [
+        0.1728907255577803,
+        0.10991569012878456,
+        0.42293123384373243,
+        0.2139406915400635,
+        0.3028283553617749,
+        0.2201206009109299,
+        0.37693425560508625,
+        0.416522512775511,
+        0.24816416632461738,
+        0.22326387915877524,
+        0.18332399081378017,
+        0.11119051972973656
+      ]
+    },
+    "vm": {
+      "main": [
+        0.16475304457823928,
+        0.07352366691467228,
+        0.41625086367797803,
+        0.18519526803615707,
+        0.22115552538692226,
+        0.11532506297793699,
+        0.23877614355123583,
+        0.3732908353844498,
+        0.2679807031495069,
+        0.16751091255488243,
+        0.15718929525083944,
+        0.06200895917638469
+      ],
+      "oai_vm": [
+        0.10564556936580169,
+        0.03642025258156318,
+        0.35029367179715937,
+        0.23989367095258418,
+        0.2603949371706459,
+        0.13916455670908282,
+        0.3437316461784553,
+        0.35494683614354344,
+        0.29311392466290087,
+        0.21510379795881013,
+        0.03843037923585765,
+        0.012070885818404488
+      ]
+    }
+  },
+  "Gold_fit": false,
+  "orientation_policy": {
+    "id": "knee-laterality-v8.3",
+    "release_manifest_sha256": "869b2d81169105f00835460712c362e74943c383f1b745fb92e5ec6baf0a0cc2",
+    "algorithm_sha256": "163d1656c6bf94de4fdf82f853c3c49f51b7be1687bdee11e6ab5c68c9cd90c9",
+    "canonical_target": "L"
+  },
+  "phys_mm": 3.5,
+  "phys_mm_semantics": "Source public phys_step uses round(3.5/stored spacing) for centers and neighbors in BOTH RSNA and OAI; fullcache producer has already averaged slabs, so ordinary3.5mm slabs use step1. Loader performs no averaging.",
+  "eval_stride": 1,
+  "cover_stride": 3,
+  "slice_jitter": 0.25,
+  "full_cache_only": true,
+  "encoder_lr": 0.0001,
+  "head_lr": 0.001,
+  "ema_max_decay": 0.999,
+  "fullfit_only": true,
+  "drop_last": true,
+  "fm_chunk": 96,
+  "pair_dispatch_free_bytes": 42949672960
+}

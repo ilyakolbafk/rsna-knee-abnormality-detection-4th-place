@@ -1,0 +1,49 @@
+{
+  "status": "PASS_BOUNDED_GPU_DIAGNOSTICS_NOT_PRODUCTION_SMOKE",
+  "arm": "vm",
+  "package_sha256": "acc6a40f03eeda6eb53758ff0f3ec5820989001749b918b974183de2e52378b6",
+  "GPU_UUID": "GPU-7923cc48-86fc-6e33-e54b-0e832fc540a0",
+  "boot_id": "d7c9a413-650b-4f6e-b872-2fa572010446",
+  "diagnostic_binding_sha256": "9dc041935bbf3bb6133e014f232d9a927ee48c7ef5e517475f48ad40e176dccc",
+  "test3": [
+    {
+      "id": "1.2.826.0.1.3680043.8.498.10047035057544427318018579121635276191",
+      "active_cells": 12,
+      "actual_tokens": 176,
+      "loss_finite": true
+    },
+    {
+      "id": "1.2.826.0.1.3680043.8.498.10062861783145312629332250977456991776",
+      "active_cells": 12,
+      "actual_tokens": 176,
+      "loss_finite": true
+    },
+    {
+      "id": "1.2.826.0.1.3680043.8.498.10067514707072572280263481548497591402",
+      "active_cells": 12,
+      "actual_tokens": 176,
+      "loss_finite": true
+    }
+  ],
+  "source_encoder_gradients": {
+    "0": 2257.218688124791,
+    "1": 721.7527639055625
+  },
+  "actual800_fullcache_window_stress": true,
+  "max_main_shape": [
+    2,
+    176,
+    3,
+    352,
+    352
+  ],
+  "fm_one_forward_windows": 96,
+  "exact_fullSHA_save_destroy_restore": true,
+  "peak_cuda_bytes": 17392047104,
+  "QA_weights_discarded": true,
+  "at_unix": 1792574772.7959774,
+  "production_semantic_release": false,
+  "fullfit_started": false,
+  "protocol_probe": true,
+  "CPU_QA_sha256": "190f99a6ab622ed617b21740c06049516dad25d5df2b260f4bf8f852bb4a9c35"
+}

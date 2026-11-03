@@ -1,0 +1,592 @@
+{
+ "note": "predict.py --weights <dir> expects <dir>/<slug>/<file>; files omitted from the 9 original Kaggle datasets are duplicates or unused by FINAL ens",
+ "inference_files": [
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ADAPTIVE_WORSTCASE_RESOURCE_REFERENCE.json",
+   "sha256": "fe0bafa67dece7b03acc52a212e4f2cc8b5fc947b7ac5d131b3d12002d74645a",
+   "bytes": 2153,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/RELEASE_PACKET.json",
+   "sha256": "089c50271dcb765ee339eb0cff9246c34409304f1a09dbe73c58e8c05fdd8b28",
+   "bytes": 13820,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/RUNTIME_SOURCE_CHANGES.json",
+   "sha256": "3c289d8498beead38385c5c2aba6dc2159d75c95bc64b1063e7d2bb3bd7538f6",
+   "bytes": 799,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/joint36_ranked.py",
+   "sha256": "76ea91e31a847caad7bbdb7c7240c2da31d7f6686819cde0afeaae8606c34f8e",
+   "bytes": 1505,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/mirror_packed_worker.py",
+   "sha256": "f77cbe94f8432bd5199c58e9dcb388cfa92f79f3d173e6bbc0f982f9ca4399f6",
+   "bytes": 17877,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_adaptive.csv",
+   "sha256": "cf1c85f3b9a40c27f5217019e245762a0be7214d6e0a7b3b72f6c421d0653628",
+   "bytes": 715,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_core.csv",
+   "sha256": "9ecf1130dd4129d0d70481d88832369a69de186e004f1bcffcda52f3af18711a",
+   "bytes": 721,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fivefold.csv",
+   "sha256": "55e4f12ff998830f2efa720016e446f3f5a65c9cc749c7d1f653e2c109af3715",
+   "bytes": 897,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fold0.csv",
+   "sha256": "f5e46deca0c512ee37b28a36a87bc83853c03d7547941f8ede99672897d539ce",
+   "bytes": 717,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fold1.csv",
+   "sha256": "9ab1f96545d9384a652b5890be195e9c200cbcec5d628cedebdb76581b0d732d",
+   "bytes": 715,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fold2.csv",
+   "sha256": "4a2b09da52fe84cfec4856e24011936dfc929a313c8ffdf2c61e4be514b21c0f",
+   "bytes": 713,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fold3.csv",
+   "sha256": "92a2f2c0af0adf31f9f4a58c3bd7f474c9d3515ab9c29ba61e1b2a07debdf61c",
+   "bytes": 717,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_fold4.csv",
+   "sha256": "90632fb14d66f26eec7925a34c3228516f27ad97e91a59f66f54b9613dff54d3",
+   "bytes": 716,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_joint.csv",
+   "sha256": "11e4c4395444e7866ebf5966ab4e92dcd87ad8eb411edfe2a501baa724f2bd87",
+   "bytes": 875,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_mirror.csv",
+   "sha256": "de4467e7f4a887982f11dfc9b396976c4f0e53e7708057b40d292feac7d9a7c1",
+   "bytes": 710,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/ref_repair.csv",
+   "sha256": "08fd53e0d1c7cbc584b92e04cf6b9e2c6852f11270c462e1f3756a4351560f55",
+   "bytes": 708,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/resident_controller.py",
+   "sha256": "f3c77ae0d5426d12032076b0f6f8208e46164b67c0439ce54d1caa77195f7491",
+   "bytes": 13245,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/resident_weights.py",
+   "sha256": "507efee99e004b0b59e914d4ecc44951e4a4b69455c94ece5a05754d279982d1",
+   "bytes": 2550,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/resident_worker.py",
+   "sha256": "142e984781c9ce1f3d643b74337ffce017127c2b75ccb0aead4daaf81f25f671",
+   "bytes": 8275,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/shared_raw_bank.py",
+   "sha256": "84cd6fdd938cf7e7116b370f84a67205f113281c0c87256dc36e988b2b3cc781",
+   "bytes": 7355,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/sitecustomize.py",
+   "sha256": "63b609b4b85eac48bb06e63790c90be2ba87017011901b4c1f9c4e1ba83c598d",
+   "bytes": 1504,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/RELEASE_PACKET.json",
+   "sha256": "6464ca42e9d34059775296549cc969491120546b830852cdca5fab0b4395612c",
+   "bytes": 32972,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/checkpoint.pt",
+   "sha256": "d7df8d6b5b2a7efc69a46f3adbff001f6c4691d3aa66de0ac628b1d489d0bf32",
+   "bytes": 294158641,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/r3_runtime.tar",
+   "sha256": "6e0664429101325e6fc759b8a2025c940e5dd2ec684ec2eaf8ef9c31bd3852d0",
+   "bytes": 430080,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1",
+   "role": "pipelined inference runtime"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/source.tar",
+   "sha256": "619dd8d453d5b56f6373287d9513e3e950be1965cc4b3cde01b5f412a36fb952",
+   "bytes": 111216640,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1",
+   "role": "canonical inference source + v8.3 orientation weights"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1",
+   "role": "offline wheels (timm 1.0.29, pydicom 3.0.2, opencv-headless)"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/RELEASE_PACKET.json",
+   "sha256": "908c342ffdbb329742d0b7a98dd84e7b1add13e0740ca69eed3ad8d44e10864a",
+   "bytes": 13131,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/checkpoint.pt",
+   "sha256": "3ef126e7d89a2d0a2d218eee1737289715a538323294c52ad94a8299683ff250",
+   "bytes": 294151345,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/runtime.tar",
+   "sha256": "f02876620e8973c1f694f704dfc34ef45f62ba1c2b83aae8a850a4f0251bdf70",
+   "bytes": 163840,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1",
+   "role": "raw (Mirror) inference runtime"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/source.tar",
+   "sha256": "c846ffba2173372eed3b06b8bcf12d0f538ff10125937dc1ec444acd0a5ad327",
+   "bytes": 174080,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1",
+   "role": "canonical inference source + v8.3 orientation weights"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/RELEASE_PACKET.json",
+   "sha256": "20e201826cc6ca5e81f82a1e610bec4b0bb236478bca4fbce002e56978f4b16f",
+   "bytes": 41183,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold0.pt",
+   "sha256": "f8a64bb84db1b5259506329c52b0a090887617eec293fdf016e69ae94cf7936e",
+   "bytes": 294150257,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold0_RELEASE.json",
+   "sha256": "cbbdc9b2386bd82ca65406eede425c3b985e027788fc92b070c6545af4220eba",
+   "bytes": 31316,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold1.pt",
+   "sha256": "4f571a8ec6f74854ac2457954bf16cabceae9737e86ebba9f79cf098ff5f2098",
+   "bytes": 294150193,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold1_RELEASE.json",
+   "sha256": "564895fff4406adfc1ffaf718ae03ad84a0e6db68906b140f22671815569e949",
+   "bytes": 31238,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold2.pt",
+   "sha256": "5e4eae345586bdf6aa6d2fc8f92ef4b144b82fab6e1066a316922507dc089bf5",
+   "bytes": 294150257,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold2_RELEASE.json",
+   "sha256": "1ff649f77558f89b59775ac8460c892562542e94ac73b66cec45bb1a769b4af0",
+   "bytes": 31316,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold3.pt",
+   "sha256": "50002633f3fc5fff27a5c7a9175e6fc4269bd4bd6387676725ae152a91702ce4",
+   "bytes": 294149681,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold3_RELEASE.json",
+   "sha256": "4c721552499d4ba51aca1efcc0a6a1666175bb3c4f2477533b7d6daef7bd768c",
+   "bytes": 30734,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold4.pt",
+   "sha256": "1bf104d06270175e41968096296993e2543f448a619ad45db97d32020a62785d",
+   "bytes": 294150257,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold4_RELEASE.json",
+   "sha256": "44bafa4ec1ed4c2bc048a98dc7dac2f61fd4ca67536f081392469576750839eb",
+   "bytes": 31316,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/RELEASE_PACKET.json",
+   "sha256": "ef0f3eca49406d0ee8d7b1bd1ee7d862211f2c5a539cc54dcc43d01d84bea02a",
+   "bytes": 31315,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/checkpoint.pt",
+   "sha256": "9b6eab4a07699ae622f7d210ac7ffcabf592dba016511bd6abaf98eb34b04adb",
+   "bytes": 294150193,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/RELEASE_PACKET.json",
+   "sha256": "5be000bf105d25543de15fdc55e654ef0e88e5d4b69d4d83f7748e502d784f33",
+   "bytes": 31328,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/checkpoint.pt",
+   "sha256": "5961d652bd44fae22f3a65741bbcaf0abc64941bd05060984d5a780985f06c1b",
+   "bytes": 294150193,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/RELEASE_PACKET.json",
+   "sha256": "33b0ccabd4b636636d1b09bd68f26a50be17ef671498e4776bb1de536d4a00c9",
+   "bytes": 31600,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/checkpoint.pt",
+   "sha256": "d7f3b9bfa5533010026769e3fb8961c6a2b9290abd83c7738c5ceb1357150f39",
+   "bytes": 294272049,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-h6-rank-full336-20261022/RELEASE.json",
+   "sha256": "f7d79463ab16720b1845c1ddbf07a890ecee10dcd7b08f1c6922c317195a525e",
+   "bytes": 94455,
+   "kaggle_dataset": "ilyakolb/rsna-h6-rank-full336-20261022/1"
+  },
+  {
+   "path": "rsna-h6-rank-full336-20261022/payload.tar",
+   "sha256": "72c916bb2693c30c3d9132ec68508419f998aeed6f7c6f431a8ec9dbcbfd7c30",
+   "bytes": 734976000,
+   "kaggle_dataset": "ilyakolb/rsna-h6-rank-full336-20261022/1",
+   "role": "H6 code + producer (anatomy/orientation weights) + release EMA10 weights (pinned, not used for scoring)"
+  },
+  {
+   "path": "rsna-h6-swa1416-weights-20261022/MANIFEST.json",
+   "sha256": "5ad3f0a42f7587126d51006c0a6386d2cb5e63cc2211c8f930e16801b7551360",
+   "bytes": 506,
+   "kaggle_dataset": "ilyakolb/rsna-h6-swa1416-weights-20261022/1"
+  },
+  {
+   "path": "rsna-h6-swa1416-weights-20261022/core6_swa_ema14_16.pt",
+   "sha256": "c9d916ffe853af4dcdee3452178ce62c6d558c15b86c58881b6956a4b146b015",
+   "bytes": 201059937,
+   "kaggle_dataset": "ilyakolb/rsna-h6-swa1416-weights-20261022/1",
+   "role": "model checkpoint"
+  },
+  {
+   "path": "rsna-h6-swa1416-weights-20261022/vm_swa_ema14_16.pt",
+   "sha256": "9e0960154610daf25a63a4d3ede3737bf69d06079d649f11a72b54d85390f7d6",
+   "bytes": 203326583,
+   "kaggle_dataset": "ilyakolb/rsna-h6-swa1416-weights-20261022/1",
+   "role": "model checkpoint"
+  }
+ ],
+ "kaggle_upload_metadata": [
+  {
+   "path": "rsna-sixway-resident-runtime-20261017/dataset-metadata.json",
+   "sha256": "fc44760bae9d376280ed45068f88fffbf61005eb188d40127213e4d44f709daf",
+   "bytes": 168,
+   "kaggle_dataset": "ilyakolb/rsna-sixway-resident-runtime-20261017/1"
+  },
+  {
+   "path": "rsna-adaptive336-fullfit-weights-20261017/dataset-metadata.json",
+   "sha256": "0e4a8fd036aa617a69bde279aed6bb47f12cddcfd4bd438919509eccae82c51a",
+   "bytes": 176,
+   "kaggle_dataset": "ilyakolb/rsna-adaptive336-fullfit-weights-20261017/1"
+  },
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/dataset-metadata.json",
+   "sha256": "9220fc69dd82aa3c105858face264de4ace89ccbb1d0b692f280f85a8144a098",
+   "bytes": 178,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/dataset-metadata.json",
+   "sha256": "d290e2e220e949ac9fc2ee27cf3b35e83af8785383140052856f599cd20749d2",
+   "bytes": 184,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/dataset-metadata.json",
+   "sha256": "c28c26688995e298337d562a4b1318b76f0565d8b91edfabf78fc1297f4b3639",
+   "bytes": 186,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/dataset-metadata.json",
+   "sha256": "0e1b7c59af65ed0ce014d2614ce989d900aac3c0e89e82f5b4aadbd79e5bbb9b",
+   "bytes": 190,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/dataset-metadata.json",
+   "sha256": "a3bcdbb595a6684bcb75e48b6afcadaec24635c19c9ded4c2d18096565d71e9c",
+   "bytes": 164,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  },
+  {
+   "path": "rsna-h6-rank-full336-20261022/dataset-metadata.json",
+   "sha256": "487a4a244df3b03e55b41e8352747adbba79c143072696dbc38c4d066923e4db",
+   "bytes": 152,
+   "kaggle_dataset": "ilyakolb/rsna-h6-rank-full336-20261022/1"
+  },
+  {
+   "path": "rsna-h6-swa1416-weights-20261022/dataset-metadata.json",
+   "sha256": "d149b157d8a192149b671c8115f2cce403dfc324503b8186004d40f3da4cefbe",
+   "bytes": 162,
+   "kaggle_dataset": "ilyakolb/rsna-h6-swa1416-weights-20261022/1"
+  }
+ ],
+ "omitted_from_original_datasets": [
+  {
+   "path": "rsna-mirror336-k24-r3-raw-weights-20261016/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-mirror336-k24-r3-raw-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold0_inference.py",
+   "sha256": "b9ef77598ece1ac33890162842d211c52b43482cca9f67cc513108a9ad0733d7",
+   "bytes": 29461,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold0_runtime.tar",
+   "sha256": "afdc6249b893f36311d32e68fca822efd66074af014873e13ef2246e14daaebc",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold1_inference.py",
+   "sha256": "92ab800b5f25bf64ec9f002867087250b536d46c02f8418085ed2d3bf31fede5",
+   "bytes": 29393,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold1_runtime.tar",
+   "sha256": "6528bc927ba8fcbba10a894f43fd60f7dedce30fbfd6aee60ec813938afc5f80",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold2_inference.py",
+   "sha256": "e6bfa856e77e1b5db25b4e5fcab85767f959401eea5a76f9db69b0311cd63a1d",
+   "bytes": 29461,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold2_runtime.tar",
+   "sha256": "df5f81e05490ae86dd671c71ea9bff7496015748a9e10bf6f3dc250b89a1f529",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold3_inference.py",
+   "sha256": "58744338881232a7018cb9fbd07ba86d26597135a17b7036800106887ee351f8",
+   "bytes": 28956,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold3_runtime.tar",
+   "sha256": "1635adbb082cde8592ef248234f1d6915e6e0b248c6b5a01ec42d095528bb9dc",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold4_inference.py",
+   "sha256": "03168c121a25aa4d80fdcf70ccf1a23f28671e3b9c878abe8f9d952947c5777f",
+   "bytes": 29461,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fold4_runtime.tar",
+   "sha256": "dffebc77c42007199e19703d52b968e4335ef13707caf62ae74081d4ac9617fb",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fullfit.pt",
+   "sha256": "9b6eab4a07699ae622f7d210ac7ffcabf592dba016511bd6abaf98eb34b04adb",
+   "bytes": 294150193,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fullfit_RELEASE.json",
+   "sha256": "7cf23a22fa33885bf4d8fb1e14bffdb51aab933b562aad2416b21481ca6fc28c",
+   "bytes": 31306,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fullfit_inference.py",
+   "sha256": "769b63d81525903beea1f37f69e034da49242791e03606c793959cfe51f9047f",
+   "bytes": 29432,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/fullfit_runtime.tar",
+   "sha256": "9041702e02737b6bc939bdfd16323165b2f43a21971cbd69db674b6878f88f41",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/process_guard.py",
+   "sha256": "02c102e4b4f25fbc16e854c6a9c8e4efde895145be4ce37591b65917612071b7",
+   "bytes": 1086,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/source.tar",
+   "sha256": "69295a5d13b7888070fd931b2d846e7bc8e2172681e52c0c3c9e80d28f267d92",
+   "bytes": 111175680,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-folds-fullfit-weights-20261016/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/r3_runtime.tar",
+   "sha256": "d9198f25a32d51e93ffa35f08d95998b4bcf96e6e6f9be1e8c5372a38790f67a",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/source.tar",
+   "sha256": "69295a5d13b7888070fd931b2d846e7bc8e2172681e52c0c3c9e80d28f267d92",
+   "bytes": 111175680,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-v20-ordinary-k24-fullfit-weights-20261013/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-v20-ordinary-k24-fullfit-weights-20261013/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/r3_runtime.tar",
+   "sha256": "9c35e24d8c3d6d2f9615d27464d324cbe297e24b2a7233224364033713bf7081",
+   "bytes": 409600,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/source.tar",
+   "sha256": "69295a5d13b7888070fd931b2d846e7bc8e2172681e52c0c3c9e80d28f267d92",
+   "bytes": 111175680,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-vm336-k24-vmrepair-fullfit-weights-20261016/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-vm336-k24-vmrepair-fullfit-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/kaggle_mounts.py",
+   "sha256": "8db5aa06ff506796ecacbe87cb8b3cfea62337a422779043ba5fcb317603dff5",
+   "bytes": 1620,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/r3_runtime.tar",
+   "sha256": "04f3047fa8e2af4a73cb741c6d07c7141a7784635f195378f77348298cad92a7",
+   "bytes": 419840,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/source.tar",
+   "sha256": "69295a5d13b7888070fd931b2d846e7bc8e2172681e52c0c3c9e80d28f267d92",
+   "bytes": 111175680,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  },
+  {
+   "path": "rsna-j36-masked336-weights-20261016/wheels.tar",
+   "sha256": "930ee8871d35d3dc81e26008d21a8f6ab8f601972489345b8e64c137fb993668",
+   "bytes": 100792320,
+   "kaggle_dataset": "ilyakolb/rsna-j36-masked336-weights-20261016/1"
+  }
+ ],
+ "inference_bytes": 4294285483
+}
