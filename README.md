@@ -23,7 +23,8 @@ submission 57566117) scored 0.967 / 0.958; the CPU smoke test of all training en
 ## Links
 
 - Scored inference notebook: https://www.kaggle.com/code/ilyakolb/rsna-final-six-h6-ens-20261022
-- Write-up on Kaggle: WRITEUP_URL
+- Write-up on Kaggle: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/4th-place-llm-image-labels-attention-mil
+- Video walkthrough (5 min): https://www.youtube.com/watch?v=EG6_foormiM
 - Weights, the nine Kaggle datasets attached to the scored notebook:
   - https://www.kaggle.com/datasets/ilyakolb/rsna-sixway-resident-runtime-20261017
   - https://www.kaggle.com/datasets/ilyakolb/rsna-vm336-k24-folds-fullfit-weights-20261016
